@@ -1,0 +1,21 @@
+{
+  "identity_sha256": "1de980503701ca669b52a81b4a99b079989fa673398dfce9b205dd4b0635c3ff",
+  "identity": {
+    "view_manifest_sha256": "2d2d8e093e157065249978a6d07ce17fe87e95c7de11804be8a0ab6deccd0a23",
+    "query_protocol_sha256": "151f719949c7a104dc597388d1a6c8b5ec61272c3b0da6a14514c6fcfd9e01af",
+    "code_sha256": "e424de1bd81a4a4d3c8a0cab719175f9fa1f98412494358eae9762b0e3bc0e6b"
+  },
+  "complete": true,
+  "state": "complete",
+  "exit_code": 0,
+  "stop_requested": false,
+  "artifact_sha256": {
+    "physical_test_index.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "physical_val_index.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "query_eval_index.jsonl": "470171809691a688d5b00d21fd99c7cde9135f9110f929763c648cbbbbe46d70",
+    "query_partition_manifest.json": "eb3e5f934a342319a94ad77cfc4d351c0c6b1529f302b05bb552f28ad66ebf02",
+    "query_protocol.json": "151f719949c7a104dc597388d1a6c8b5ec61272c3b0da6a14514c6fcfd9e01af",
+    "query_train_index.jsonl": "1aa2895c205a424a2b7f61d1b399ac63eeca05deec6166b17bc3b212c54df502",
+    "validation.json": "b913a969f71bba96461198e6bf547baf9d303394614dd435e28dc6ab760633e9"
+  }
+}

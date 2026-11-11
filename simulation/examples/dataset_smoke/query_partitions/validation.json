@@ -1,0 +1,14 @@
+{
+  "schema_version": "lunar_query_generalization_validation/14.0",
+  "passed": true,
+  "checks": 13638,
+  "errors": [],
+  "rows": {
+    "query_train": 3632,
+    "query_eval": 908,
+    "physical_val": 0,
+    "physical_test": 0
+  },
+  "physical_split_unchanged": true,
+  "new_API_requests": 0
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": "lunar_query_composition_protocol/14.0",
+  "query_count": 20,
+  "max_output_tokens": 10000,
+  "physical_split_unchanged": true,
+  "partition_scope": "global composition families; heldout families never enter query training indexes",
+  "families": [
+    {
+      "family_id": "train.goal_first",
+      "query_partition": "train",
+      "prefix": "找到",
+      "composition": "目标先行，两句表达任务与完整路线",
+      "required_connectors": [],
+      "min_sentences": 2,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.task_sequence",
+      "query_partition": "train",
+      "prefix": "任务是",
+      "composition": "任务说明后用先、再、最后组织实际路线",
+      "required_connectors": [
+        "先",
+        "最后"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.polite_compound",
+      "query_partition": "train",
+      "prefix": "请找到",
+      "composition": "礼貌请求开头，单句复合指令",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 1
+    },
+    {
+      "family_id": "train.route_first",
+      "query_partition": "train",
+      "prefix": "先进入",
+      "composition": "先说明实际路线，再明确找到何物；目标名称出现在进洞提示之后",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.purpose_clause",
+      "query_partition": "train",
+      "prefix": "为了找到",
+      "composition": "目的从句引出实际路线",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.when_clause",
+      "query_partition": "train",
+      "prefix": "当你",
+      "composition": "以实际进入洞穴的当…后从句连接任务",
+      "required_connectors": [
+        "后"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.objective_constraints",
+      "query_partition": "train",
+      "prefix": "目标是",
+      "composition": "明确任务目标，再用依次组织约束",
+      "required_connectors": [
+        "依次"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.requirements",
+      "query_partition": "train",
+      "prefix": "需要找到",
+      "composition": "简洁需求说明，保留全部实际路标条件",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.you_need",
+      "query_partition": "train",
+      "prefix": "你需要",
+      "composition": "第二人称任务简报，随后给出路线",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.short_sentences",
+      "query_partition": "train",
+      "prefix": "先要",
+      "composition": "至少三个短句分别表达目标、路线、靠近后停止",
+      "required_connectors": [],
+      "min_sentences": 3,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.search_one_sentence",
+      "query_partition": "train",
+      "prefix": "寻找",
+      "composition": "以寻找目标开头，将路线嵌在一个复合句里",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 1
+    },
+    {
+      "family_id": "train.polite_route_first",
+      "query_partition": "train",
+      "prefix": "请先进入",
+      "composition": "礼貌请求先走路线，再点明最终寻找目标",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.first_person_task",
+      "query_partition": "train",
+      "prefix": "我要",
+      "composition": "第一人称任务叙述，陈述自己应遵循的实际路线",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.you_goal",
+      "query_partition": "train",
+      "prefix": "你要",
+      "composition": "直接对执行者说明目标与路线",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.task_goal_closure",
+      "query_partition": "train",
+      "prefix": "任务目标是",
+      "composition": "目标先行，结尾再次点明目标并靠近停止",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "train.this_mission",
+      "query_partition": "train",
+      "prefix": "这次要",
+      "composition": "本次任务简报，用随后连接实际路线阶段",
+      "required_connectors": [
+        "随后"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "heldout.nested_if_purpose",
+      "query_partition": "heldout",
+      "prefix": "如果要找到",
+      "composition": "目的条件与路线后置结合；用就连接执行条件",
+      "required_connectors": [
+        "就"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "heldout.route_brief_goal_last",
+      "query_partition": "heldout",
+      "prefix": "先按这条路线",
+      "composition": "先完整路线简报，最后再明确要找到的目标",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "heldout.before_terminal",
+      "query_partition": "heldout",
+      "prefix": "在靠近目标停下来之前",
+      "composition": "先提出终止前提，再依实际顺序描述路线，结尾明确靠近具体目标停止",
+      "required_connectors": [],
+      "min_sentences": 1,
+      "max_sentences": 12
+    },
+    {
+      "family_id": "heldout.only_then_mission",
+      "query_partition": "heldout",
+      "prefix": "为完成这次寻找任务",
+      "composition": "任务目的与只有…才…条件组合，完整说明实际路线",
+      "required_connectors": [
+        "只有",
+        "才"
+      ],
+      "min_sentences": 1,
+      "max_sentences": 12
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schema_version": "lunar_continuous_trajectory/11.0",
+  "episode_id": "seed_20261118_astronaut",
+  "domain": "isaac_continuous",
+  "source_scene": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_query100_20261111_v14/units/seed_20261118_astronaut/dataset/layouts/seed_20261118",
+  "source_sha256": {
+    "cave.usdc": "e29f63dfd8dbf4874db9e26c36009737b5a8cb5d8892633114b96d60f51d7175",
+    "scene_config.json": "fb5056a076b1ffd3c11b12edd607a90ca9e6ef37fa4f90e4ea24e2648c2bc28c",
+    "mesh.npz": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93",
+    "boulders.json": "24103a81e6da6e88fe3f8b94d654bbda6302d71f3e52d7f6ddbc41284b96b1db",
+    "obstacle_report.json": "cbde77b9842d4c369a74bd52245dccffe31edbd67e87db43c8d1c5d52ef4fc5d",
+    "targets.json": "35df0692ab6095d3a3becd6120fef754905e19d6302db715415cf11c5c4bdf14",
+    "task_obstacles.json": "dba4b5c18791639c44e30987d8b867ff3450887725ff8893e1e28f7e20e0376b"
+  },
+  "source_assets_unchanged": true,
+  "source_layout_seed": 20261118,
+  "seed": 20261118,
+  "target_id": "astronaut",
+  "terminal_success": true,
+  "end_reason": "terminal_approach_visible_STOP",
+  "action_count": 1130,
+  "pose_count": 1131,
+  "captured_frame_count": 1130,
+  "capture_stride": 1,
+  "all_action_states_have_current_rgbd": true,
+  "dt_s": 0.2,
+  "max_v_mps": 0.4,
+  "max_abs_omega_radps": 0.32,
+  "future_horizon": 8,
+  "phase_enum": {
+    "align_path_segment": 0,
+    "follow_path_segment": 1,
+    "align_target_at_goal": 2,
+    "request_terminal_stop": 3
+  },
+  "motion_controller": "smooth_v13",
+  "teacher_variant": "landmark_pass_v14",
+  "via_landmark": "auto",
+  "landmark_pass": {
+    "view_prediction": {
+      "prediction_only": true,
+      "rendered_instance_mask_confirmed": false,
+      "requires_rendered_mask_salience_confirmation": true,
+      "landmark_id": "lunar_base",
+      "eligible_native_frames": 15,
+      "longest_contiguous_native_frames": 15,
+      "minimum_stride5_phase_eligible_frames": 3,
+      "first_predicted_view_step": 340,
+      "best_predicted_view_step": 340,
+      "best_predicted_view_xy_yaw": [
+        4.684990208797909,
+        -1.4767579142958427,
+        0.34906585039884686
+      ],
+      "best_predicted_view_range_m": 5.9332000181066755,
+      "best_predicted_view_bearing_deg": 18.485942825948733,
+      "closest_route_range_m": 3.359935743632991,
+      "criteria": {
+        "range_m": [
+          4.0,
+          6.0
+        ],
+        "maximum_camera_relative_bearing_deg": 25.0,
+        "camera_hfov_deg": 90.0,
+        "camera_height_m": 1.5,
+        "cave_field_ray_clear": true,
+        "actual_prop_occlusion_mask_and_bbox_unverified": true
+      }
+    },
+    "config": {
+      "view_range_m": [
+        4.0,
+        6.0
+      ],
+      "candidate_view_radii_m": [
+        5.0,
+        5.5,
+        4.5
+      ],
+      "maximum_bearing_deg": 25.0,
+      "candidate_heading_offsets_deg": [
+        20.0,
+        -20.0,
+        0.0
+      ],
+      "view_azimuth_step_deg": 10.0,
+      "entry_distance_m": 2.0,
+      "exit_distance_m": 1.5,
+      "terminal_anchor_distance_m": 2.0,
+      "routing_clearance_m": 0.24,
+      "maximum_view_proposals": 40,
+      "maximum_control_attempts": 16,
+      "minimum_contiguous_view_frames": 15,
+      "diagnostic_stride": 5,
+      "minimum_view_frames_per_stride_phase": 3,
+      "camera_hfov_deg": 90.0,
+      "camera_height_m": 1.5,
+      "minimum_goal_progress_cosine": 0.0,
+      "maximum_added_yaw_deg": 180.0,
+      "maximum_length_ratio_to_direct_route": 1.4
+    },
+    "rejection": null
+  },
+  "runtime_collision_mode": "actual_geometry",
+  "motion_model": "exact integrated unicycle kinematics with collision-checked smooth path and slew-limited controls",
+  "physics_scope": "kinematic simulation; no tyre/soil/rigid-body dynamics",
+  "terminal_rule": "canonical approach region <=1m, planned arrival <=0.05m, current instance visibility >=12px; zero control STOP without stationary turns",
+  "canonical_stop_radius_m": 1.0,
+  "stationary_turns_allowed": false,
+  "body_wall_clearance": {
+    "minimum_body_wall_clearance_raster_lower_bound_m": 4.467157287525381,
+    "required_gap_m": 1.0,
+    "passed": true,
+    "minimum_required_body_wall_gap_m": 1.0,
+    "minimum_at_xy_m": [
+      55.477356746262714,
+      3.7010556849380243
+    ],
+    "definition": "distance to lateral cave-air boundary minus 0.65m circumscribed body radius and one full raster-cell diagonal",
+    "acceptance": "actual expanded body shell at 1.05m sampled every <=2.5cm and 2 degrees, with lateral-wall gradient classification",
+    "raster_scope": "conservative routing diagnostic, not the physical acceptance threshold",
+    "raster_resolution_m": 0.2,
+    "raster_uncertainty_deducted_m": 0.28284271247461906,
+    "wall_classifier": "implicit cave field solid with horizontal gradient norm greater than absolute vertical derivative; floor-like surfaces excluded",
+    "rubble_in_wall_distance": false,
+    "original_rubble_collision_checks_retained": true,
+    "expanded_air_envelope_gap_m": 1.05,
+    "expanded_air_ring_angle_step_deg": 2.0,
+    "expanded_air_heights_above_body_floor_m": [
+      0.6,
+      1.0,
+      1.4
+    ],
+    "swept_sample_count": 4391,
+    "expanded_air_envelope_passed": true
+  },
+  "stop_scope": "terminal teacher signal; separate near-goal STOP expert labels are not synthesized",
+  "collision_checks": {
+    "checks": 1130,
+    "maximum_abs_pitch_deg": 3.038045555056212,
+    "maximum_abs_roll_deg": 2.2235830448913316,
+    "minimum_belly_clearance_m": 0.14662527253240043,
+    "minimum_circle_separation_m": 0.2073327457938673
+  },
+  "obstacle_layer_provenance": {
+    "counts": {
+      "macro_total": 100,
+      "macro_floor_level": 70,
+      "macro_surface_excluded": 30,
+      "gravel_total": 433,
+      "gravel_floor_level": 433,
+      "gravel_surface_excluded": 0
+    },
+    "threshold_full_diameter_m": 0.25,
+    "reported_gravel_obstacle_count": 433,
+    "collider_path": "/World/Collision/GravelObstaclesV7",
+    "all_floor_obstacles_retained": true,
+    "exclusion_scope": "Only surface-rim objects with center Z>=22m are outside this underground-floor task",
+    "micro_under_threshold_scope": "Small gravel remains in the scene but is not an obstacle in this coarse geometric map"
+  },
+  "target_collision_circles": 4,
+  "small_gravel_scope": "below serialized 25cm collision threshold: visual detail, not wheel/soil collision simulation",
+  "camera": {
+    "resolution": [
+      256,
+      256
+    ],
+    "rgb_resized": [
+      224,
+      224
+    ],
+    "hfov_deg": 90.0,
+    "height_above_ground_m": 1.5,
+    "pitch_deg": 0.0,
+    "rgb_resize": "Pillow bilinear; K224 scaled explicitly",
+    "antialiasing": "FXAA requested; actual setting readbacks in renderer_settings.json",
+    "renderer_verification": {
+      "requested_antialiasing": "FXAA (2)",
+      "captures_checked": 1130,
+      "capture_readbacks_match_request": true,
+      "internal_rtx_resolution_measured": false,
+      "scope": "Carb setting readbacks and RGB product size; array size alone does not measure internal RTX resolution",
+      "requested_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "after_warmup": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false,
+        "render_mode": "RaytracedLighting",
+        "matches_requested_values": true
+      },
+      "last_capture_before": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false,
+        "render_mode": "RaytracedLighting",
+        "matches_requested_values": true
+      },
+      "last_capture_after": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false,
+        "render_mode": "RaytracedLighting",
+        "matches_requested_values": true
+      }
+    }
+  },
+  "light": {
+    "headlamp": 24000.0,
+    "work_each": 8000.0,
+    "exposure": 6.0,
+    "dome": 45.0,
+    "sun": 3500.0,
+    "normalized_vehicle_lights": true
+  },
+  "time_basis": "integer executed control index * 0.2s; renderer timeline is not control time",
+  "inputs_allowlist": [
+    "instruction",
+    "current RGB224",
+    "current depth256 metres",
+    "strictly past same-episode observations"
+  ],
+  "privileged_files": [
+    "teacher_only.npz",
+    "planning_teacher_only.json",
+    "transitions.jsonl"
+  ],
+  "native_action_labels_provided": false,
+  "training_ready": false,
+  "annotation_status": "annotation_proto",
+  "readiness_blockers": [
+    "independent 129 loader/adapter contract validation",
+    "new step-text output and loss integration",
+    "layout/trajectory split and annotation guards"
+  ]
+}

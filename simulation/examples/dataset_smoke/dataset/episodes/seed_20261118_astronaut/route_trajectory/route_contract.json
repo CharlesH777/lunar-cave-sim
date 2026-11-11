@@ -1,0 +1,52 @@
+{
+  "schema_version": "lunar_route_language_contract/14.0",
+  "semantic_visibility_revision": "14.0",
+  "physical_trajectory_id": "seed_20261118_astronaut",
+  "goal": {
+    "id": "astronaut",
+    "name": "宇航员"
+  },
+  "events": [
+    {
+      "type": "enter_cave",
+      "step_index": 275,
+      "timestamp_s": 55.0,
+      "source_observation_id": "seed_20261118_astronaut:000275",
+      "entry_support": {
+        "step_index": 273,
+        "source_observation_id": "seed_20261118_astronaut:000273",
+        "current_inside_verified": true
+      }
+    },
+    {
+      "type": "first_fork",
+      "ordinal": 1,
+      "side": "right",
+      "step_index": 750,
+      "timestamp_s": 150.0,
+      "source_observation_id": "seed_20261118_astronaut:000750",
+      "criterion": "exclusive_guide_arm_and_two_validated_openings_in_current_rgbd"
+    },
+    {
+      "type": "goal_stop",
+      "id": "astronaut",
+      "name": "宇航员",
+      "step_index": 1129,
+      "timestamp_s": 225.8,
+      "source_observation_id": "seed_20261118_astronaut:001129",
+      "goal_salient_in_current_rgb224": true
+    }
+  ],
+  "intermediate_landmarks": [],
+  "first_salient_goal": {
+    "step_index": 1025,
+    "timestamp_s": 205.0,
+    "source_observation_id": "seed_20261118_astronaut:001025"
+  },
+  "deep_target_hint": true,
+  "observation_stride": 5,
+  "semantic_visibility_config_sha256": "f77a1c9ab7f5fcc3278dcf09506867c24cee2ea6c79c85cda8377e3dd7f5fd69",
+  "semantic_scope": "fixed route hints from actual salient current RGB-D at eligible frames; no coordinates",
+  "raw_detection_preserved": true,
+  "omitted_unrecognizable_landmarks": true
+}

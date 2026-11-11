@@ -1,0 +1,169 @@
+{
+  "target_id": "astronaut",
+  "controller": "landmark_pass_v14",
+  "teacher_variant": "landmark_pass_v14",
+  "runtime_collision_mode": "actual_geometry",
+  "canonical_approach_xy_m": [
+    56.400000000000006,
+    4.200000000000003
+  ],
+  "original_goal_xy_m": [
+    56.400000000000006,
+    4.200000000000003
+  ],
+  "actual_stopping_xy_m": [
+    55.66450997634399,
+    3.775115508193485
+  ],
+  "terminal_region_radius_m": 1.0,
+  "planned_terminal_xy_m": [
+    55.66387840678323,
+    3.775000000000003
+  ],
+  "original_goal_error_m": 0.8493953180205345,
+  "terminal_target_bearing_rad": 0.5095187366652034,
+  "terminal_camera_cone_half_angle_deg": 30.0,
+  "stationary_terminal_alignment": false,
+  "intermediate_stop_count": 0,
+  "original_geometry_obstacles_retained": true,
+  "route_score": 119.74411066438876,
+  "route": {
+    "view_xy_m": [
+      5.116022541192192,
+      -1.3197252483657618
+    ],
+    "view_range_m": 5.5,
+    "view_heading_offset_deg": -20.0,
+    "view_segment_xy_m": [
+      [
+        3.2366372996203747,
+        -2.0037655350170995
+      ],
+      [
+        6.525561472371054,
+        -0.8066950333772583
+      ]
+    ],
+    "polyline_length_m": 75.78841206688999,
+    "polyline_turn_variation_deg": 371.78799598757723,
+    "polyline_substantial_turn_sign_reversals": 6
+  },
+  "candidate_rejections": [],
+  "executed_motion": {
+    "steps": 1130,
+    "duration_s": 226.0,
+    "total_yaw_variation_deg": 371.78799598830165,
+    "maximum_yaw_step_deg": 2.727953147888706,
+    "maximum_angular_speed_radps": 0.23805882135400858,
+    "maximum_angular_acceleration_radps2": 0.1476609345227766,
+    "rms_angular_acceleration_radps2": 0.03337228363039602,
+    "rms_angular_jerk_radps3": 0.0562070766952758,
+    "maximum_linear_acceleration_mps2": 0.23902471760708366,
+    "stationary_turn_steps": 0,
+    "stationary_turn_groups": 0,
+    "executed_distance_m": 75.2370161269556,
+    "substantial_turn_sign_reversals": 6,
+    "geometric_curvature_sign_reversals_above_6deg": 6
+  },
+  "safety": {
+    "all_commands_safe": true,
+    "minimum_conservative_arc_circle_separation_m": 0.20719624004586706,
+    "minimum_belly_clearance_m": 0.14662527253240043
+  },
+  "path_length_m": 75.2370161269556,
+  "body_wall_clearance": {
+    "minimum_body_wall_clearance_raster_lower_bound_m": 4.467157287525381,
+    "required_gap_m": 1.0,
+    "passed": true,
+    "minimum_required_body_wall_gap_m": 1.0,
+    "minimum_at_xy_m": [
+      55.477356746262714,
+      3.7010556849380243
+    ],
+    "definition": "distance to lateral cave-air boundary minus 0.65m circumscribed body radius and one full raster-cell diagonal",
+    "acceptance": "actual expanded body shell at 1.05m sampled every <=2.5cm and 2 degrees, with lateral-wall gradient classification",
+    "raster_scope": "conservative routing diagnostic, not the physical acceptance threshold",
+    "raster_resolution_m": 0.2,
+    "raster_uncertainty_deducted_m": 0.28284271247461906,
+    "wall_classifier": "implicit cave field solid with horizontal gradient norm greater than absolute vertical derivative; floor-like surfaces excluded",
+    "rubble_in_wall_distance": false,
+    "original_rubble_collision_checks_retained": true,
+    "expanded_air_envelope_gap_m": 1.05,
+    "expanded_air_ring_angle_step_deg": 2.0,
+    "expanded_air_heights_above_body_floor_m": [
+      0.6,
+      1.0,
+      1.4
+    ],
+    "swept_sample_count": 4391,
+    "expanded_air_envelope_passed": true
+  },
+  "local_wall_repulsion": {
+    "applied": false
+  },
+  "landmark_view_prediction": {
+    "prediction_only": true,
+    "rendered_instance_mask_confirmed": false,
+    "requires_rendered_mask_salience_confirmation": true,
+    "landmark_id": "lunar_base",
+    "eligible_native_frames": 15,
+    "longest_contiguous_native_frames": 15,
+    "minimum_stride5_phase_eligible_frames": 3,
+    "first_predicted_view_step": 340,
+    "best_predicted_view_step": 340,
+    "best_predicted_view_xy_yaw": [
+      4.684990208797909,
+      -1.4767579142958427,
+      0.34906585039884686
+    ],
+    "best_predicted_view_range_m": 5.9332000181066755,
+    "best_predicted_view_bearing_deg": 18.485942825948733,
+    "closest_route_range_m": 3.359935743632991,
+    "criteria": {
+      "range_m": [
+        4.0,
+        6.0
+      ],
+      "maximum_camera_relative_bearing_deg": 25.0,
+      "camera_hfov_deg": 90.0,
+      "camera_height_m": 1.5,
+      "cave_field_ray_clear": true,
+      "actual_prop_occlusion_mask_and_bbox_unverified": true
+    }
+  },
+  "landmark_pass_config": {
+    "view_range_m": [
+      4.0,
+      6.0
+    ],
+    "candidate_view_radii_m": [
+      5.0,
+      5.5,
+      4.5
+    ],
+    "maximum_bearing_deg": 25.0,
+    "candidate_heading_offsets_deg": [
+      20.0,
+      -20.0,
+      0.0
+    ],
+    "view_azimuth_step_deg": 10.0,
+    "entry_distance_m": 2.0,
+    "exit_distance_m": 1.5,
+    "terminal_anchor_distance_m": 2.0,
+    "routing_clearance_m": 0.24,
+    "maximum_view_proposals": 40,
+    "maximum_control_attempts": 16,
+    "minimum_contiguous_view_frames": 15,
+    "diagnostic_stride": 5,
+    "minimum_view_frames_per_stride_phase": 3,
+    "camera_hfov_deg": 90.0,
+    "camera_height_m": 1.5,
+    "minimum_goal_progress_cosine": 0.0,
+    "maximum_added_yaw_deg": 180.0,
+    "maximum_length_ratio_to_direct_route": 1.4
+  },
+  "motion_preflight_only": true,
+  "visibility_requires_rendered_mask": true,
+  "landmark_selection_rejections": []
+}

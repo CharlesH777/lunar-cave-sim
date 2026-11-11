@@ -1,0 +1,881 @@
+{
+  "schema_version": "lunar_rounded_fork_terrain/11.0",
+  "candidate_id": "rounded_equal_caliber_fork_v11",
+  "units": "m",
+  "up_axis": "Z",
+  "cavern": {
+    "schema_version": "lunar_morphology_hypothesis/4.0",
+    "candidate_id": "representative_01",
+    "units": "m",
+    "up_axis": "Z",
+    "length_m": 80.0,
+    "rounded_end_extension_m": 5.0,
+    "nominal_left_width_m": 10.0,
+    "nominal_right_width_m": 12.6,
+    "nominal_height_m": 14.5,
+    "cross_section_exponent": 3.05,
+    "roof_depression_m": 4.7,
+    "wall_geometry_roughness_m": 0.68,
+    "geometric_noise_model": "aperiodic_fracture_v2",
+    "geometric_noise_scales_m": [
+      6.0,
+      2.0,
+      0.7
+    ],
+    "geometric_noise_amplitudes_m": [
+      0.8,
+      0.35,
+      0.12
+    ],
+    "legacy_wall_roughness_gain_applies_only_to": "configs without geometric_noise_model",
+    "random_seed": 20261110,
+    "recommended_scale_rover_xy_m": [
+      18.0,
+      -3.0
+    ],
+    "coordinates": "local floor near z=0; no surface or burial datum is assigned",
+    "shape_reference": {
+      "doi": "10.3847/1538-4357/adcf18",
+      "locator": "Figure 4(f), final formation hypothesis; Figure A6(b), EM forward-model geometry",
+      "use": "Rounded asymmetric void, localized roof depression, one-sided residual basalt, bottom accumulation",
+      "reported_estimates_m_approx": {
+        "maximum_width": 26,
+        "maximum_height": 16
+      },
+      "epistemic_status": "shape inspired by an interpretation, not digitized or measured 3D geometry"
+    },
+    "authored_assumptions": [
+      "80m longitudinal extent, direction and curved axis",
+      "all longitudinal width/height and floor changes",
+      "all roughness wavelengths, amplitudes and locations",
+      "the size and 3D position of the wall-attached residual shoulder",
+      "floor relief, angular debris mounds and their distribution",
+      "finite-domain end caps, not observed geological ends"
+    ],
+    "floor_deposits": [
+      {
+        "x": 22.0,
+        "u": -6.2,
+        "rx": 4.4,
+        "ry": 2.5,
+        "height": 1.7,
+        "angle": 0.3
+      },
+      {
+        "x": 31.0,
+        "u": 4.2,
+        "rx": 5.3,
+        "ry": 3.0,
+        "height": 2.1,
+        "angle": -0.45
+      },
+      {
+        "x": 42.0,
+        "u": -0.8,
+        "rx": 7.2,
+        "ry": 2.7,
+        "height": 1.9,
+        "angle": 0.15
+      },
+      {
+        "x": 53.0,
+        "u": -5.5,
+        "rx": 4.8,
+        "ry": 2.8,
+        "height": 1.8,
+        "angle": -0.2
+      },
+      {
+        "x": 65.0,
+        "u": 5.0,
+        "rx": 4.0,
+        "ry": 2.7,
+        "height": 2.0,
+        "angle": 0.65
+      }
+    ],
+    "scientific_status": "synthetic representative underground cavity, not a lunar reconstruction",
+    "no_observed_entrance": true,
+    "runtime_scope": "geometry only; no navigation, structural or vehicle dynamics certification",
+    "ground_profile_v7": {
+      "schema_version": "shared_lunar_ground/7.0",
+      "model": "world_xy_aperiodic_relief_with_local_deposits",
+      "units": "m",
+      "up_axis": "Z",
+      "datum_z_m": -1.4,
+      "seed": 20261811,
+      "background_scales_m": [
+        14.0,
+        6.0,
+        2.2,
+        0.7
+      ],
+      "background_amplitudes_m": [
+        0.34,
+        0.08,
+        0.015,
+        0.003
+      ],
+      "cavern_deposit_height_scale": 0.28,
+      "cavern_deposit_height_range_m": [
+        0.2,
+        0.65
+      ],
+      "pit_talus_heights_m": [
+        0.65,
+        0.45,
+        0.3
+      ],
+      "lower_envelope_reference_lift_m": 1.8,
+      "lower_envelope_merge_height_fraction": 0.52,
+      "engineering_scope": "shared pit/cavern datum, moderate background relief and local deposits; local obstacles remain",
+      "no_prescribed_route": true,
+      "provenance": "authored global terrain hypothesis; not measured lunar elevation or rover mobility certification"
+    }
+  },
+  "pit": {
+    "schema_version": "synthetic_lunar_pit/4.0",
+    "scientific_status": "Marius-scale synthetic entrance, not a surveyed reconstruction",
+    "units": "m",
+    "up_axis": "Z",
+    "center_xy_m": [
+      -22.0,
+      0.0
+    ],
+    "opening_radii_m": [
+      27.5,
+      24.5
+    ],
+    "regional_surface_z_m": 58.0,
+    "floor_base_z_m": -2.0,
+    "nominal_depth_m": 60.0,
+    "funnel_depth_m": 7.0,
+    "funnel_outer_scale": 0.42,
+    "wall_roughness_model": "aperiodic_fracture_v2",
+    "roughness_seed": 20261110,
+    "wall_fracture_scale": 1.0,
+    "surface_fracture_scale": 0.42,
+    "floor_fracture_scale": 0.38,
+    "outline_relief_m": 2.0,
+    "wall_bed_relief_m": 0.0,
+    "wall_bed_spacing_m": 4.8,
+    "local_ledge_patches": [
+      {
+        "theta_rad": -2.65,
+        "z_m": 12.5,
+        "arc_width_m": 7.0,
+        "height_extent_m": 2.0,
+        "amplitude_m": 0.12
+      },
+      {
+        "theta_rad": -1.21,
+        "z_m": 38.0,
+        "arc_width_m": 9.0,
+        "height_extent_m": 2.5,
+        "amplitude_m": -0.14
+      },
+      {
+        "theta_rad": -0.08,
+        "z_m": 26.5,
+        "arc_width_m": 6.5,
+        "height_extent_m": 1.7,
+        "amplitude_m": 0.16
+      },
+      {
+        "theta_rad": 1.44,
+        "z_m": 46.0,
+        "arc_width_m": 8.0,
+        "height_extent_m": 2.2,
+        "amplitude_m": -0.11
+      },
+      {
+        "theta_rad": 2.35,
+        "z_m": 30.5,
+        "arc_width_m": 6.0,
+        "height_extent_m": 1.8,
+        "amplitude_m": 0.13
+      }
+    ],
+    "upper_lip_undercut_m": 0.85,
+    "lower_undercut_m": 5.4,
+    "lower_undercut_start_depth_m": 27.0,
+    "lower_undercut_transition_m": 10.0,
+    "terrain_relief_m": 0.65,
+    "floor_relief_m": 0.48,
+    "recommended_bounds_m": [
+      [
+        -80.0,
+        -70.0,
+        -10.0
+      ],
+      [
+        105.0,
+        70.0,
+        78.0
+      ]
+    ],
+    "sources": [
+      {
+        "doi": "10.1029/2022JE007328",
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007328",
+        "locator": "Table 1; Sections 5.2 and 6",
+        "reported_reference": "Marius pit approximately 55 by 49 m and 60 m deep; funnel, steep walls, overhangs and floor debris",
+        "scope": "Nominal entrance scale and morphology only; no point cloud was ingested."
+      }
+    ],
+    "parameter_provenance": {
+      "opening_radii_m": "Nominal half dimensions from the reported 55 by 49 m reference; irregular outline is authored.",
+      "nominal_depth_m": "Reference scale; exact deepest point varies with the authored funnel and floor.",
+      "center_and_z_datum": "Arbitrary local coordinates chosen to connect a synthetic underground segment near x=0.",
+      "funnel_and_walls": "Observed morphology motivates a shallow funnel and locally overhung walls; positions and amplitudes are not fitted observations.",
+      "talus_and_relief": "Deterministic authored geometric roughness and mounds, not measured individual rocks.",
+      "wall_roughness_model": "Aperiodic hash-grid fracture geometry and sparse local ledge patches; no periodic all-around bed rings. Legacy configs without this flag replay the previous field.",
+      "connectivity": "The connection to the Zhou-inspired cave is a generation assumption, not one measured lunar site."
+    },
+    "field_scope": "Air sign/implicit margin; the exterior-air region reaches finite sampling-domain boundaries.",
+    "ground_profile_v7": {
+      "schema_version": "shared_lunar_ground/7.0",
+      "model": "world_xy_aperiodic_relief_with_local_deposits",
+      "units": "m",
+      "up_axis": "Z",
+      "datum_z_m": -1.4,
+      "seed": 20261811,
+      "background_scales_m": [
+        14.0,
+        6.0,
+        2.2,
+        0.7
+      ],
+      "background_amplitudes_m": [
+        0.34,
+        0.08,
+        0.015,
+        0.003
+      ],
+      "cavern_deposit_height_scale": 0.28,
+      "cavern_deposit_height_range_m": [
+        0.2,
+        0.65
+      ],
+      "pit_talus_heights_m": [
+        0.65,
+        0.45,
+        0.3
+      ],
+      "lower_envelope_reference_lift_m": 1.8,
+      "lower_envelope_merge_height_fraction": 0.52,
+      "engineering_scope": "shared pit/cavern datum, moderate background relief and local deposits; local obstacles remain",
+      "no_prescribed_route": true,
+      "provenance": "authored global terrain hypothesis; not measured lunar elevation or rover mobility certification"
+    }
+  },
+  "appearance_revision": 2,
+  "floor_texture_tile_m": 0.65,
+  "floor_normal_strength": 0.12,
+  "scientific_scope": "generic Marius-scale entry + Zhou-inspired cavity, not the same observed site",
+  "bounds_m": [
+    [
+      -80.0,
+      -70.0,
+      -10.0
+    ],
+    [
+      105.0,
+      70.0,
+      78.0
+    ]
+  ],
+  "cavern_evaluation_bounds_m": [
+    [
+      -10.0,
+      -25.0,
+      -10.0
+    ],
+    [
+      95.0,
+      25.0,
+      25.0
+    ]
+  ],
+  "random_seed": 20261110,
+  "authored_assumptions": [
+    "entrance-to-cavern connection and all relative coordinates",
+    "longitudinal extent, wall and floor relief, ledge locations and boulder positions",
+    "regional surface datum and all material/illumination appearance proxies",
+    "Shared uneven floor with local deposits, with no flattened or pre-cleared driving strip",
+    "Two comparable-width underground arms within the original longitudinal extent",
+    "Locally rounded CSG residual-rock nose; fillet dimensions are engineering parameters, not lunar measurements",
+    "Deterministic rubble layout may require explicitly recorded relocation of a small number of whole objects"
+  ],
+  "runtime_scope": "rounded natural fork terrain with static obstacles; no policy or wheel-dynamics result",
+  "ground_profile_v7": {
+    "schema_version": "shared_lunar_ground/7.0",
+    "model": "world_xy_aperiodic_relief_with_local_deposits",
+    "units": "m",
+    "up_axis": "Z",
+    "datum_z_m": -1.4,
+    "seed": 20261811,
+    "background_scales_m": [
+      14.0,
+      6.0,
+      2.2,
+      0.7
+    ],
+    "background_amplitudes_m": [
+      0.34,
+      0.08,
+      0.015,
+      0.003
+    ],
+    "cavern_deposit_height_scale": 0.28,
+    "cavern_deposit_height_range_m": [
+      0.2,
+      0.65
+    ],
+    "pit_talus_heights_m": [
+      0.65,
+      0.45,
+      0.3
+    ],
+    "lower_envelope_reference_lift_m": 1.8,
+    "lower_envelope_merge_height_fraction": 0.52,
+    "engineering_scope": "shared pit/cavern datum, moderate background relief and local deposits; local obstacles remain",
+    "no_prescribed_route": true,
+    "provenance": "authored global terrain hypothesis; not measured lunar elevation or rover mobility certification"
+  },
+  "obstacle_revision": 7,
+  "branch_v10": {
+    "schema_version": "synthetic_lunar_equal_caliber_fork/10.1",
+    "morphology_model": "equal_caliber_aperiodic_v10b",
+    "units": "m",
+    "up_axis": "Z",
+    "centerline_xy_m": [
+      [
+        24.0,
+        1.0
+      ],
+      [
+        31.0,
+        4.0
+      ],
+      [
+        40.0,
+        13.0
+      ],
+      [
+        48.0,
+        25.0
+      ],
+      [
+        56.0,
+        37.0
+      ],
+      [
+        64.0,
+        43.0
+      ]
+    ],
+    "half_widths_m": [
+      10.6,
+      11.1,
+      10.1,
+      11.2,
+      10.2,
+      10.7
+    ],
+    "heights_m": [
+      15.8,
+      16.4,
+      14.6,
+      16.7,
+      15.2,
+      16.0
+    ],
+    "cross_section_exponent": 3.0,
+    "lower_envelope_center_height_fraction": 0.42,
+    "lower_envelope_half_height_fraction": 0.58,
+    "roughness_gain": 0.72,
+    "roughness_seed": 20262117,
+    "centerline_samples_per_span": 10,
+    "evaluation_bounds_m": [
+      [
+        8.0,
+        -15.0,
+        -7.0
+      ],
+      [
+        82.0,
+        61.0,
+        22.0
+      ]
+    ],
+    "axis_lateral_relief_m": 1.1,
+    "longitudinal_width_relief": 0.055,
+    "wall_side_asymmetry": 0.045,
+    "roof_sag_m": 1.7,
+    "wall_buttress_m": 2.8,
+    "ground_profile_v7": {
+      "schema_version": "shared_lunar_ground/7.0",
+      "model": "world_xy_aperiodic_relief_with_local_deposits",
+      "units": "m",
+      "up_axis": "Z",
+      "datum_z_m": -1.4,
+      "seed": 20261811,
+      "background_scales_m": [
+        14.0,
+        6.0,
+        2.2,
+        0.7
+      ],
+      "background_amplitudes_m": [
+        0.34,
+        0.08,
+        0.015,
+        0.003
+      ],
+      "cavern_deposit_height_scale": 0.28,
+      "cavern_deposit_height_range_m": [
+        0.2,
+        0.65
+      ],
+      "pit_talus_heights_m": [
+        0.65,
+        0.45,
+        0.3
+      ],
+      "lower_envelope_reference_lift_m": 1.8,
+      "lower_envelope_merge_height_fraction": 0.52,
+      "engineering_scope": "shared pit/cavern datum, moderate background relief and local deposits; local obstacles remain",
+      "no_prescribed_route": true,
+      "provenance": "authored global terrain hypothesis; not measured lunar elevation or rover mobility certification"
+    },
+    "junction_floor_deposits": [
+      {
+        "x": 22.0,
+        "u": -6.2,
+        "rx": 4.4,
+        "ry": 2.5,
+        "height": 1.7,
+        "angle": 0.3
+      },
+      {
+        "x": 31.0,
+        "u": 4.2,
+        "rx": 5.3,
+        "ry": 3.0,
+        "height": 2.1,
+        "angle": -0.45
+      },
+      {
+        "x": 42.0,
+        "u": -0.8,
+        "rx": 7.2,
+        "ry": 2.7,
+        "height": 1.9,
+        "angle": 0.15
+      },
+      {
+        "x": 53.0,
+        "u": -5.5,
+        "rx": 4.8,
+        "ry": 2.8,
+        "height": 1.8,
+        "angle": -0.2
+      },
+      {
+        "x": 65.0,
+        "u": 5.0,
+        "rx": 4.0,
+        "ry": 2.7,
+        "height": 2.0,
+        "angle": 0.65
+      }
+    ],
+    "junction_reference_xy_m": [
+      36.0,
+      8.0
+    ],
+    "branch_goal_xy_m": [
+      63.0,
+      42.0
+    ],
+    "capped_end_center_xy_m": [
+      64.0,
+      43.0
+    ],
+    "main_cave_longitudinal_length_m_preserved": 80.0,
+    "topology_scope": "two comparable-width natural cave branches; new arm has a closed underground cap, not a narrow added pipe",
+    "floor_policy": "same v7 world-XY relief and existing junction deposits; no route-conditioned flattening",
+    "provenance": "authored simulation topology, width, height, bends and roughness; not measured lunar geometry"
+  },
+  "junction_v11": {
+    "schema_version": "rounded_lunar_junction/11.0",
+    "model": "compact_polynomial_smooth_max_shared_floor",
+    "enabled": true,
+    "support_center_xy_m": [
+      50.0,
+      9.0
+    ],
+    "support_radii_xy_m": [
+      15.0,
+      12.0
+    ],
+    "full_strength_inner_radius_fraction": 0.55,
+    "blend_window_m": 6.0,
+    "blend_aperiodic_fraction": 0.08,
+    "blend_noise_scale_m": 4.5,
+    "blend_noise_seed": 20262213,
+    "z_support_above_floor_m": [
+      -1.0,
+      20.0
+    ],
+    "z_full_strength_above_floor_m": [
+      0.0,
+      14.0
+    ],
+    "floor_clip": "minimum_of_blended_air_and_z_minus_shared_cavern_floor",
+    "gradient_normalization": false,
+    "reference_scope": "blunt irregular residual rock between connected lava passages; no lunar fork survey is asserted",
+    "parameter_provenance": "junction centre from old implicit-field sections; blend size and irregularity are authored engineering choices",
+    "paper_dimensions_used_as_junction_parameters": false
+  },
+  "boulder_detail_revision": 10,
+  "vehicle_geometry": {
+    "wheel_radius_m": 0.18,
+    "wheelbase_m": 0.52,
+    "track_m": 0.66,
+    "overall_length_m": 0.95,
+    "overall_width_m": 0.85,
+    "belly_clearance_m": 0.15,
+    "scope": "authored visual rover dimensions; geometry screening, not tyre dynamics"
+  },
+  "task_spawn": {
+    "location": "pit_bottom",
+    "xy_m": [
+      -15.0,
+      -3.0
+    ],
+    "surface_descent_included": false
+  },
+  "task_goal": {
+    "xy_m": [
+      74.0,
+      -2.6
+    ]
+  },
+  "task_branch_goal": {
+    "xy_m": [
+      63.0,
+      42.0
+    ]
+  },
+  "gravel_collision_v7": {
+    "min_full_diameter_m": 0.25
+  },
+  "obstacle_map_validation": {
+    "grid_bounds_xy_m": [
+      [
+        -35.0,
+        -23.0
+      ],
+      [
+        79.0,
+        61.0
+      ]
+    ]
+  },
+  "additional_boulders_v10": [
+    {
+      "xy_m": [
+        14.0,
+        3.2
+      ],
+      "scale_xyz_m": [
+        1.35,
+        1.0,
+        0.92
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 20362113
+    },
+    {
+      "xy_m": [
+        15.6,
+        3.9000000000000004
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 20463116
+    },
+    {
+      "xy_m": [
+        19.7,
+        2.5
+      ],
+      "scale_xyz_m": [
+        1.15,
+        0.85,
+        0.85
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 20564119
+    },
+    {
+      "xy_m": [
+        21.3,
+        3.2
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 20665122
+    },
+    {
+      "xy_m": [
+        36.0,
+        -3.3
+      ],
+      "scale_xyz_m": [
+        1.25,
+        0.92,
+        1.02
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 20766125
+    },
+    {
+      "xy_m": [
+        37.6,
+        -2.5999999999999996
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 20867128
+    },
+    {
+      "xy_m": [
+        42.5,
+        -2.5
+      ],
+      "scale_xyz_m": [
+        1.45,
+        1.0,
+        0.95
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 20968131
+    },
+    {
+      "xy_m": [
+        44.1,
+        -1.8
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 21069134
+    },
+    {
+      "xy_m": [
+        61.1,
+        2.9
+      ],
+      "scale_xyz_m": [
+        1.2,
+        0.95,
+        0.86
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 21170137
+    },
+    {
+      "xy_m": [
+        62.7,
+        3.5999999999999996
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 21271140
+    },
+    {
+      "xy_m": [
+        69.6,
+        -2.2
+      ],
+      "scale_xyz_m": [
+        1.2,
+        0.9,
+        0.88
+      ],
+      "region": "main",
+      "group": "v10_large_collapse",
+      "seed": 21372143
+    },
+    {
+      "xy_m": [
+        71.19999999999999,
+        -1.5000000000000002
+      ],
+      "scale_xyz_m": [
+        0.65,
+        0.51,
+        0.46
+      ],
+      "region": "main",
+      "group": "v10_medium_collapse",
+      "seed": 21473146
+    },
+    {
+      "xy_m": [
+        -7.0,
+        -5.0
+      ],
+      "scale_xyz_m": [
+        1.4,
+        1.05,
+        1.0
+      ],
+      "region": "main",
+      "group": "v10_pit_boulder",
+      "seed": 21574149
+    },
+    {
+      "xy_m": [
+        -4.8,
+        -4.2
+      ],
+      "scale_xyz_m": [
+        0.75,
+        0.6,
+        0.54
+      ],
+      "region": "main",
+      "group": "v10_pit_boulder",
+      "seed": 21675152
+    },
+    {
+      "xy_m": [
+        46.0,
+        23.0
+      ],
+      "scale_xyz_m": [
+        1.05,
+        0.8,
+        0.8
+      ],
+      "region": "branch",
+      "group": "v10_branch_obstacle",
+      "seed": 21776155
+    },
+    {
+      "xy_m": [
+        47.2,
+        23.8
+      ],
+      "scale_xyz_m": [
+        0.58,
+        0.46,
+        0.42
+      ],
+      "region": "branch",
+      "group": "v10_branch_rubble",
+      "seed": 21877158
+    },
+    {
+      "xy_m": [
+        55.0,
+        36.0
+      ],
+      "scale_xyz_m": [
+        0.95,
+        0.78,
+        0.78
+      ],
+      "region": "branch",
+      "group": "v10_branch_obstacle",
+      "seed": 21978161
+    },
+    {
+      "xy_m": [
+        56.2,
+        36.8
+      ],
+      "scale_xyz_m": [
+        0.58,
+        0.46,
+        0.42
+      ],
+      "region": "branch",
+      "group": "v10_branch_rubble",
+      "seed": 22079164
+    },
+    {
+      "xy_m": [
+        63.0,
+        39.0
+      ],
+      "scale_xyz_m": [
+        1.1,
+        0.82,
+        0.85
+      ],
+      "region": "branch",
+      "group": "v10_branch_obstacle",
+      "seed": 22180167
+    },
+    {
+      "xy_m": [
+        64.2,
+        39.8
+      ],
+      "scale_xyz_m": [
+        0.58,
+        0.46,
+        0.42
+      ],
+      "region": "branch",
+      "group": "v10_branch_rubble",
+      "seed": 22281170
+    }
+  ],
+  "gravel": {
+    "count": 18000,
+    "prototype_count": 12,
+    "seed": 20261110,
+    "size_fractions": [
+      0.94,
+      0.05,
+      0.01
+    ]
+  },
+  "surface_detail_revision": 5,
+  "obstacle_layout_revision_v11": "one_measured_gravel_repositioned_counts_and_shapes_preserved"
+}

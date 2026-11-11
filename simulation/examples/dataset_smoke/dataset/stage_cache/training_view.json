@@ -1,0 +1,24 @@
+{
+  "identity_sha256": "0be5872f926a1960283f89d97ebc545b1beaea4908b7f62007918d9d81191240",
+  "identity": {
+    "dense_manifest_sha256": "c030596a1c266979cba48fa2c1e9c637bd626141f4d33c7324b067f4798c0487",
+    "reader_sha256": "85662d98bb32a6d444aa246daf8f67244701ac6206788f0b7243585c8528c3e8",
+    "settings": {
+      "enabled": true,
+      "stride": 5,
+      "history_frames": 8
+    },
+    "code_sha256": "e424de1bd81a4a4d3c8a0cab719175f9fa1f98412494358eae9762b0e3bc0e6b"
+  },
+  "complete": true,
+  "state": "complete",
+  "exit_code": 0,
+  "stop_requested": false,
+  "artifact_sha256": {
+    "base_observation_hashes.json": "29e1e6ce0b81ef73d7a280aa13d21e03fab6c8083dca35ee42701f123c84b861",
+    "reader_index.jsonl": "99d0e72e0ec9ff918e94343922d0b3cc5173d6b761467c18c266dd7a1f2b04cf",
+    "status.json": "e83da37022f2490fcef74bbc759a88a23ccf984b584020c6b57171b44dbc854e",
+    "validation.json": "6aa0114cb55f2608b6e0811b58a9a6e66bc1d2e93561d02a7c62a7d4325118d0",
+    "view_manifest.json": "2d2d8e093e157065249978a6d07ce17fe87e95c7de11804be8a0ab6deccd0a23"
+  }
+}

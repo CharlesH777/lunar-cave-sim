@@ -1,0 +1,90 @@
+{
+  "schema_version": "complete_lunar_fork_terrain/11.0",
+  "passed": true,
+  "raw_recipe_identity": {
+    "schema_version": "terrain_build_identity/11.0",
+    "spacing_m": 0.35,
+    "scene_config_sha256": "b96b7c8c30ce16ed82d2271ce9892c4ad01429303c9df81831bb1f7f49dc91bb",
+    "surface_config_sha256": "48d8ecb67a8fe879dc57037e720917d9109b2c1f223ff1aea1a7f953c2c59e64",
+    "code_sha256": {
+      "build_lunar_cave_v4_cpu.py": "624de5f4633b806659288dd45b283b66ac5e518084f8e5d4d71c853476c4fe02",
+      "build_lunar_surface_detail_v5_cpu.py": "e1cb8d5afad76f52bc3a4c3fdb44bb8f62233f6df55e2a8034ff6d44dfe6b625",
+      "build_lunar_obstacle_scene_v7_cpu.py": "00d7afb660dd9308c5ef7c2ae54571ecf712bfa25d0e4d7d57176c84fe203f4a",
+      "validate_lunar_obstacle_map_v7.py": "7e8422f6d43372ef459778223f1634443a012bb99d3d9888f19ca20dd436822f",
+      "cave/lunar_junction_v11.py": "14721b0d63d368fdbb0d28cebbae5d3a97f6d9b5c9374df88f9154ad50103b5e",
+      "cave/lunar_branch_v10.py": "667975cce6d2677370828f4e83624b81a8d83ba9121eba4192cd95cbfa6353ca",
+      "cave/lunar_ground_v7.py": "2a13328f26c8ed29a630db086166eb2ad98244c1766af227941997f77433fe1d",
+      "cave/lunar_pit_v4.py": "a97f1f15b3d35dae620f2683dd5033a245c9bb97ecfc39da2d21efa9b5d1bf65",
+      "cave/lunar_morphology_v4.py": "1846f7b8f5b79d5a0d2e8b95ede1e3862539b7df687ab6a5cc540b18db59f9e9",
+      "cave/lunar_visual_v4.py": "c157e3ce232d618e4d9e2410b499996223dcc69331ff3d0376664e21fa9e6d22",
+      "cave/lunar_gravel_v5.py": "a98242f1779ab57bb9305ae4c8a0beef2ec019a5974228b91eca05cf0812ba75",
+      "cave/lunar_gravel_material_v5.py": "09a5a787f6902593420717020ad32750959ab9183ceee99565accc068bb47837",
+      "cave/lunar_obstacles_v7.py": "ff64c48daa440bfc192e5ef2775989e647f2ec585103e82a5519a1270cb88f3f",
+      "assets/ASSET_SOURCES.json": "02c78e7ecae4002b557820c7204f4cf60663622dc911226a5beab286ab66a254",
+      "assets/GRAVEL_V5_SOURCES.json": "f0021216298bfd093fafee05749572e4b01669fd75246d28a8d5138b684d9693"
+    }
+  },
+  "factory_sha256": "82a1d80b669dcb2bf74fd71fb83f17d0d4d8fb96c9af615288fd15716e8661c7",
+  "wrapper_sha256": "a9f49edaff8cff86d8840a58e8fd3879574f7a32d8e3ddd2a4dacc135bd068ec",
+  "baseline_passed": {
+    "main": false,
+    "branch": false
+  },
+  "final_passed": {
+    "main": true,
+    "branch": true
+  },
+  "path_length_m": {
+    "main": 101.84314519482243,
+    "branch": 110.73792952674367
+  },
+  "actual_gravel_relocation": {
+    "schema_version": "measured_obstacle_relocation/11.0",
+    "gravel_id": 11355,
+    "source_index": 11355,
+    "before_obstacle": {
+      "id": "gravel_11355",
+      "kind": "gravel",
+      "center_xy_m": [
+        36.343711853027344,
+        3.6903274059295654
+      ],
+      "xy_radius_m": 0.14538727879144628,
+      "z_min_m": -1.5275939913823073,
+      "z_max_m": -1.4455218138902215,
+      "source_radius": "radius of all serialized transformed world vertices",
+      "full_diameter_m": 0.2796536237415108,
+      "source_index": 11355
+    },
+    "destination_xy_m": [
+      38.64799436818653,
+      -2.1284025343160624
+    ],
+    "neighboring_pile_id": "macro_85",
+    "diagnostic_connected_cell_gain": 23204,
+    "trials": [
+      {
+        "id": "gravel_11355",
+        "destination_xy_m": [
+          38.64799436818653,
+          -2.1284025343160624
+        ],
+        "path_found": [
+          true,
+          true
+        ]
+      }
+    ],
+    "removed_obstacle_count": 0,
+    "macro_objects_moved": 0,
+    "final_validation_pending": true
+  },
+  "original_macro90_preserved": true,
+  "boulder_count": 100,
+  "gravel_instance_count": 18000,
+  "obstacle_count": 433,
+  "terrain_mesh_sha256": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93",
+  "final_scene_sha256": "ac3ed415fa1316428cdaf409999b163dfcf1d159ea746b0e0178a9c9b1ab2cee",
+  "GPU_work": false,
+  "physics_or_policy_success_evaluated": false
+}

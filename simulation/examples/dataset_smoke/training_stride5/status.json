@@ -1,0 +1,9 @@
+{
+  "phase": "complete",
+  "passed": true,
+  "observation_stride": 5,
+  "dense_reader_rows": 23730,
+  "view_reader_rows": 4767,
+  "retained_cot_reader_rows": 105,
+  "dropped_off_grid_cot_reader_rows": 0
+}

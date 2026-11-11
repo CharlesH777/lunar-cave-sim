@@ -1,0 +1,37 @@
+{
+  "schema_version": "lunar_semantic_visibility_config/14.0",
+  "revision": "14.0",
+  "provisional": false,
+  "observation_stride": 5,
+  "min_visible_pixels_rgb224": 256,
+  "min_edge_margin_rgb224": 4,
+  "rover_min_visible_pixels_rgb224": 700,
+  "rover_min_edge_margin_rgb224": 8,
+  "min_valid_depth_fraction": 0.9,
+  "rover_min_bbox_rgb224": [
+    32,
+    24
+  ],
+  "other_min_bbox_rgb224": [
+    12,
+    16
+  ],
+  "rover_max_abs_bearing_deg": 30.0,
+  "mask_projection": "nearest-neighbour 256x256 instance mask to 224x224",
+  "semantic_scope": "candidate recognizability gate; validate global class thresholds against actual RGB before release",
+  "class_overrides": {
+    "lunar_base": {
+      "min_visible_pixels_rgb224": 800,
+      "min_bbox_rgb224": [40, 28],
+      "min_edge_margin_rgb224": 8,
+      "max_abs_bearing_deg": 30.0
+    }
+  },
+  "terminal_goal_edge_exception": {
+    "enabled": true,
+    "min_visible_pixels_rgb224": 2500,
+    "min_bbox_rgb224": [64, 48],
+    "min_valid_depth_fraction": 0.9,
+    "max_abs_bearing_deg": 30.0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "lunar_pipeline_source_binding/16.0",
+  "created_unix_s": 1794374198.3585448,
+  "working_root": "/home/charles/WORK/01_projects/isaac_cave_vla_demo",
+  "snapshots": [
+    {
+      "name": "astro_generation",
+      "path": "provenance/frozen_sources/astro_generation",
+      "file_count": 135,
+      "manifest": "provenance/astro_generation_manifest.json"
+    },
+    {
+      "name": "production_raw_v16b",
+      "path": "provenance/frozen_sources/production_raw_v16b",
+      "file_count": 125,
+      "manifest": "provenance/production_raw_v16b_manifest.json"
+    },
+    {
+      "name": "production_consumer_v16",
+      "path": "provenance/frozen_sources/production_consumer_v16",
+      "file_count": 139,
+      "manifest": "provenance/production_consumer_v16_manifest.json"
+    },
+    {
+      "name": "production_consumer_v16b",
+      "path": "provenance/frozen_sources/production_consumer_v16b",
+      "file_count": 139,
+      "manifest": "provenance/production_consumer_v16b_manifest.json"
+    }
+  ],
+  "active_payload_source": "Top-level working source frozen at package creation; not asserted identical to every historical stage.",
+  "actual_sample": {
+    "path": "examples/dataset_smoke",
+    "generation_snapshot": "provenance/frozen_sources/astro_generation",
+    "native_frames": 1130,
+    "compiled_queries": 20,
+    "valid_real_CoT": 5
+  },
+  "historical_asset_review": {
+    "path": "review/render_report.json",
+    "scope": "Original actual Isaac asset detail renders, preserved without pretending a new V16 GPU render."
+  },
+  "rejected_prior_runs": "Old free-form V15 first Astro query failure and initial V16 mkdir-race producer are preserved in author workspace; neither is released as accepted generated data.",
+  "GPU_training_started": false,
+  "remote_runtime_validated": false,
+  "packet_revision": "16b",
+  "previous_sealed_manifest_sha256": "fe0434dcb45e24579113b91f4c80295d80acce67366fbbd8fb0e34c7b4d9db43",
+  "consumer_guard_correction": {
+    "module": "run_lunar_annotation_queue_v16.py",
+    "sha256": "8618e33b2bcbee5014711c84b695bbb452a2592f246951aebd7682685058e6b6",
+    "meaning": "metadata.seed is capture RNG; explicit source_layout_seed is layout identity; legacy identity remains episode/target/targets.seed plus every source scene SHA.",
+    "older_consumer_snapshot": "Historical pre-fix source retained for audit, not the current entry point."
+  }
+}

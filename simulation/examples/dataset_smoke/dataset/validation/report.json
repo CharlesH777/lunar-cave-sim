@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "episodes": [
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "schema_version": "lunar_dataset_validation/11.0",
+      "passed": true,
+      "checks": 54051,
+      "errors": [],
+      "warnings": [],
+      "annotation_domain": "isaac_continuous",
+      "training_ready": false,
+      "current_129_adapter_implemented": false,
+      "current_129_text_loss_supported": false,
+      "scope": "offline real-observation/teacher integrity; no learned-policy or tyre-dynamics evaluation"
+    }
+  ],
+  "annotation_domain": "isaac_continuous",
+  "training_ready": false
+}

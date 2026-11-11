@@ -1,0 +1,51 @@
+{
+  "native_rgb224": true,
+  "resized": false,
+  "interpolated_frames": false,
+  "input_variants": [
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "instruction": "驶入洞穴内部，遇第一个岔路向右，接近所指的任务目标。洞口只是路标，不是任务终点；真正要靠近并停下的是洞穴深处的宇航员。",
+      "language_episode_id": "seed_20261118_astronaut:zh:000",
+      "family_id": "train.waypoint_role.statement",
+      "query_partition": "train"
+    }
+  ],
+  "bindings": [
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "step_index": 260,
+      "timestamp_s": 52.0,
+      "rgb224": "episodes/seed_20261118_astronaut/route_trajectory/frames/000260_rgb224.png",
+      "cot_text": "我看到了洞口，我应该进去。"
+    },
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "step_index": 275,
+      "timestamp_s": 55.0,
+      "rgb224": "episodes/seed_20261118_astronaut/route_trajectory/frames/000275_rgb224.png",
+      "cot_text": "我已经进入洞穴，按照提示我应该继续前进。"
+    },
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "step_index": 750,
+      "timestamp_s": 150.0,
+      "rgb224": "episodes/seed_20261118_astronaut/route_trajectory/frames/000750_rgb224.png",
+      "cot_text": "我看到了第一个分叉，提示让我走右边。"
+    },
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "step_index": 1025,
+      "timestamp_s": 205.0,
+      "rgb224": "episodes/seed_20261118_astronaut/route_trajectory/frames/001025_rgb224.png",
+      "cot_text": "我看到了宇航员，我应该继续接近目标。"
+    },
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "step_index": 1129,
+      "timestamp_s": 225.8,
+      "rgb224": "episodes/seed_20261118_astronaut/route_trajectory/frames/001129_rgb224.png",
+      "cot_text": "我看到了宇航员，我应该停下来。"
+    }
+  ]
+}

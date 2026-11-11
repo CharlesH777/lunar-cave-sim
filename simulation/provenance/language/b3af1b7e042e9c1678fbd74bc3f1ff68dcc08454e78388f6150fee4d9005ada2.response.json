@@ -1,0 +1,20 @@
+{
+  "request_sha256": "b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2",
+  "requested_model": "qwen/qwen3.8-27b",
+  "model": "qwen/qwen3.8-27b",
+  "request_id": "9729eea6d4b55bb100c0b156516d8ae5",
+  "content": "[\n  {\n    \"progress\": \"到达洞口\",\n    \"observation\": \"我看到了洞口\",\n    \"decision_reason\": \"我应该进去\",\n    \"action_intent\": \"move_forward\"\n  }\n]",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 521,
+    "completion_tokens": 48,
+    "total_tokens": 569
+  },
+  "usage_missing": false,
+  "estimated_cny": 0.002139,
+  "price_cny_per_million": {
+    "input": 3.0,
+    "output": 12.0
+  },
+  "created_utc": "2026-11-11T05:10:42.938936+00:00"
+}

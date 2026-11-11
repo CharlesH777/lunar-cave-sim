@@ -1,0 +1,287 @@
+{
+  "schema_version": "lunar_query_composition_protocol/15.0",
+  "query_count": 20,
+  "max_output_tokens": 10000,
+  "physical_split_unchanged": true,
+  "actor_input_rule": "concatenate public segment texts; no operator metadata or resolved canonical answer",
+  "anonymous_route_goal": true,
+  "goal_and_stop_must_be_bound_in_logic": true,
+  "min_unique_route_cores": 10,
+  "max_identical_normalized_route_core": 2,
+  "operators": {
+    "waypoint_role": "途经地标不是任务终点，真正终点由逻辑段绑定",
+    "nonterminal_no_stop": "不能仅因为看到途经点就停止；目标附近才结束",
+    "near_goal_only_stop": "靠近真实目标是停止的必要条件",
+    "visible_goal_approach": "看见目标但尚未靠近时先接近，不因首次看见而立即停止",
+    "until_near_goal": "持续执行前进任务直到靠近目标，再停止",
+    "arrival_conjunction": "路线前提与靠近目标两个条件都满足才停止",
+    "target_contrast": "区分真正搜索目标与实际途经点/入口",
+    "route_gate": "实际第一分叉方向对立选择；无分叉时使用实际入口前提"
+  },
+  "families": [
+    {
+      "family_id": "train.waypoint_role.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "waypoint_role"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.waypoint_role.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "waypoint_role"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.nonterminal_no_stop.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "nonterminal_no_stop"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.nonterminal_no_stop.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "nonterminal_no_stop"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.near_goal_only_stop.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "near_goal_only_stop"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.near_goal_only_stop.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "near_goal_only_stop"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.visible_goal_approach.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "visible_goal_approach"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.visible_goal_approach.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "visible_goal_approach"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.until_near_goal.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "until_near_goal"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.until_near_goal.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "until_near_goal"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.arrival_conjunction.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "arrival_conjunction"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.arrival_conjunction.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "arrival_conjunction"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.target_contrast.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "target_contrast"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "train.target_contrast.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "target_contrast"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.route_gate.statement",
+      "query_partition": "train",
+      "operator_ids": [
+        "route_gate"
+      ],
+      "surface_form": "statement",
+      "composition": "ATOM",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "train.route_gate.conditional",
+      "query_partition": "train",
+      "operator_ids": [
+        "route_gate"
+      ],
+      "surface_form": "conditional",
+      "composition": "ATOM",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "heldout.role_and_stop",
+      "query_partition": "heldout",
+      "operator_ids": [
+        "waypoint_role",
+        "near_goal_only_stop"
+      ],
+      "surface_form": "combined",
+      "composition": "AND",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "heldout.nonterminal_and_appearance",
+      "query_partition": "heldout",
+      "operator_ids": [
+        "nonterminal_no_stop",
+        "visible_goal_approach"
+      ],
+      "surface_form": "combined",
+      "composition": "AND",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    },
+    {
+      "family_id": "heldout.until_and_preconditions",
+      "query_partition": "heldout",
+      "operator_ids": [
+        "until_near_goal",
+        "arrival_conjunction"
+      ],
+      "surface_form": "combined",
+      "composition": "AND",
+      "segment_order": [
+        "route_core",
+        "logic"
+      ]
+    },
+    {
+      "family_id": "heldout.target_and_route_gate",
+      "query_partition": "heldout",
+      "operator_ids": [
+        "target_contrast",
+        "route_gate"
+      ],
+      "surface_form": "combined",
+      "composition": "AND",
+      "segment_order": [
+        "logic",
+        "route_core"
+      ]
+    }
+  ]
+}

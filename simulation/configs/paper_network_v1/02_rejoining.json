@@ -1,0 +1,341 @@
+{
+  "schema_version": "lunar_candidate_network/1.0",
+  "units": "m",
+  "up_axis": "Z",
+  "coordinate_system": "local arbitrary horizontal axes; z=0 is an assumed reference lunar surface",
+  "random_seed": 20261110,
+  "voxel_spacing_m": 1.0,
+  "scientific_status": "synthetic_candidate_not_a_reconstruction",
+  "site_identity": "Zhou-scale hypothetical underground network; not MTP or Marius Hills",
+  "sources": {
+    "zhou2025": {
+      "doi": "10.3847/1538-4357/adcf18",
+      "url": "https://iopscience.iop.org/article/10.3847/1538-4357/adcf18",
+      "locator": "Sections 4.1-4.4; Figure 4(d-f); Appendix Figure A6",
+      "evidence_type": "radar_interpretation_and_forward_model",
+      "reported_estimates": {
+        "maximum_width_m_approx": 26,
+        "maximum_height_m_approx": 16,
+        "burial_depth_m_approx": 130
+      },
+      "limits": [
+        "Void interpretation is non-unique.",
+        "Width may be overestimated by an oblique traverse.",
+        "No measured axis, longitudinal extent, branches or entrance.",
+        "Figure A6 is a forward model, not a surveyed mesh."
+      ]
+    },
+    "tomasi2022": {
+      "doi": "10.1029/2022JB024056",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JB024056",
+      "evidence_type": "terrestrial_laser_survey_and_discussed_formation_analogue",
+      "locator": "Sections 2.1.3, 3.2 and 4.1; Figures 4-5",
+      "use": "Qualitative side branches, rejoining passages and superposed levels.",
+      "evidence_distinction": "Inter-level windows and isolated upper conduits are identified in 3D; side-tube rejoining is also discussed as a formation interpretation, not a mapped lunar connection.",
+      "limits": [
+        "Earth geometry is not a lunar survey.",
+        "No calibrated probability of lunar branching or loop counts.",
+        "Absolute dimensions and positions are not transferred."
+      ]
+    }
+  },
+  "parameter_interpretation": {
+    "floor_centerline_xyz_m": "Local support/floor reference; each branch retains its own z.",
+    "cross_section": "Asymmetric rounded void with offset arch and roof indentation; procedural, not digitized from Figure A6.",
+    "width_m": "Nominal main-section maximum 26 m is inspired by the reported estimate, not a lower clearance bound. Junction unions can be wider.",
+    "height_m": "Nominal main-section floor-to-roof upper envelope 16 m; roof indentation reduces it locally.",
+    "depth": "Main roof placed roughly near -130 m as a visualization assumption; the paper does not establish this exact floor or roof datum.",
+    "roughness": "No fabricated sub-metre measured lunar surface detail.",
+    "topology": "All longitudinal coordinates, lengths, turns, branch locations and level spacings are assumptions.",
+    "end_caps": "Artificial finite-domain closures; do not imply observed geological dead ends.",
+    "entry": "No observed skylight is assigned; the underground model has no surface entry.",
+    "stability": "No geomechanical solution or structural safety certification.",
+    "probability": "Candidates are unweighted hypotheses; no inferred posterior probabilities."
+  },
+  "robot_envelope": {
+    "radius_m": 0.4,
+    "height_m": 1.0,
+    "max_slope_deg": 12.0,
+    "classification": "engineering_assumption_not_lunar_observation"
+  },
+  "runtime_scope": "geometry_only; old XY navigation and floor_height are not connected",
+  "nonconnecting_crossings": [],
+  "candidate_id": "02_rejoining",
+  "title": "Trunk with one rejoining side passage",
+  "edges": [
+    {
+      "id": "main_ab",
+      "from": "A",
+      "to": "B",
+      "floor_centerline_xyz_m": [
+        [
+          0,
+          0,
+          -146
+        ],
+        [
+          35,
+          -4,
+          -147
+        ],
+        [
+          65,
+          3,
+          -146
+        ],
+        [
+          100,
+          5,
+          -146
+        ]
+      ],
+      "cross_section": {
+        "left_width_m": 10.0,
+        "right_width_m": 16.0,
+        "height_m": 16.0,
+        "roof_offset_m": -1.5,
+        "roof_sag_m": 0.9
+      },
+      "role": "main",
+      "provenance": {
+        "topology": "generation_assumption",
+        "coordinates_and_length": "generation_assumption",
+        "source_ids": [
+          "zhou2025"
+        ],
+        "cross_section": "parameterized_hypothesis_inspired_by_zhou2025",
+        "note": "No edge is an observed lunar passage. Widths are maximum lateral radii, not floor clearances."
+      }
+    },
+    {
+      "id": "main_bc",
+      "from": "B",
+      "to": "C",
+      "floor_centerline_xyz_m": [
+        [
+          100,
+          5,
+          -146
+        ],
+        [
+          140,
+          18,
+          -145.5
+        ],
+        [
+          180,
+          15,
+          -146.5
+        ],
+        [
+          220,
+          0,
+          -148
+        ]
+      ],
+      "cross_section": {
+        "left_width_m": 10.0,
+        "right_width_m": 16.0,
+        "height_m": 16.0,
+        "roof_offset_m": -1.5,
+        "roof_sag_m": 0.9
+      },
+      "role": "main",
+      "provenance": {
+        "topology": "generation_assumption",
+        "coordinates_and_length": "generation_assumption",
+        "source_ids": [
+          "zhou2025"
+        ],
+        "cross_section": "parameterized_hypothesis_inspired_by_zhou2025",
+        "note": "No edge is an observed lunar passage. Widths are maximum lateral radii, not floor clearances."
+      }
+    },
+    {
+      "id": "main_cd",
+      "from": "C",
+      "to": "D",
+      "floor_centerline_xyz_m": [
+        [
+          220,
+          0,
+          -148
+        ],
+        [
+          260,
+          2,
+          -149
+        ],
+        [
+          305,
+          8,
+          -150
+        ],
+        [
+          350,
+          20,
+          -151
+        ]
+      ],
+      "cross_section": {
+        "left_width_m": 10.0,
+        "right_width_m": 16.0,
+        "height_m": 16.0,
+        "roof_offset_m": -1.5,
+        "roof_sag_m": 0.9
+      },
+      "role": "main",
+      "provenance": {
+        "topology": "generation_assumption",
+        "coordinates_and_length": "generation_assumption",
+        "source_ids": [
+          "zhou2025"
+        ],
+        "cross_section": "parameterized_hypothesis_inspired_by_zhou2025",
+        "note": "No edge is an observed lunar passage. Widths are maximum lateral radii, not floor clearances."
+      }
+    },
+    {
+      "id": "loop_be",
+      "from": "B",
+      "to": "E",
+      "floor_centerline_xyz_m": [
+        [
+          100,
+          5,
+          -146
+        ],
+        [
+          110,
+          45,
+          -150
+        ],
+        [
+          125,
+          72,
+          -153
+        ],
+        [
+          155,
+          85,
+          -154
+        ]
+      ],
+      "cross_section": {
+        "left_width_m": 7,
+        "right_width_m": 11,
+        "height_m": 14,
+        "roof_offset_m": -1.5,
+        "roof_sag_m": 0.9
+      },
+      "role": "rejoining_branch",
+      "provenance": {
+        "topology": "earth_analogue_inspired_hypothesis",
+        "coordinates_and_length": "generation_assumption",
+        "source_ids": [
+          "zhou2025",
+          "tomasi2022"
+        ],
+        "cross_section": "parameterized_hypothesis_inspired_by_zhou2025",
+        "note": "No edge is an observed lunar passage. Widths are maximum lateral radii, not floor clearances."
+      }
+    },
+    {
+      "id": "loop_ec",
+      "from": "E",
+      "to": "C",
+      "floor_centerline_xyz_m": [
+        [
+          155,
+          85,
+          -154
+        ],
+        [
+          195,
+          80,
+          -155
+        ],
+        [
+          225,
+          50,
+          -153
+        ],
+        [
+          220,
+          0,
+          -148
+        ]
+      ],
+      "cross_section": {
+        "left_width_m": 7,
+        "right_width_m": 11,
+        "height_m": 14,
+        "roof_offset_m": -1.5,
+        "roof_sag_m": 0.9
+      },
+      "role": "rejoining_branch",
+      "provenance": {
+        "topology": "earth_analogue_inspired_hypothesis",
+        "coordinates_and_length": "generation_assumption",
+        "source_ids": [
+          "zhou2025",
+          "tomasi2022"
+        ],
+        "cross_section": "parameterized_hypothesis_inspired_by_zhou2025",
+        "note": "No edge is an observed lunar passage. Widths are maximum lateral radii, not floor clearances."
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "A",
+      "xyz_m": [
+        0,
+        0,
+        -146
+      ],
+      "kind": "synthetic_domain_end",
+      "provenance": "generation_assumption"
+    },
+    {
+      "id": "B",
+      "xyz_m": [
+        100,
+        5,
+        -146
+      ],
+      "kind": "synthetic_junction",
+      "provenance": "generation_assumption"
+    },
+    {
+      "id": "C",
+      "xyz_m": [
+        220,
+        0,
+        -148
+      ],
+      "kind": "synthetic_junction",
+      "provenance": "generation_assumption"
+    },
+    {
+      "id": "D",
+      "xyz_m": [
+        350,
+        20,
+        -151
+      ],
+      "kind": "synthetic_domain_end",
+      "provenance": "generation_assumption"
+    },
+    {
+      "id": "E",
+      "xyz_m": [
+        155,
+        85,
+        -154
+      ],
+      "kind": "synthetic_junction",
+      "provenance": "generation_assumption"
+    }
+  ]
+}

@@ -1,0 +1,2062 @@
+{
+  "schema_version": "lunar_query_variants/11.0",
+  "physical_trajectory_id": "seed_20261118_astronaut",
+  "split": "train",
+  "canonical_instruction": "找到宇航员，它在洞穴深处。进入洞穴，在第一个分叉向右转，最后靠近宇航员并停下来。",
+  "variants": [
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:000",
+      "instruction": "驶入洞穴内部，遇第一个岔路向右，接近所指的任务目标。洞口只是路标，不是任务终点；真正要靠近并停下的是洞穴深处的宇航员。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.waypoint_role.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "驶入洞穴内部，遇第一个岔路向右，接近所指的任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "waypoint_role"
+          ],
+          "text": "洞口只是路标，不是任务终点；真正要靠近并停下的是洞穴深处的宇航员。"
+        }
+      ],
+      "operator_ids": [
+        "waypoint_role"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.waypoint_role.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.04",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.13",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:001",
+      "instruction": "即使看到了洞口也只是经过路标；要靠近并停车的任务终点是洞穴深处的宇航员。按提示进入洞穴，遇第一个岔路向右，接着走向任务目标。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.waypoint_role.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "waypoint_role"
+          ],
+          "text": "即使看到了洞口也只是经过路标；要靠近并停车的任务终点是洞穴深处的宇航员。"
+        },
+        {
+          "kind": "route_core",
+          "text": "按提示进入洞穴，遇第一个岔路向右，接着走向任务目标。"
+        }
+      ],
+      "operator_ids": [
+        "waypoint_role"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.waypoint_role.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.00",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.04",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.09",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:002",
+      "instruction": "不能因为看到了洞口就停；本次要找洞穴深处的宇航员，靠近宇航员后再停下来。进洞行驶，首个分叉走右侧，前往任务目标附近。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.nonterminal_no_stop.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "nonterminal_no_stop"
+          ],
+          "text": "不能因为看到了洞口就停；本次要找洞穴深处的宇航员，靠近宇航员后再停下来。"
+        },
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，首个分叉走右侧，前往任务目标附近。"
+        }
+      ],
+      "operator_ids": [
+        "nonterminal_no_stop"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.nonterminal_no_stop.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.06",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.08",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:003",
+      "instruction": "进洞行驶，在第一分叉转向右边，最后前往任务目标。如果看到洞口，不能把它当作停止理由；要找的是洞穴深处的宇航员，靠近宇航员以后再停。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.nonterminal_no_stop.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，在第一分叉转向右边，最后前往任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "nonterminal_no_stop"
+          ],
+          "text": "如果看到洞口，不能把它当作停止理由；要找的是洞穴深处的宇航员，靠近宇航员以后再停。"
+        }
+      ],
+      "operator_ids": [
+        "nonterminal_no_stop"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.nonterminal_no_stop.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.05",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.00",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:004",
+      "instruction": "进洞行驶，首个分叉走右侧，沿着路线接近任务目标。任务目标是洞穴深处的宇航员；只有靠近宇航员才允许停下。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.near_goal_only_stop.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，首个分叉走右侧，沿着路线接近任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "near_goal_only_stop"
+          ],
+          "text": "任务目标是洞穴深处的宇航员；只有靠近宇航员才允许停下。"
+        }
+      ],
+      "operator_ids": [
+        "near_goal_only_stop"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.near_goal_only_stop.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.06",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.22",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:005",
+      "instruction": "要找洞穴深处的宇航员，未靠近宇航员时不能停；靠近后才停下来。驶入洞穴内部，于第一分叉选右，继续去任务目标附近。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.near_goal_only_stop.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "near_goal_only_stop"
+          ],
+          "text": "要找洞穴深处的宇航员，未靠近宇航员时不能停；靠近后才停下来。"
+        },
+        {
+          "kind": "route_core",
+          "text": "驶入洞穴内部，于第一分叉选右，继续去任务目标附近。"
+        }
+      ],
+      "operator_ids": [
+        "near_goal_only_stop"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.near_goal_only_stop.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.09",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.16",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:006",
+      "instruction": "要找的是洞穴深处的宇航员。看到宇航员但尚未靠近时先继续接近，靠近后再停，不能刚看到就停。驶入洞穴内部，于第一分叉选右，再往任务目标所在的位置走。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.visible_goal_approach.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "visible_goal_approach"
+          ],
+          "text": "要找的是洞穴深处的宇航员。看到宇航员但尚未靠近时先继续接近，靠近后再停，不能刚看到就停。"
+        },
+        {
+          "kind": "route_core",
+          "text": "驶入洞穴内部，于第一分叉选右，再往任务目标所在的位置走。"
+        }
+      ],
+      "operator_ids": [
+        "visible_goal_approach"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.visible_goal_approach.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.09",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.25",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:007",
+      "instruction": "进洞行驶，遇首处分叉向右转，随后去终点附近。目标是洞穴深处的宇航员；若看见宇航员但还没靠近，就继续接近而非马上停，靠近后再停车。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.visible_goal_approach.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，遇首处分叉向右转，随后去终点附近。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "visible_goal_approach"
+          ],
+          "text": "目标是洞穴深处的宇航员；若看见宇航员但还没靠近，就继续接近而非马上停，靠近后再停车。"
+        }
+      ],
+      "operator_ids": [
+        "visible_goal_approach"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.visible_goal_approach.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.23",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:008",
+      "instruction": "驶入洞穴内部，到第一个岔口右转，最终前往任务目标。终点是洞穴深处的宇航员附近；在靠近宇航员之前持续前进，直到靠近后再停下。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.until_near_goal.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "驶入洞穴内部，到第一个岔口右转，最终前往任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "until_near_goal"
+          ],
+          "text": "终点是洞穴深处的宇航员附近；在靠近宇航员之前持续前进，直到靠近后再停下。"
+        }
+      ],
+      "operator_ids": [
+        "until_near_goal"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.until_near_goal.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.07",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.06",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:009",
+      "instruction": "只要尚未靠近宇航员就继续前进，直到靠近洞穴深处的宇航员再停车；它才是任务目标。按提示进入洞穴，到第一处分叉选右侧，最后驶向终点。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.until_near_goal.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "until_near_goal"
+          ],
+          "text": "只要尚未靠近宇航员就继续前进，直到靠近洞穴深处的宇航员再停车；它才是任务目标。"
+        },
+        {
+          "kind": "route_core",
+          "text": "按提示进入洞穴，到第一处分叉选右侧，最后驶向终点。"
+        }
+      ],
+      "operator_ids": [
+        "until_near_goal"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.until_near_goal.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.00",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.02",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.05",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:010",
+      "instruction": "把洞穴深处的宇航员作为任务目标；已按提示进入洞穴与靠近宇航员两个条件都满足后才停。进洞行驶，遇首处分叉向右转，随后前往终点。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.arrival_conjunction.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "arrival_conjunction"
+          ],
+          "text": "把洞穴深处的宇航员作为任务目标；已按提示进入洞穴与靠近宇航员两个条件都满足后才停。"
+        },
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，遇首处分叉向右转，随后前往终点。"
+        }
+      ],
+      "operator_ids": [
+        "arrival_conjunction"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.arrival_conjunction.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.11",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:011",
+      "instruction": "沿提示入洞，在第一分叉转向右边，去往任务目标。目标是洞穴深处的宇航员；若已按提示进入洞穴且已靠近宇航员，这两个条件同时成立才可以停下。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.arrival_conjunction.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "沿提示入洞，在第一分叉转向右边，去往任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "arrival_conjunction"
+          ],
+          "text": "目标是洞穴深处的宇航员；若已按提示进入洞穴且已靠近宇航员，这两个条件同时成立才可以停下。"
+        }
+      ],
+      "operator_ids": [
+        "arrival_conjunction"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.arrival_conjunction.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.05",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.02",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:012",
+      "instruction": "进洞，在第一个分叉向右转，继续前进至任务目标附近。本次找的是洞穴深处的宇航员，不是洞口；靠近真正的任务目标并停下才结束。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.target_contrast.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞，在第一个分叉向右转，继续前进至任务目标附近。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "target_contrast"
+          ],
+          "text": "本次找的是洞穴深处的宇航员，不是洞口；靠近真正的任务目标并停下才结束。"
+        }
+      ],
+      "operator_ids": [
+        "target_contrast"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.target_contrast.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.00",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.24",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:013",
+      "instruction": "不要把洞口当成要找的目标；本次选择洞穴深处的宇航员作为终点，靠近宇航员才停下来。进洞，遇首处分叉向右转，继续前往任务目标所在位置。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.target_contrast.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "target_contrast"
+          ],
+          "text": "不要把洞口当成要找的目标；本次选择洞穴深处的宇航员作为终点，靠近宇航员才停下来。"
+        },
+        {
+          "kind": "route_core",
+          "text": "进洞，遇首处分叉向右转，继续前往任务目标所在位置。"
+        }
+      ],
+      "operator_ids": [
+        "target_contrast"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.target_contrast.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.19",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:014",
+      "instruction": "第一个分叉应走右侧，左侧不是提示方向；真正终点是洞穴深处的宇航员，靠近它才停。驶入洞穴内部，遇首处分叉向右转，继续向任务目标前进。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.route_gate.statement",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "route_gate"
+          ],
+          "text": "第一个分叉应走右侧，左侧不是提示方向；真正终点是洞穴深处的宇航员，靠近它才停。"
+        },
+        {
+          "kind": "route_core",
+          "text": "驶入洞穴内部，遇首处分叉向右转，继续向任务目标前进。"
+        }
+      ],
+      "operator_ids": [
+        "route_gate"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.route_gate.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.10",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:015",
+      "instruction": "进洞行驶，首个分叉处右转，继续沿路前往任务目标。若来到第一个分叉，就走右边而不是左边；要找的是洞穴深处的宇航员，靠近宇航员之后停止。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "train.route_gate.conditional",
+      "query_partition": "train",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，首个分叉处右转，继续沿路前往任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "route_gate"
+          ],
+          "text": "若来到第一个分叉，就走右边而不是左边；要找的是洞穴深处的宇航员，靠近宇航员之后停止。"
+        }
+      ],
+      "operator_ids": [
+        "route_gate"
+      ],
+      "composition": "ATOM",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "train.route_gate.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.03",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.12",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:016",
+      "instruction": "沿提示入洞，首个分叉处右转，接着前往终点附近。虽然洞口只是途经路标而非终点，但只有靠近洞穴深处的宇航员才可以停下来；宇航员才是本次要找的目标。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "heldout.role_and_stop",
+      "query_partition": "heldout",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "沿提示入洞，首个分叉处右转，接着前往终点附近。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "waypoint_role",
+            "near_goal_only_stop"
+          ],
+          "text": "虽然洞口只是途经路标而非终点，但只有靠近洞穴深处的宇航员才可以停下来；宇航员才是本次要找的目标。"
+        }
+      ],
+      "operator_ids": [
+        "waypoint_role",
+        "near_goal_only_stop"
+      ],
+      "composition": "AND",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "heldout.role_and_stop",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.03",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.17",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role",
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:017",
+      "instruction": "不能因看到洞口就停；要找的是洞穴深处的宇航员，如果只是看到宇航员但还未靠近，就继续接近，靠近后再停。进洞，首个岔路向右拐，再继续走向终点。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "heldout.nonterminal_and_appearance",
+      "query_partition": "heldout",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "nonterminal_no_stop",
+            "visible_goal_approach"
+          ],
+          "text": "不能因看到洞口就停；要找的是洞穴深处的宇航员，如果只是看到宇航员但还未靠近，就继续接近，靠近后再停。"
+        },
+        {
+          "kind": "route_core",
+          "text": "进洞，首个岔路向右拐，再继续走向终点。"
+        }
+      ],
+      "operator_ids": [
+        "nonterminal_no_stop",
+        "visible_goal_approach"
+      ],
+      "composition": "AND",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "heldout.nonterminal_and_appearance",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.10",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.21",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop",
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:018",
+      "instruction": "进洞行驶，遇首个岔口往右拐，前往任务目标。任务目标是洞穴深处的宇航员；继续前进，直到已按提示进入洞穴并靠近宇航员这两个条件都满足，再停下来。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "heldout.until_and_preconditions",
+      "query_partition": "heldout",
+      "segments": [
+        {
+          "kind": "route_core",
+          "text": "进洞行驶，遇首个岔口往右拐，前往任务目标。"
+        },
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "until_near_goal",
+            "arrival_conjunction"
+          ],
+          "text": "任务目标是洞穴深处的宇航员；继续前进，直到已按提示进入洞穴并靠近宇航员这两个条件都满足，再停下来。"
+        }
+      ],
+      "operator_ids": [
+        "until_near_goal",
+        "arrival_conjunction"
+      ],
+      "composition": "AND",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "heldout.until_and_preconditions",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.01",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.04",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal",
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    {
+      "language_episode_id": "seed_20261118_astronaut:zh:019",
+      "instruction": "要找的是洞穴深处的宇航员而不是洞口；第一个分叉走右不走左，最后靠近真正的任务目标停下。沿提示入洞，遇首个岔口往右拐，最终驶向终点。",
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "split": "train",
+      "family_id": "heldout.target_and_route_gate",
+      "query_partition": "heldout",
+      "segments": [
+        {
+          "kind": "logic",
+          "operator_ids": [
+            "target_contrast",
+            "route_gate"
+          ],
+          "text": "要找的是洞穴深处的宇航员而不是洞口；第一个分叉走右不走左，最后靠近真正的任务目标停下。"
+        },
+        {
+          "kind": "route_core",
+          "text": "沿提示入洞，遇首个岔口往右拐，最终驶向终点。"
+        }
+      ],
+      "operator_ids": [
+        "target_contrast",
+        "route_gate"
+      ],
+      "composition": "AND",
+      "query_composition_version": "15.0",
+      "generation_method": "grounded_template_instantiation",
+      "compiler_trace": {
+        "family_id": "heldout.target_and_route_gate",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.01",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.01",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast",
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    }
+  ],
+  "generated": true,
+  "training_ready": false,
+  "instruction_style": "route_grounded",
+  "route_contract_sha256": "69d76f74e21b340a2279b3c1fc145d999f5022a69e602fce039feb75dbd2ed32",
+  "query_count": 20,
+  "query_protocol_sha256": "3f95379fc1e80411e6a219c583debf69db12d6ba53a4b2c0125c0d588133a6b8",
+  "family_partition_counts": {
+    "train": 16,
+    "heldout": 4
+  },
+  "query_composition_version": "15.0",
+  "operator_context_sha256": "1295c5f04423d921272260a5ac236916ab070111e79b3999e7280945415cf68d",
+  "goal_binding_source": "public logic segment; movement core has anonymous endpoint",
+  "provenance": {
+    "schema_version": "lunar_compiled_query_provenance/1.0",
+    "generator": "lunar_grounded_query_compiler/1.0",
+    "generation_method": "grounded_template_instantiation",
+    "fresh_provider_output": false,
+    "new_query_HTTP_requests": 0,
+    "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d",
+    "query_protocol_sha256": "3f95379fc1e80411e6a219c583debf69db12d6ba53a4b2c0125c0d588133a6b8",
+    "compiler_code_sha256": "6867f2b0c98de6d8ad2db8c96b6ccfab9a9d473802186aa336eee1a27283ce47",
+    "source_provider_template_request_sha256": "50028105b570e87ea86e6ae8fd11f97f5f5ab4ef125a6ab03b9b54bb96ebff1e",
+    "source_provider_template_response_sha256": "268eaf8460989e68dc20871c882bdf6c57f5d3cfeed4e989bcd29833480fc761",
+    "authorship": "provider-authored phrase templates plus explicit safe phrases; grounded deterministic slot instantiation, not fresh provider output",
+    "seed_identity": {
+      "lexical_seed": 0,
+      "physical_trajectory_id": "seed_20261118_astronaut",
+      "actual_route_contract_sha256": "69d76f74e21b340a2279b3c1fc145d999f5022a69e602fce039feb75dbd2ed32",
+      "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d"
+    },
+    "slot_binding_sha256": "1295c5f04423d921272260a5ac236916ab070111e79b3999e7280945415cf68d",
+    "family_trace": [
+      {
+        "family_id": "train.waypoint_role.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.04",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.13",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.waypoint_role.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.00",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.04",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.09",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.nonterminal_no_stop.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.06",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.08",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.nonterminal_no_stop.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.05",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.00",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.near_goal_only_stop.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.06",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.22",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.near_goal_only_stop.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.09",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.16",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.visible_goal_approach.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.09",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.25",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.visible_goal_approach.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.23",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.until_near_goal.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.07",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.06",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.until_near_goal.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.00",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.02",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.05",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.arrival_conjunction.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.11",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.arrival_conjunction.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.05",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.02",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.target_contrast.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.00",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.24",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.target_contrast.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.19",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.route_gate.statement",
+        "movement_templates": [
+          {
+            "template_id": "entry.02",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.08",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.10",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "train.route_gate.conditional",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.03",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.12",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "heldout.role_and_stop",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.03",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.17",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "waypoint_role",
+          "near_goal_only_stop"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "heldout.nonterminal_and_appearance",
+        "movement_templates": [
+          {
+            "template_id": "entry.01",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.10",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.21",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "nonterminal_no_stop",
+          "visible_goal_approach"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "heldout.until_and_preconditions",
+        "movement_templates": [
+          {
+            "template_id": "entry.06",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.01",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.04",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "until_near_goal",
+          "arrival_conjunction"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      },
+      {
+        "family_id": "heldout.target_and_route_gate",
+        "movement_templates": [
+          {
+            "template_id": "entry.04",
+            "event_type": "enter_cave",
+            "slots": {}
+          },
+          {
+            "template_id": "fork.01",
+            "event_type": "first_fork",
+            "slots": {
+              "side": "右"
+            }
+          },
+          {
+            "template_id": "endpoint.01",
+            "event_type": "anonymous_endpoint",
+            "slots": {}
+          }
+        ],
+        "operator_ids": [
+          "target_contrast",
+          "route_gate"
+        ],
+        "logical_binding": {
+          "goal_id": "astronaut",
+          "goal_name": "宇航员",
+          "goal_description": "洞穴深处的宇航员",
+          "waypoint_name": "洞口",
+          "waypoint_id": null,
+          "route_prerequisite": "已按提示进入洞穴",
+          "route_imperative": "按提示进入洞穴",
+          "fork_side": "right",
+          "route_gate_realization": "fork_choice"
+        }
+      }
+    ]
+  },
+  "query_mode": "compiled",
+  "generation_method": "compiled",
+  "provider_generated_queries": false
+}

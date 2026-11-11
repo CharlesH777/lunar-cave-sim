@@ -1,0 +1,45 @@
+{
+  "requested_antialiasing": "FXAA (2)",
+  "captures_checked": 1130,
+  "capture_readbacks_match_request": true,
+  "internal_rtx_resolution_measured": false,
+  "scope": "Carb setting readbacks and RGB product size; array size alone does not measure internal RTX resolution",
+  "requested_settings": {
+    "/rtx-transient/post/aa/limitedOps": false,
+    "/rtx/post/aa/op": 2,
+    "/rtx/post/dlss/enabled": false,
+    "/rtx/post/scaling/staticRatio": 1.0,
+    "/rtx-transient/dlssg/enabled": false,
+    "/rtx/post/motionblur/enabled": false
+  },
+  "after_warmup": {
+    "/rtx-transient/post/aa/limitedOps": false,
+    "/rtx/post/aa/op": 2,
+    "/rtx/post/dlss/enabled": false,
+    "/rtx/post/scaling/staticRatio": 1.0,
+    "/rtx-transient/dlssg/enabled": false,
+    "/rtx/post/motionblur/enabled": false,
+    "render_mode": "RaytracedLighting",
+    "matches_requested_values": true
+  },
+  "last_capture_before": {
+    "/rtx-transient/post/aa/limitedOps": false,
+    "/rtx/post/aa/op": 2,
+    "/rtx/post/dlss/enabled": false,
+    "/rtx/post/scaling/staticRatio": 1.0,
+    "/rtx-transient/dlssg/enabled": false,
+    "/rtx/post/motionblur/enabled": false,
+    "render_mode": "RaytracedLighting",
+    "matches_requested_values": true
+  },
+  "last_capture_after": {
+    "/rtx-transient/post/aa/limitedOps": false,
+    "/rtx/post/aa/op": 2,
+    "/rtx/post/dlss/enabled": false,
+    "/rtx/post/scaling/staticRatio": 1.0,
+    "/rtx-transient/dlssg/enabled": false,
+    "/rtx/post/motionblur/enabled": false,
+    "render_mode": "RaytracedLighting",
+    "matches_requested_values": true
+  }
+}

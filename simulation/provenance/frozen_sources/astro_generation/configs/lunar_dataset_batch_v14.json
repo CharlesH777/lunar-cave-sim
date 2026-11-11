@@ -1,0 +1,136 @@
+{
+  "schema_version": "lunar_dataset_batch/14.0",
+  "unit_config": "configs/lunar_dataset_pipeline_v14.json",
+  "terrain_template": "templates/lunar_fork_v11",
+  "requested_units": 100,
+  "layouts": [
+    {
+      "seed": 20261118,
+      "split": "train"
+    },
+    {
+      "seed": 20261119,
+      "split": "train"
+    },
+    {
+      "seed": 20261120,
+      "split": "train"
+    },
+    {
+      "seed": 20261121,
+      "split": "train"
+    },
+    {
+      "seed": 20261122,
+      "split": "train"
+    },
+    {
+      "seed": 20261123,
+      "split": "train"
+    },
+    {
+      "seed": 20261124,
+      "split": "train"
+    },
+    {
+      "seed": 20261125,
+      "split": "train"
+    },
+    {
+      "seed": 20261126,
+      "split": "train"
+    },
+    {
+      "seed": 20261127,
+      "split": "train"
+    },
+    {
+      "seed": 20261128,
+      "split": "train"
+    },
+    {
+      "seed": 20261129,
+      "split": "train"
+    },
+    {
+      "seed": 20261130,
+      "split": "train"
+    },
+    {
+      "seed": 20261131,
+      "split": "train"
+    },
+    {
+      "seed": 20261132,
+      "split": "train"
+    },
+    {
+      "seed": 20261133,
+      "split": "train"
+    },
+    {
+      "seed": 20261134,
+      "split": "train"
+    },
+    {
+      "seed": 20261135,
+      "split": "train"
+    },
+    {
+      "seed": 20261136,
+      "split": "train"
+    },
+    {
+      "seed": 20261137,
+      "split": "train"
+    },
+    {
+      "seed": 20261138,
+      "split": "val"
+    },
+    {
+      "seed": 20261139,
+      "split": "val"
+    },
+    {
+      "seed": 20261140,
+      "split": "val"
+    },
+    {
+      "seed": 20261141,
+      "split": "test"
+    },
+    {
+      "seed": 20261142,
+      "split": "test"
+    }
+  ],
+  "expected_layout_splits": {
+    "train": 20,
+    "val": 3,
+    "test": 2
+  },
+  "maximum_cpu_layout_attempts": 5,
+  "isaac_python": null,
+  "ppio_env": null,
+  "provider_cache": "outputs/lunar_dataset_v13/provider_cache",
+  "publish_host": "lab-a100-20",
+  "remote_root": "/data/zhenghengcao/lunar_cave_query100_20261111_v14",
+  "ssh_options": [
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=20"
+  ],
+  "cpu_pythonpaths": [],
+  "cpu_library_paths": [],
+  "minimum_staging_free_gib": 4,
+  "evict_below_free_gib": 6,
+  "evict_target_free_gib": 8,
+  "keep_review_units": 4,
+  "adopt_raw": {},
+  "prebuilt_layouts": {},
+  "first_lane_min_host_gib": 8,
+  "first_lane_min_gpu_gib": 6,
+  "budget_cny": 10.0
+}

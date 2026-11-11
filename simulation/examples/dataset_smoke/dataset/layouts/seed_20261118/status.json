@@ -1,0 +1,13 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-11-10T15:40:37.712055+00:00",
+  "elapsed_seconds": 13.429,
+  "GPU_work": false,
+  "passed": true,
+  "target_count": 4,
+  "seed": 20261118,
+  "geometric_path_m": 101.84314519482243,
+  "source_assets_unchanged": true,
+  "USD": "cave.usdc",
+  "targets": "targets.json"
+}

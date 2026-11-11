@@ -1,0 +1,67 @@
+{
+  "schema_version": "lunar_dataset_manifest/11.0",
+  "annotation_domain": "isaac_continuous",
+  "complete": true,
+  "episodes": [
+    {
+      "episode_id": "seed_20261118_astronaut",
+      "layout_seed": 20261118,
+      "split": "train",
+      "target_id": "astronaut",
+      "trajectory": "episodes/seed_20261118_astronaut/route_trajectory",
+      "language": "episodes/seed_20261118_astronaut/language",
+      "layout": "layouts/seed_20261118",
+      "validation": "episodes/seed_20261118_astronaut/validation.json",
+      "sha256": {
+        "episodes/seed_20261118_astronaut/route_trajectory/metadata.json": "b91854ae8f8e91d6b449764b7f1f676862021b68d48c1c793d25c711e8ab3641",
+        "episodes/seed_20261118_astronaut/route_trajectory/supervision.npz": "db3fbd2fc62579878c80a559b0c1b907ea08c6c2969b38d7cd427fced7a084a1",
+        "episodes/seed_20261118_astronaut/route_trajectory/teacher_only.npz": "a5f5cd6da6ff1fdefa7f36106a2904fbc46d4dbb2f454c9617fe03d2bffec11b",
+        "episodes/seed_20261118_astronaut/route_trajectory/frame_records.jsonl": "b63fe70264d13ce99ba028da3dad4a0617af8377167b8a1acd9347f0dbc16719",
+        "episodes/seed_20261118_astronaut/language/queries.json": "9c0d9639a175eb36944dca37ce425bc25705fbb3dfbf670ba55213187002ddd4",
+        "episodes/seed_20261118_astronaut/language/annotations.jsonl": "53abd7952afe6f54eaa41fc665dccdebbd0040609f805a225a2e026f0c9bc93d",
+        "episodes/seed_20261118_astronaut/route_trajectory/route_contract.json": "924a75bec390408e27dae00bd401fe744c89a126a551de3c7e2a179a9af4e6a1",
+        "episodes/seed_20261118_astronaut/route_trajectory/instruction_binding.json": "16407055223f90599bf9e2af11e550e25b121799b9a35c87fcc022c73a318e47",
+        "episodes/seed_20261118_astronaut/language/protocol.json": "790cdc6c5ecd8f45a3692928b6050ca5a4bf695119eb930237261687ec254f4c",
+        "episodes/seed_20261118_astronaut/validation.json": "7247dedfff64bb843fe51cf2284fe1b513a3add082331f165b7b47c7260b2271",
+        "episodes/seed_20261118_astronaut/route_trajectory/semantic_visibility_config.json": "3204ad29724ad3d10150bd5cd99f67b32f0e7a82e23521203278f14985928286",
+        "episodes/seed_20261118_astronaut/route_trajectory/semantic_visibility_enrichment.json": "b0f2a4c277995b4efa454967c7a83bcc7db5c5328e247f4372966039469b62be"
+      },
+      "instruction_style": "route_grounded",
+      "raw_trajectory": "episodes/seed_20261118_astronaut/trajectory",
+      "route_contract": "episodes/seed_20261118_astronaut/route_trajectory/route_contract.json",
+      "motion_controller": "smooth_v13",
+      "canonical_terminal_radius_m": 1.0,
+      "planned_stop_tolerance_m": 0.05,
+      "stationary_turns_allowed": false
+    }
+  ],
+  "training_ready": false,
+  "source_code_sha256": "e424de1bd81a4a4d3c8a0cab719175f9fa1f98412494358eae9762b0e3bc0e6b",
+  "policy_inputs_allowlist": [
+    "instruction",
+    "observation.rgb",
+    "observation.depth_m",
+    "history (strictly past same language episode)"
+  ],
+  "coordinates": "world Z-up metres; camera OpenCV right/down/forward; depth axial Z metres",
+  "controls": {
+    "dt_s": 0.2,
+    "max_v_mps": 0.4,
+    "max_abs_omega_radps": 0.32,
+    "horizon": 8,
+    "unique_terminal_stop": true
+  },
+  "split_rule": "layout seed -> split; all physical-trajectory language aliases inherit the same split",
+  "near_goal_stop_training_threshold_m": 1.0,
+  "evaluation_success_distance_m": 3.0,
+  "near_goal_stop_labels_provided": false,
+  "native_action_labels_provided": false,
+  "current_129_adapter_implemented": false,
+  "current_129_text_loss_supported": false,
+  "physics_scope": "collision-checked kinematic teacher; no tyre/soil dynamics; no learned-policy claim",
+  "motion_controller": "smooth_v13",
+  "canonical_terminal_radius_m": 1.0,
+  "planned_stop_tolerance_m": 0.05,
+  "stationary_turns_allowed": false,
+  "instruction_style": "route_grounded"
+}

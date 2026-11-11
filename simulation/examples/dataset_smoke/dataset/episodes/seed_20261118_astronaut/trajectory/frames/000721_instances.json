@@ -1,0 +1,24 @@
+{
+  "idToLabels": {
+    "0": "BACKGROUND",
+    "1": "UNLABELLED",
+    "2": "/World/SearchTargets/astronaut",
+    "5": "/World/SearchTargets/chinese_flag"
+  },
+  "idToSemantics": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "object_id": "astronaut",
+      "class": "astronaut"
+    },
+    "5": {
+      "object_id": "chinese_flag",
+      "class": "chinese_flag"
+    }
+  }
+}

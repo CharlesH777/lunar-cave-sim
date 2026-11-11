@@ -1,0 +1,46 @@
+{
+  "schema_version": "lunar_pipeline_delivery/16.1",
+  "created_unix_s": 1794374783.4118469,
+  "complete_pipeline_included": true,
+  "code": true,
+  "source_assets": true,
+  "terrain_template": true,
+  "example_layout": true,
+  "example_dataset": true,
+  "native_review": true,
+  "dataset_validation": {
+    "schema_version": "lunar_dataset_validation/11.0",
+    "passed": true,
+    "errors": [],
+    "episodes": [
+      {
+        "episode_id": "seed_20261118_astronaut",
+        "schema_version": "lunar_dataset_validation/11.0",
+        "passed": true,
+        "checks": 54051,
+        "errors": [],
+        "warnings": [],
+        "annotation_domain": "isaac_continuous",
+        "training_ready": false,
+        "current_129_adapter_implemented": false,
+        "current_129_text_loss_supported": false,
+        "scope": "offline real-observation/teacher integrity; no learned-policy or tyre-dynamics evaluation"
+      }
+    ],
+    "episode_count": 1,
+    "reader_row_count": 23730,
+    "training_ready": false,
+    "annotation_domain": "isaac_continuous",
+    "current_129_adapter_implemented": false,
+    "current_129_text_loss_supported": false
+  },
+  "credentials_included": false,
+  "model_weights_included": false,
+  "sdk_included": false,
+  "remote_runtime_validated": false,
+  "runtime_scope": "Isaac Sim 5.1 / Python 3.11; host environment must be checked independently",
+  "packet_revision": "16b",
+  "previous_seal_manifest_sha256": "fe0434dcb45e24579113b91f4c80295d80acce67366fbbd8fb0e34c7b4d9db43",
+  "consumer_guard_sha256": "8618e33b2bcbee5014711c84b695bbb452a2592f246951aebd7682685058e6b6",
+  "correction_document": "docs/DELIVERY_V16B_FIX.md"
+}

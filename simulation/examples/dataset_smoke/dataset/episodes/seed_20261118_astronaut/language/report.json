@@ -1,0 +1,77 @@
+{
+  "schema_version": "lunar_annotation_report/11.0",
+  "complete": true,
+  "source_sha256": "66b52f7f92c62750a2003febaee769f56720579f116e8378aa81116362584d6f",
+  "frame_count": 1130,
+  "selected_count": 5,
+  "cot_valid_count": 5,
+  "rejected_attempt_count": 0,
+  "generated_queries": true,
+  "llm_skipped": false,
+  "stop_reason": null,
+  "requests": [
+    {
+      "item_id": "seed_20261118_astronaut:000260",
+      "request_sha256": "b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002139
+    },
+    {
+      "item_id": "seed_20261118_astronaut:000275",
+      "request_sha256": "250151905c42b6c88e5b3b6c43c8eb961d87faa7bec9c68d91d2fa770c38cf12",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002046
+    },
+    {
+      "item_id": "seed_20261118_astronaut:000750",
+      "request_sha256": "fd3ccce7ee3a663cf4fe71646b68acd8ee565aa9fb2a6737fc589d62eb36e5aa",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002226
+    },
+    {
+      "item_id": "seed_20261118_astronaut:001025",
+      "request_sha256": "1466eae616955db304e0746f1c62308c381023c4efb2f185093d7d4eab60c368",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002193
+    },
+    {
+      "item_id": "seed_20261118_astronaut:001129",
+      "request_sha256": "dd9f925d1c0e43f0acd1de5a33b5d755c445d80c537dcd8a84e85f451f69ff5b",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002142
+    }
+  ],
+  "shared_cache_usage": {
+    "prompt_tokens": 42985,
+    "completion_tokens": 11376,
+    "estimated_cny": 0.41210999999999987,
+    "requests": 74,
+    "unresolved_requests": 0,
+    "unresolved_reserved_cny": 0.0,
+    "committed_cny": 0.41210999999999987
+  },
+  "annotation_domain": "isaac_continuous",
+  "training_ready": false,
+  "current_129_text_loss_supported": false,
+  "adapter_required": true,
+  "policy_inputs": [
+    "fixed instruction",
+    "current RGB-D",
+    "strictly past same-episode observations"
+  ],
+  "cot_style": "first_person",
+  "instruction_style": "route_grounded",
+  "query_count": 20,
+  "query_protocol_sha256": "3f95379fc1e80411e6a219c583debf69db12d6ba53a4b2c0125c0d588133a6b8",
+  "query_model": "qwen/qwen3.8-max",
+  "query_mode": "compiled",
+  "query_generation_method": "compiled",
+  "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d",
+  "provider_generated_queries": false,
+  "fresh_query_HTTP_requests": 0
+}

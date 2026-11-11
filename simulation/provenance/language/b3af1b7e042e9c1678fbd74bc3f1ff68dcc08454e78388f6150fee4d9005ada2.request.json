@@ -1,0 +1,63 @@
+{
+  "endpoint": "https://api.ppio.com/openai/v1/chat/completions",
+  "prompt": "给真实月洞导航的当前帧写一句第一人称的观察与动作说明。返回四字段 JSON，progress 从当前可用选项中选，action_intent 逐字照抄当前实际动作。observation 与 decision_reason 从 allowed_pairs 选择同一对短句，依当前图像选真实观察，保持“我看到了…，我应该…”的口吻。图片先当前帧，若有第二张则是真实上一帧。不得把上一帧或未来画面当作当前事实。不要添加物品、方向、坐标、距离或动作解释。停下来指当前停止命令。\n固定任务：找到宇航员，它在洞穴深处。进入洞穴，在第一个分叉向右转，最后靠近宇航员并停下来。\n当前可用说法：{\"progress\": [\"到达洞口\"], \"action_intent\": \"move_forward\", \"allowed_pairs\": [{\"observation\": \"我看到了洞口\", \"decision_reason\": \"我应该进去\"}]}\n该帧已核验的优先说法：我看到了洞口，我应该进去。",
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "progress",
+      "observation",
+      "decision_reason",
+      "action_intent"
+    ],
+    "properties": {
+      "progress": {
+        "type": "string",
+        "enum": [
+          "到达洞口",
+          "进入洞穴",
+          "洞内搜索",
+          "接近目标",
+          "准备停止",
+          "暂无法确认"
+        ]
+      },
+      "observation": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 60
+      },
+      "decision_reason": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 80
+      },
+      "action_intent": {
+        "type": "string",
+        "enum": [
+          "move_forward",
+          "turn_left",
+          "turn_right",
+          "explore",
+          "stop",
+          "hold"
+        ]
+      }
+    }
+  },
+  "options": {
+    "model": "qwen/qwen3.8-27b",
+    "max_tokens": 700,
+    "temperature": 0.2,
+    "enable_thinking": false
+  },
+  "image_sha256": [
+    "f7768077385d233644a76a2d12e13caa3441744fb0bf11594455df3754ea52eb",
+    "27842daf5333157791a7a678745c4e377d4310ab4b242c5b1b099377d3a6cdee"
+  ],
+  "protocol": "lunar_ppio_public/11.0",
+  "request_sha256": "b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2",
+  "input_token_upper_bound": 34846,
+  "reserved_maximum_cny": 0.112938,
+  "automatic_retries": false
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "center_xyz_m": [
+      -19.06112531978006,
+      -16.37870201576006,
+      -0.9597575175984339
+    ],
+    "scale_xyz_m": [
+      1.0455000446045586,
+      0.8704168750675871,
+      0.6998335309026231
+    ],
+    "seed": 672247042,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -8.847629975505226,
+      16.618678147756224,
+      -0.6971022376765897
+    ],
+    "scale_xyz_m": [
+      0.29346680070740383,
+      0.2658371530333446,
+      0.22021523957396028
+    ],
+    "seed": 733262728,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -19.11098946721022,
+      -15.169883878264097,
+      -1.0157412615116799
+    ],
+    "scale_xyz_m": [
+      0.9961832913183271,
+      1.075879487275574,
+      0.5479649819296901
+    ],
+    "seed": 965970318,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -24.98753505712904,
+      -15.08566991030564,
+      -1.0857522490072842
+    ],
+    "scale_xyz_m": [
+      0.661489321103163,
+      0.9772466703686019,
+      0.39290405841130754
+    ],
+    "seed": 880059127,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -21.726079240989424,
+      -13.170352066333553,
+      -1.2554651701655746
+    ],
+    "scale_xyz_m": [
+      0.9017406402333932,
+      0.6043077008982796,
+      0.4971630532655743
+    ],
+    "seed": 398264908,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -14.336016964734522,
+      11.248777428159457,
+      -1.026938106112324
+    ],
+    "scale_xyz_m": [
+      0.3643184075666627,
+      0.22914793948769316,
+      0.2615172591378972
+    ],
+    "seed": 28983755,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -36.91326211260267,
+      7.9588129563253265,
+      -0.7852720482435185
+    ],
+    "scale_xyz_m": [
+      0.5418341197907446,
+      0.5579859492979636,
+      0.21945712422392677
+    ],
+    "seed": 167853071,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -38.262837951278186,
+      4.979742789586135,
+      -0.523923048111193
+    ],
+    "scale_xyz_m": [
+      0.8943833526903974,
+      0.9722330021901486,
+      0.6679606522668536
+    ],
+    "seed": 755141335,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -11.191925791084936,
+      19.486504199863088,
+      -0.8601890990096517
+    ],
+    "scale_xyz_m": [
+      0.7756568890583487,
+      0.42203923113590214,
+      0.3814281814113105
+    ],
+    "seed": 275262142,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -16.05603837278819,
+      -15.970199866245611,
+      -1.1790942244037503
+    ],
+    "scale_xyz_m": [
+      0.37926578596985355,
+      0.27632926803141034,
+      0.22874863242175947
+    ],
+    "seed": 335944545,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -24.231236516703234,
+      -18.23049398697863,
+      -1.0111435563003153
+    ],
+    "scale_xyz_m": [
+      0.9682772965696584,
+      1.3153436497610744,
+      0.5840799450183486
+    ],
+    "seed": 687065001,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -19.748749627240457,
+      -14.30097623768043,
+      -1.1554386836545054
+    ],
+    "scale_xyz_m": [
+      1.0404946064930942,
+      0.9123425120355697,
+      0.44722549958855357
+    ],
+    "seed": 218454235,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -44.922606651261106,
+      10.158350496972112,
+      -1.1521995165503796
+    ],
+    "scale_xyz_m": [
+      0.4063563649184781,
+      0.35835832587776745,
+      0.25474999369810264
+    ],
+    "seed": 144799567,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -17.723249217537564,
+      -16.88401558910958,
+      -0.654685999993053
+    ],
+    "scale_xyz_m": [
+      1.2691544883278483,
+      0.9305350375434077,
+      1.1351456473941386
+    ],
+    "seed": 118408662,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -37.09669630188517,
+      8.884165224461093,
+      -0.6804279257825583
+    ],
+    "scale_xyz_m": [
+      0.7514980856049418,
+      0.6971264358130599,
+      0.4316176485699267
+    ],
+    "seed": 596866132,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -37.05720114173157,
+      13.32736090076409,
+      -0.9734467003051467
+    ],
+    "scale_xyz_m": [
+      0.5054103012432155,
+      0.4332830309387296,
+      0.338601148118272
+    ],
+    "seed": 965975263,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -15.016297545242644,
+      13.781026505632655,
+      -0.8533249282558866
+    ],
+    "scale_xyz_m": [
+      1.1610239517422476,
+      0.9710927875285404,
+      0.6260975419073723
+    ],
+    "seed": 382221658,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -12.817281143435936,
+      14.142485719575966,
+      -0.6352119675273775
+    ],
+    "scale_xyz_m": [
+      1.1045541134822379,
+      0.6739864007676463,
+      0.8173678812712435
+    ],
+    "seed": 527681747,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -22.8840542717934,
+      -16.147945796799096,
+      -1.076823415334165
+    ],
+    "scale_xyz_m": [
+      0.8402278783713926,
+      0.7532561641469749,
+      0.4068506569477078
+    ],
+    "seed": 712645744,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -32.22494875200425,
+      5.425847501619963,
+      -0.9014909966007837
+    ],
+    "scale_xyz_m": [
+      0.9679750555783907,
+      0.6630874803868647,
+      0.3554999504007231
+    ],
+    "seed": 1041244378,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -16.25789722998662,
+      15.758201436547242,
+      -0.8240756664087803
+    ],
+    "scale_xyz_m": [
+      1.5295018089404555,
+      1.1710561638477863,
+      0.7709084056876914
+    ],
+    "seed": 698495367,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -2.575501789349233,
+      16.49924397361055,
+      -0.7022082725969263
+    ],
+    "scale_xyz_m": [
+      1.5495950742671223,
+      0.8898153644238175,
+      0.5054818011871611
+    ],
+    "seed": 179737715,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -10.346437037567508,
+      13.023897449661288,
+      -0.6816849468716188
+    ],
+    "scale_xyz_m": [
+      0.5195617905881703,
+      0.6185865386931998,
+      0.29957405246149965
+    ],
+    "seed": 122164164,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -11.592642493215621,
+      7.765467589213825,
+      -0.66699613656842
+    ],
+    "scale_xyz_m": [
+      1.5780476983174316,
+      0.9365463768057011,
+      1.063793675051045
+    ],
+    "seed": 979125087,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -20.333051592313993,
+      -17.349204636194422,
+      -1.1236934104332825
+    ],
+    "scale_xyz_m": [
+      0.5881875904331425,
+      0.8235918005542635,
+      0.34331523160815075
+    ],
+    "seed": 1066713096,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -8.94129340601712,
+      13.360974869920483,
+      -0.611163662812214
+    ],
+    "scale_xyz_m": [
+      0.5882055687137248,
+      0.4213831903017288,
+      0.3572968858859299
+    ],
+    "seed": 745729630,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -35.65231165969624,
+      4.126644641738568,
+      -0.7654819784508892
+    ],
+    "scale_xyz_m": [
+      0.43941351431198056,
+      0.4140040270641999,
+      0.3081883735737232
+    ],
+    "seed": 961276096,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -12.176459894140336,
+      12.29904217916853,
+      -0.6638900752066115
+    ],
+    "scale_xyz_m": [
+      0.8169904908085028,
+      0.7525371593693662,
+      0.4892600802627246
+    ],
+    "seed": 1048507049,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -34.87634061230319,
+      4.7335870794210635,
+      -0.7827435671990073
+    ],
+    "scale_xyz_m": [
+      0.4620445242943939,
+      0.5601759410298007,
+      0.39127446945087585
+    ],
+    "seed": 573367673,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -9.955264031333305,
+      16.336646012091354,
+      -0.6043942556811572
+    ],
+    "scale_xyz_m": [
+      0.7097735779967683,
+      0.49965505649948966,
+      0.3746254165009713
+    ],
+    "seed": 1061776607,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -21.859825812067466,
+      -20.55577180095654,
+      -1.0429805681953526
+    ],
+    "scale_xyz_m": [
+      1.058370375861388,
+      1.0673623914215375,
+      0.5720352540201301
+    ],
+    "seed": 960646178,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -18.567610867425792,
+      -22.106060311532033,
+      -1.0076737163192222
+    ],
+    "scale_xyz_m": [
+      1.1761711622474564,
+      1.4746297580292538,
+      0.6585733107579149
+    ],
+    "seed": 126966784,
+    "group": "pit_floor_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      6.415395419821124,
+      -24.81962096563027,
+      55.76245517806785
+    ],
+    "scale_xyz_m": [
+      0.19535031815653647,
+      0.1667627547749039,
+      0.1775909508821477
+    ],
+    "seed": 676119240,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -40.74258243652757,
+      26.61335119061156,
+      53.97958396407429
+    ],
+    "scale_xyz_m": [
+      0.34741240052904687,
+      0.5116624490422206,
+      0.350455185442405
+    ],
+    "seed": 765675151,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -29.7112133891755,
+      35.821785550416514,
+      56.91301357760747
+    ],
+    "scale_xyz_m": [
+      0.35316105925423086,
+      0.3143782771664881,
+      0.18651807361766926
+    ],
+    "seed": 618818959,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -54.362524083232884,
+      -19.0338862245556,
+      55.48940375416731
+    ],
+    "scale_xyz_m": [
+      0.5026316440809699,
+      0.25337822751371253,
+      0.15850095710594514
+    ],
+    "seed": 949655119,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      1.5075490234334445,
+      -26.511985741158036,
+      55.18610422839748
+    ],
+    "scale_xyz_m": [
+      0.4038046481678415,
+      0.5484531657010197,
+      0.24173708535697666
+    ],
+    "seed": 857607043,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -44.923967533942076,
+      -27.477404885763114,
+      55.94376557428414
+    ],
+    "scale_xyz_m": [
+      0.366907058616052,
+      0.4721386273886576,
+      0.31446291331285586
+    ],
+    "seed": 208540894,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -48.50250125111391,
+      -18.749464997917894,
+      53.21210424714149
+    ],
+    "scale_xyz_m": [
+      0.31771452093815,
+      0.21999863487443616,
+      0.12885998293986603
+    ],
+    "seed": 167304931,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -39.762948687548736,
+      29.748493980919292,
+      55.23908825454161
+    ],
+    "scale_xyz_m": [
+      0.34506976981672277,
+      0.23800455055093847,
+      0.175766099224729
+    ],
+    "seed": 975317601,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -54.445229204136496,
+      -20.729341122626114,
+      56.13398303605038
+    ],
+    "scale_xyz_m": [
+      0.2981846302378262,
+      0.28335455691934586,
+      0.2537509991872237
+    ],
+    "seed": 392378782,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      12.74719722597122,
+      17.009143362775795,
+      56.22531373769925
+    ],
+    "scale_xyz_m": [
+      0.28364846202453087,
+      0.20738043941058212,
+      0.22429839529330534
+    ],
+    "seed": 47206632,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -37.96822755026271,
+      32.11366719176959,
+      56.28479135849651
+    ],
+    "scale_xyz_m": [
+      0.464843287806113,
+      0.3930519714078882,
+      0.31537436980520334
+    ],
+    "seed": 832148136,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -55.789536747055685,
+      -19.565104966346404,
+      56.118939151336676
+    ],
+    "scale_xyz_m": [
+      0.30133651452388194,
+      0.21258170301311757,
+      0.13674408036475827
+    ],
+    "seed": 619551717,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      3.5409674998451734,
+      -19.54829387521918,
+      53.11282200897212
+    ],
+    "scale_xyz_m": [
+      0.6798785821203954,
+      0.49906818044587853,
+      0.51971981992102
+    ],
+    "seed": 129133872,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      10.966894882639785,
+      -18.98994548962457,
+      55.63231133916146
+    ],
+    "scale_xyz_m": [
+      0.5877773184866097,
+      0.5346734946713954,
+      0.379596379238533
+    ],
+    "seed": 518143030,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -31.733114572440364,
+      37.68888396217603,
+      57.763390648547166
+    ],
+    "scale_xyz_m": [
+      0.8080941005148184,
+      0.42231275695500353,
+      0.4852865228416278
+    ],
+    "seed": 388468198,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -48.11830741322574,
+      -24.703302175186188,
+      55.51935917237229
+    ],
+    "scale_xyz_m": [
+      0.1946679281422516,
+      0.24046008117647527,
+      0.1649390671315616
+    ],
+    "seed": 158973348,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -53.566442275728036,
+      -12.211497116984912,
+      53.31871306462452
+    ],
+    "scale_xyz_m": [
+      0.2910489242969173,
+      0.22362864823864723,
+      0.1355153380284544
+    ],
+    "seed": 706902299,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -30.451343458499636,
+      32.10221544464273,
+      55.27173620562308
+    ],
+    "scale_xyz_m": [
+      0.29617212158482187,
+      0.17285474088631192,
+      0.16140618098023893
+    ],
+    "seed": 334424616,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      8.30161489353528,
+      21.31064453496799,
+      55.30241056071208
+    ],
+    "scale_xyz_m": [
+      0.22306170626820515,
+      0.20612788160584788,
+      0.09834939345483548
+    ],
+    "seed": 204786124,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -33.801268532982554,
+      37.70227401446269,
+      57.932847500840865
+    ],
+    "scale_xyz_m": [
+      0.7801785953712109,
+      0.5351647839205312,
+      0.4386839982925354
+    ],
+    "seed": 734794963,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -51.7789099704599,
+      -27.526846217889933,
+      57.31312450845195
+    ],
+    "scale_xyz_m": [
+      0.21578731119660102,
+      0.2155208464923417,
+      0.13406680404334032
+    ],
+    "seed": 415184698,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -28.76952346742823,
+      34.0925998046148,
+      56.119384482369064
+    ],
+    "scale_xyz_m": [
+      0.1888010186568041,
+      0.29552886469374784,
+      0.1814365610744848
+    ],
+    "seed": 522350909,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -0.3771847576367122,
+      -25.367927291460568,
+      54.134555075786935
+    ],
+    "scale_xyz_m": [
+      0.6280642743838372,
+      0.5792367309172459,
+      0.28604308315378796
+    ],
+    "seed": 550090073,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      10.76636491547977,
+      -9.684677226849995,
+      53.37190583171902
+    ],
+    "scale_xyz_m": [
+      0.8683736770631618,
+      0.5905582667962699,
+      0.4844996890290528
+    ],
+    "seed": 390117732,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      8.545831411592989,
+      -21.486567939620524,
+      55.58732079510188
+    ],
+    "scale_xyz_m": [
+      0.6641147895127922,
+      0.8274171697427471,
+      0.4139960811153011
+    ],
+    "seed": 337877378,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      16.164830905877828,
+      18.698434819816,
+      57.49307124428603
+    ],
+    "scale_xyz_m": [
+      0.5546501344608522,
+      0.4364633596412627,
+      0.38579908104888744
+    ],
+    "seed": 4385880,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      10.732957230417838,
+      15.5244096062007,
+      55.180812856759474
+    ],
+    "scale_xyz_m": [
+      0.5554155499660635,
+      0.4542064282358921,
+      0.2520801008804336
+    ],
+    "seed": 17897943,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      -51.53547589888282,
+      -28.287330584397928,
+      57.73195516130361
+    ],
+    "scale_xyz_m": [
+      0.7460536513868082,
+      0.5681834418597916,
+      0.46843029057698954
+    ],
+    "seed": 651157569,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      10.18553649362741,
+      -21.666966059242437,
+      56.03255768649427
+    ],
+    "scale_xyz_m": [
+      0.3926367605774053,
+      0.1937233424409476,
+      0.14511514114475182
+    ],
+    "seed": 1030070058,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      8.927224098321098,
+      -21.365696478947466,
+      55.62529247989911
+    ],
+    "scale_xyz_m": [
+      0.5538143145839096,
+      0.28647392625098794,
+      0.35921633664075947
+    ],
+    "seed": 619670154,
+    "group": "surface_rim",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      49.054917720631614,
+      5.005083086581583,
+      -1.4337848495404018
+    ],
+    "scale_xyz_m": [
+      0.58444279840508,
+      0.46714612825921875,
+      0.39790733197011935
+    ],
+    "seed": 437231499,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      50.97620993673963,
+      5.882093621533834,
+      -1.4788901395886562
+    ],
+    "scale_xyz_m": [
+      0.4292692257104951,
+      0.32343988012448005,
+      0.237871524327855
+    ],
+    "seed": 1023126627,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      20.722583354661868,
+      -7.486379100417478,
+      -1.2937629502691772
+    ],
+    "scale_xyz_m": [
+      0.7718644281829881,
+      0.38300410736744805,
+      0.2868900896270623
+    ],
+    "seed": 646936232,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      20.270832873131326,
+      -5.963070604422783,
+      -1.0329926328139365
+    ],
+    "scale_xyz_m": [
+      0.6515600904020236,
+      0.8259178197158702,
+      0.34674673854159543
+    ],
+    "seed": 225264037,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      64.05440436254884,
+      -5.4945341356768855,
+      -1.4437251537521076
+    ],
+    "scale_xyz_m": [
+      0.5496926166186611,
+      0.6898157638552768,
+      0.252148648268561
+    ],
+    "seed": 332951640,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      49.688023875737144,
+      5.276966870335624,
+      -1.4031997830652627
+    ],
+    "scale_xyz_m": [
+      0.8528668951823831,
+      0.5506854706778845,
+      0.41790507883476125
+    ],
+    "seed": 499644524,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      50.71804768167231,
+      6.496690512064751,
+      -1.5421057551375452
+    ],
+    "scale_xyz_m": [
+      0.35624018157991794,
+      0.23523377065816592,
+      0.15131203559758308
+    ],
+    "seed": 506564621,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      67.68798868819275,
+      -4.964915710123233,
+      -1.4643388735273597
+    ],
+    "scale_xyz_m": [
+      0.3733918055750541,
+      0.48319703594807883,
+      0.2033766643267407
+    ],
+    "seed": 257665546,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      66.64650373201782,
+      -6.365015956452726,
+      -1.4300938566098313
+    ],
+    "scale_xyz_m": [
+      0.49626109452589945,
+      0.3688773846784866,
+      0.23407514545947214
+    ],
+    "seed": 253630418,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      69.42033180445388,
+      -6.286614812911877,
+      -1.4624246606843676
+    ],
+    "scale_xyz_m": [
+      0.44311780182191596,
+      0.35875934141058674,
+      0.24107975201572748
+    ],
+    "seed": 646416589,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      64.60445148437023,
+      -6.05321881435279,
+      -1.4816020252480167
+    ],
+    "scale_xyz_m": [
+      0.30366024081980547,
+      0.28831676462897,
+      0.1553496533928767
+    ],
+    "seed": 52212839,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      24.488402832490138,
+      -6.194198370592879,
+      -1.1123115564771666
+    ],
+    "scale_xyz_m": [
+      0.6807271763690353,
+      0.567015227419546,
+      0.4808119229373322
+    ],
+    "seed": 835790319,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      51.91284838366309,
+      4.5832570330679205,
+      -1.5386984856506831
+    ],
+    "scale_xyz_m": [
+      0.4320929576671258,
+      0.42327412801155145,
+      0.17010764498213163
+    ],
+    "seed": 199179531,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      20.324965928956647,
+      -5.93607097786903,
+      -0.9869064795054636
+    ],
+    "scale_xyz_m": [
+      0.5263407424762113,
+      0.7700096917421672,
+      0.48677520191923906
+    ],
+    "seed": 465478576,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      52.71186478373635,
+      5.707349981319509,
+      -1.4675694670709303
+    ],
+    "scale_xyz_m": [
+      0.6794613649296762,
+      0.3949916339703649,
+      0.2577590343853617
+    ],
+    "seed": 857267808,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      18.47260269848545,
+      -6.666521413666681,
+      -1.30645820956647
+    ],
+    "scale_xyz_m": [
+      0.2711432665289205,
+      0.22851671955121805,
+      0.20664517035276728
+    ],
+    "seed": 612155114,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      69.15827906018814,
+      -5.384005651246356,
+      -1.460692922872242
+    ],
+    "scale_xyz_m": [
+      0.7823082456630178,
+      0.4927908038621043,
+      0.32197511739049595
+    ],
+    "seed": 967196808,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      73.2188251493406,
+      -6.209997039572081,
+      -1.541447294208916
+    ],
+    "scale_xyz_m": [
+      0.2879797384832371,
+      0.3242693314974944,
+      0.255452221961793
+    ],
+    "seed": 617511806,
+    "group": "cavern_side_talus",
+    "provenance": "authored deterministic position and shape; not measured lunar rock"
+  },
+  {
+    "center_xyz_m": [
+      14.0,
+      3.2,
+      -0.9695943859719394
+    ],
+    "scale_xyz_m": [
+      1.35,
+      1.0,
+      0.92
+    ],
+    "seed": 20362113,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      15.6,
+      3.9000000000000004,
+      -1.2746529664324542
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 20463116,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      19.7,
+      2.5,
+      -1.1087942470519296
+    ],
+    "scale_xyz_m": [
+      1.15,
+      0.85,
+      0.85
+    ],
+    "seed": 20564119,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      21.3,
+      3.2,
+      -1.2875072238739411
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 20665122,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      36.0,
+      -3.3,
+      -1.0180417498765613
+    ],
+    "scale_xyz_m": [
+      1.25,
+      0.92,
+      1.02
+    ],
+    "seed": 20766125,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      37.6,
+      -2.5999999999999996,
+      -1.2881184257640939
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 20867128,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      42.5,
+      -2.5,
+      -0.937959482886869
+    ],
+    "scale_xyz_m": [
+      1.45,
+      1.0,
+      0.95
+    ],
+    "seed": 20968131,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      44.1,
+      -1.8,
+      -1.1300765247790527
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 21069134,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      61.1,
+      2.9,
+      -1.0508186308547136
+    ],
+    "scale_xyz_m": [
+      1.2,
+      0.95,
+      0.86
+    ],
+    "seed": 21170137,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      62.7,
+      3.5999999999999996,
+      -1.0826734948941907
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 21271140,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      69.6,
+      -2.2,
+      -1.0297568438914975
+    ],
+    "scale_xyz_m": [
+      1.2,
+      0.9,
+      0.88
+    ],
+    "seed": 21372143,
+    "group": "v10_large_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      71.19999999999999,
+      -1.5000000000000002,
+      -1.205988249224537
+    ],
+    "scale_xyz_m": [
+      0.65,
+      0.51,
+      0.46
+    ],
+    "seed": 21473146,
+    "group": "v10_medium_collapse",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      -7.0,
+      -5.0,
+      -0.9984085825465219
+    ],
+    "scale_xyz_m": [
+      1.4,
+      1.05,
+      1.0
+    ],
+    "seed": 21574149,
+    "group": "v10_pit_boulder",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      -4.8,
+      -4.2,
+      -1.2008385347781108
+    ],
+    "scale_xyz_m": [
+      0.75,
+      0.6,
+      0.54
+    ],
+    "seed": 21675152,
+    "group": "v10_pit_boulder",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      46.0,
+      23.0,
+      -1.044408364006156
+    ],
+    "scale_xyz_m": [
+      1.05,
+      0.8,
+      0.8
+    ],
+    "seed": 21776155,
+    "group": "v10_branch_obstacle",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      47.2,
+      23.8,
+      -1.3065353658666519
+    ],
+    "scale_xyz_m": [
+      0.58,
+      0.46,
+      0.42
+    ],
+    "seed": 21877158,
+    "group": "v10_branch_rubble",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      55.0,
+      36.0,
+      -1.2595264708098162
+    ],
+    "scale_xyz_m": [
+      0.95,
+      0.78,
+      0.78
+    ],
+    "seed": 21978161,
+    "group": "v10_branch_obstacle",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      56.2,
+      36.8,
+      -1.4437157591765315
+    ],
+    "scale_xyz_m": [
+      0.58,
+      0.46,
+      0.42
+    ],
+    "seed": 22079164,
+    "group": "v10_branch_rubble",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      63.0,
+      39.0,
+      -1.2385963186468292
+    ],
+    "scale_xyz_m": [
+      1.1,
+      0.82,
+      0.85
+    ],
+    "seed": 22180167,
+    "group": "v10_branch_obstacle",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  },
+  {
+    "center_xyz_m": [
+      64.2,
+      39.8,
+      -1.4671155695934976
+    ],
+    "scale_xyz_m": [
+      0.58,
+      0.46,
+      0.42
+    ],
+    "seed": 22281170,
+    "group": "v10_branch_rubble",
+    "provenance": "v10 authored collapse boulder obstacle; no path-dependent removal"
+  }
+]

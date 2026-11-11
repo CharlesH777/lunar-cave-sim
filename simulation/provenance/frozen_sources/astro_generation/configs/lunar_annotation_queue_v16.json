@@ -1,0 +1,22 @@
+{
+  "schema_version": "lunar_annotation_queue/16.0",
+  "consumer_revision": "v16",
+  "producer_root": null,
+  "output": null,
+  "ppio_env": null,
+  "provider_cache": null,
+  "unit_config": "configs/lunar_dataset_pipeline_v14.json",
+  "pipeline_script": "lunar_dataset_pipeline_v14.py",
+  "query_bank": "configs/lunar_query_bank_v15.json",
+  "requested_units": 100,
+  "expected_layout_splits": {"train": 20, "val": 3, "test": 2},
+  "publish_host": "lab-a100-20",
+  "remote_root": "/data/zhenghengcao/lunar_cave_query100_20261111_v14",
+  "catalog_unit": "catalog_v16",
+  "enable_raw_preseed": true,
+  "poll_seconds": 5,
+  "cpu_pythonpaths": [],
+  "cpu_library_paths": [],
+  "preload_cpp_runtime": true,
+  "retention": {"enabled": false, "below_free_gib": 6, "target_free_gib": 8, "keep_review_units": 4}
+}

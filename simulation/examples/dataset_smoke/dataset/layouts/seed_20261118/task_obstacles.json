@@ -1,0 +1,54 @@
+[
+  {
+    "id": "astronaut",
+    "kind": "search_target",
+    "class_name": "astronaut",
+    "center_xy_m": [
+      57.21715587720833,
+      5.677684442297483
+    ],
+    "xy_radius_m": 0.6590621904951944,
+    "z_min_m": -1.523281320806915,
+    "z_max_m": 0.3487186589126048,
+    "source_radius": "full authored object XY circumcircle"
+  },
+  {
+    "id": "lunar_rover",
+    "kind": "search_target",
+    "class_name": "lunar_rover",
+    "center_xy_m": [
+      41.18362876405232,
+      16.725425289428046
+    ],
+    "xy_radius_m": 0.856891,
+    "z_min_m": -1.309051751639636,
+    "z_max_m": 0.03382167956908658,
+    "source_radius": "full authored object XY circumcircle"
+  },
+  {
+    "id": "lunar_base",
+    "kind": "search_target",
+    "class_name": "lunar_base",
+    "center_xy_m": [
+      9.32926697834657,
+      2.215606604910204
+    ],
+    "xy_radius_m": 2.221474446034941,
+    "z_min_m": -1.2515284293816058,
+    "z_max_m": 1.6949465638950687,
+    "source_radius": "full authored object XY circumcircle"
+  },
+  {
+    "id": "chinese_flag",
+    "kind": "search_target",
+    "class_name": "chinese_flag",
+    "center_xy_m": [
+      57.3998083570182,
+      28.98330267709273
+    ],
+    "xy_radius_m": 0.9680521700845632,
+    "z_min_m": -1.670421860893589,
+    "z_max_m": 0.47557813803352733,
+    "source_radius": "full authored object XY circumcircle"
+  }
+]

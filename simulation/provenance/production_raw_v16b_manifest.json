@@ -1,0 +1,631 @@
+{
+  "source_original_path": "/home/charles/WORK/08_operations/lunar_query100_20261111_v16b/raw_producer/source",
+  "files": [
+    {
+      "path": "PHYSICAL_SOURCE_SNAPSHOT.json",
+      "bytes": 19579,
+      "sha256": "baf1618ffdf582fae8357ecd6f78f74496402742373b802642001c2afe4a1215"
+    },
+    {
+      "path": "assets/ASSET_SOURCES.json",
+      "bytes": 10156,
+      "sha256": "02c78e7ecae4002b557820c7204f4cf60663622dc911226a5beab286ab66a254"
+    },
+    {
+      "path": "assets/GRAVEL_V5_SOURCES.json",
+      "bytes": 2292,
+      "sha256": "f0021216298bfd093fafee05749572e4b01669fd75246d28a8d5138b684d9693"
+    },
+    {
+      "path": "assets/objects_v11/OBJECT_ASSETS.json",
+      "bytes": 10598,
+      "sha256": "ca5a4fc427a055ba76ebec01a3e30c285fcac6590a9a0360e38eccb8bacd3f9a"
+    },
+    {
+      "path": "assets/objects_v11/README.md",
+      "bytes": 389,
+      "sha256": "a01964c6ba93e003b16e2b00abbb8a1eef0be81589e9a9a2b851f522b0fc6c85"
+    },
+    {
+      "path": "assets/objects_v11/astronaut.usdc",
+      "bytes": 1297274,
+      "sha256": "d0c3f62f2f7cce7d8e895942575bbfa139cde4ac08ba5bab1ac4e82010852046"
+    },
+    {
+      "path": "assets/objects_v11/chinese_flag.usdc",
+      "bytes": 66139,
+      "sha256": "0e87fde76d2adc6c0d2760648828677fd8f1fb0bf8a1b4fced46aac425bf54eb"
+    },
+    {
+      "path": "assets/objects_v11/lunar_base.usdc",
+      "bytes": 348530,
+      "sha256": "893647848499201d15964ec57b718666d702fa413e36976d10dea192c8e64fd8"
+    },
+    {
+      "path": "assets/objects_v11/lunar_rover.usdc",
+      "bytes": 81792,
+      "sha256": "60d75afbae45c2f7b1bb5733edb188e539b3afa762f26c03c09076a07fe119f6"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_00_079652876fd2.png",
+      "bytes": 41826,
+      "sha256": "d64f6c2f2bfc487678f24baba34e664da31a47bf53d718a1afa253eb2dd8f88e"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_00_079652876fd2_return.png",
+      "bytes": 35954,
+      "sha256": "aaf7939de5055136dba4670fd371eac745c658ae2c86827c6f405d739ae7d5f6"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_00_0ed49e806b3b.png",
+      "bytes": 43384,
+      "sha256": "59b99c8565a0e25279685f0a91c737df19eaa356be570467debbbc94e5c24487"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_00_0ed49e806b3b_return.png",
+      "bytes": 35954,
+      "sha256": "aaf7939de5055136dba4670fd371eac745c658ae2c86827c6f405d739ae7d5f6"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_11b7b94291cf.png",
+      "bytes": 41165,
+      "sha256": "8989a41c8dd92f7ae6eec916901fbc78af5ff233b0d2ff9b14e0d470f8736556"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_11b7b94291cf_return.png",
+      "bytes": 35355,
+      "sha256": "0c539fc0e1f2d4ea9d16e3176c7aa1566bb221d15cc60a62a2726ed15301e3e1"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_5e611af4e4a1.png",
+      "bytes": 39541,
+      "sha256": "2a098ba1fa110e2f9fd5694d819ef59a0e4f97c4ab0baed3d4f3d03c76089e21"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_5e611af4e4a1_return.png",
+      "bytes": 36171,
+      "sha256": "a244b675cd8b7f3587744f8587538c7f04b10b6956cffde2d5a3b778c4c1aa81"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_7763c9b3cc93.png",
+      "bytes": 42557,
+      "sha256": "e29d67684e69f592534e177f1ccd4ee6b5e58ca99921968d0eced61973df1472"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_7763c9b3cc93_return.png",
+      "bytes": 36599,
+      "sha256": "884beecfbf20965de509bda3f174140f3c6e24e7a782ecfa0405e67794862289"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_9af6c55bb5eb.png",
+      "bytes": 44166,
+      "sha256": "bb8e0f09757746991e513060bc78498de168503e1cfc78a977b42a171c9dc1f3"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_9af6c55bb5eb_return.png",
+      "bytes": 36599,
+      "sha256": "884beecfbf20965de509bda3f174140f3c6e24e7a782ecfa0405e67794862289"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_a8b68f042584.png",
+      "bytes": 39475,
+      "sha256": "5c6291f1f3df2e800cc6e4aae4932ef6ccc0c53d931da74e82e8ae69c179b912"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_a8b68f042584_return.png",
+      "bytes": 36171,
+      "sha256": "a244b675cd8b7f3587744f8587538c7f04b10b6956cffde2d5a3b778c4c1aa81"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_bfae61a6b5f4.png",
+      "bytes": 42807,
+      "sha256": "280afd2b478b4291d7f6ab0ebbccdf9059b59787f929f7e38934b163de100932"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_bfae61a6b5f4_return.png",
+      "bytes": 35355,
+      "sha256": "0c539fc0e1f2d4ea9d16e3176c7aa1566bb221d15cc60a62a2726ed15301e3e1"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_c674d96cfddd.png",
+      "bytes": 40971,
+      "sha256": "78d245feb660e06534729aa81c7a40064ea0591769738ab4f34bc2af3e9a9883"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_c674d96cfddd_return.png",
+      "bytes": 35108,
+      "sha256": "f521f2fe9dd70c892f4340e07ff897e2b8d67bb8bbef8132d6c35d7945e2f3f0"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_faa17a55d613.png",
+      "bytes": 37768,
+      "sha256": "f8fa0d4bd80ab2fbec81ec5ca472824f5d7ec3566c360b1a04db297bc12ecb4b"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_01_faa17a55d613_return.png",
+      "bytes": 31685,
+      "sha256": "e69280e7eb252fa5b9e0f97ef8cee1ec80ef17761e1a25e0e4c81c7788d77f6d"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_010e5182b249.png",
+      "bytes": 40866,
+      "sha256": "74156a3f4227b089e46edeec0032715021cd4236fe561628d29694bea44fc681"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_010e5182b249_return.png",
+      "bytes": 34958,
+      "sha256": "44847ee6ffacc7937aa4a8dc8dc4a4cb3bd96b34a9eae27c40ab08925113b697"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_2b6c9af62d9d.png",
+      "bytes": 42453,
+      "sha256": "f4bed84d49f6558ef4901651762c8aa904543a5efdec1c0e7fe9f97d182eeefb"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_2b6c9af62d9d_return.png",
+      "bytes": 34958,
+      "sha256": "44847ee6ffacc7937aa4a8dc8dc4a4cb3bd96b34a9eae27c40ab08925113b697"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_b55b390cf088.png",
+      "bytes": 38282,
+      "sha256": "7982802709258597d0b035f517be5ba046851063bd009ed09a0615f91cc36efc"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_b55b390cf088_return.png",
+      "bytes": 34958,
+      "sha256": "44847ee6ffacc7937aa4a8dc8dc4a4cb3bd96b34a9eae27c40ab08925113b697"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_e740f9fbf351.png",
+      "bytes": 43968,
+      "sha256": "8a433a880da6c7ad3a363fa5ca3731f29179f19680325b7378c5e854ee8dce16"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_02_e740f9fbf351_return.png",
+      "bytes": 36402,
+      "sha256": "a5d7f63ccba45c70c1bb5f003d1630ca279f46914ab6edfe41e51ca935eca34d"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_1c4f29859bbc.png",
+      "bytes": 43836,
+      "sha256": "4d0087742116ed41761c2ef7813baf0c00c076eb18061e3a6efa454c9605972e"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_1c4f29859bbc_return.png",
+      "bytes": 36344,
+      "sha256": "cfa4e724a8f3cfb3511f4b43f4d7b30a65e8119a3a0e62e786b77296dac9f03e"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_582a635c2eab.png",
+      "bytes": 42289,
+      "sha256": "6a02b49c5c2df7e6541fba333a859378c2535258cafdba1e65293facd39b3f0f"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_582a635c2eab_return.png",
+      "bytes": 36344,
+      "sha256": "cfa4e724a8f3cfb3511f4b43f4d7b30a65e8119a3a0e62e786b77296dac9f03e"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_6081f2781e6e.png",
+      "bytes": 38225,
+      "sha256": "be4949c482312fdb46ec2488eb7627ac1b131626fc970451db4a1b11ca148671"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_6081f2781e6e_return.png",
+      "bytes": 34879,
+      "sha256": "2093551890fb80c73cf474ff7c1781393396245c6491a8c627dd198751cafcc5"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_cf7f466f41e4.png",
+      "bytes": 40991,
+      "sha256": "a647d9f406251da7b9529e82ac7441eab37ad4b4b7c48a75b81032e3faaa9231"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_03_cf7f466f41e4_return.png",
+      "bytes": 35111,
+      "sha256": "a4ef068b38fb03b45e479d972fc155de12b433187214877f333b8d6e3ad38bbb"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_11b7b94291cf.png",
+      "bytes": 41165,
+      "sha256": "8989a41c8dd92f7ae6eec916901fbc78af5ff233b0d2ff9b14e0d470f8736556"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_11b7b94291cf_return.png",
+      "bytes": 35355,
+      "sha256": "0c539fc0e1f2d4ea9d16e3176c7aa1566bb221d15cc60a62a2726ed15301e3e1"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_7763c9b3cc93.png",
+      "bytes": 42557,
+      "sha256": "e29d67684e69f592534e177f1ccd4ee6b5e58ca99921968d0eced61973df1472"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_7763c9b3cc93_return.png",
+      "bytes": 36599,
+      "sha256": "884beecfbf20965de509bda3f174140f3c6e24e7a782ecfa0405e67794862289"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_b2ec935a5c8f.png",
+      "bytes": 39435,
+      "sha256": "4f9133a4dc831e8d29a149b555ff43bc456580d405b32f4764bc34b7490db934"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_b2ec935a5c8f_return.png",
+      "bytes": 31710,
+      "sha256": "68e04c1d03d885c40103df87936d0e68daeacd53169ae1393c71bdddb40479b2"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_bfae61a6b5f4.png",
+      "bytes": 42807,
+      "sha256": "280afd2b478b4291d7f6ab0ebbccdf9059b59787f929f7e38934b163de100932"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_04_bfae61a6b5f4_return.png",
+      "bytes": 35355,
+      "sha256": "0c539fc0e1f2d4ea9d16e3176c7aa1566bb221d15cc60a62a2726ed15301e3e1"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_38b96edb3815.png",
+      "bytes": 37777,
+      "sha256": "3bf12f1dd8235f720d22b87f2ae5e123e5466350fdcf2eeb973b94cfe2470389"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_38b96edb3815_return.png",
+      "bytes": 31699,
+      "sha256": "2233d9192d8e1df42a2885908fd0262947f2900998056cc1ca9ba03a690866dd"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_4ad9e3e2f8f4.png",
+      "bytes": 42671,
+      "sha256": "38706884fdc319783fee06d3eb21ab60982157b47c1ab93b5096cd47442982cd"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_4ad9e3e2f8f4_return.png",
+      "bytes": 35175,
+      "sha256": "d1c68f5e1d5865a4bbc16eeffa8d6d736f310e75bf056c636427ecac668363c4"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_81b5d9694503.png",
+      "bytes": 37755,
+      "sha256": "c6e292c230711097f42cd57b29308ac268590504e9cf693cf6c36fb912a56924"
+    },
+    {
+      "path": "assets/signs/LayoutJunction_05_81b5d9694503_return.png",
+      "bytes": 31675,
+      "sha256": "4b97b6b9346715be28c37ba42fa90104bced98042b15cbe879d81d638c9a240e"
+    },
+    {
+      "path": "assets/textures/dark_rock_diff_2k.jpg",
+      "bytes": 2159653,
+      "sha256": "0f01bfec36ec4546e23576a10c52ef073f9eb815826c5fce2a1cdb08cd8188b8"
+    },
+    {
+      "path": "assets/textures/dark_rock_disp_2k.jpg",
+      "bytes": 693929,
+      "sha256": "b72e529899ee15361d5b3ca14a75d6bbfecb7164388a4bf76a70809bbd978b77"
+    },
+    {
+      "path": "assets/textures/dark_rock_nor_gl_2k.jpg",
+      "bytes": 3811444,
+      "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628"
+    },
+    {
+      "path": "assets/textures/dark_rock_rough_2k.jpg",
+      "bytes": 2312590,
+      "sha256": "de4dc9e276ea769f0eb58faae8c3bc04b512ad62ca49301a0287efe35d26b058"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_diff_2k.jpg",
+      "bytes": 3971898,
+      "sha256": "f067bfbe24fd17cf29712c7a0ef579b1152eb404a37096d75872d2f1b278a7dd"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_diff_4k.jpg",
+      "bytes": 15684418,
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_disp_2k.jpg",
+      "bytes": 2734322,
+      "sha256": "69b7ab88896b1a4fa10fa35ee97cb0a3be390c6ccac566a37e8001d00bcb5241"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_disp_4k.jpg",
+      "bytes": 8621487,
+      "sha256": "4f8f485abeae32835d1607440c3250b1de09c54ece8db90d8238b6dcc2360dd1"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_nor_gl_2k.jpg",
+      "bytes": 5737956,
+      "sha256": "597c4805f743e2ebe8e75f394f30777017d5945c7c5d7716bc6ba4bddec6153e"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "bytes": 22752598,
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_rough_2k.jpg",
+      "bytes": 1214552,
+      "sha256": "8d2451ebd7b2823f0aa171cb22450795f27f4419c4a3413f90cb8b850e2d55c3"
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_rough_4k.jpg",
+      "bytes": 5203125,
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b"
+    },
+    {
+      "path": "assets/textures/moon_03_diff_2k.jpg",
+      "bytes": 1036694,
+      "sha256": "de5b131109f3092d0449da9f883dd12b24b1e650bc03c117bee1e1846eb57079"
+    },
+    {
+      "path": "assets/textures/moon_03_disp_2k.jpg",
+      "bytes": 921889,
+      "sha256": "e9f4459a0fe24e6edb21a2a6cde9a8c3e56d490a6b00f017a9cf6d5f363ada4c"
+    },
+    {
+      "path": "assets/textures/moon_03_nor_gl_2k.jpg",
+      "bytes": 5126957,
+      "sha256": "9a8352e117867266996c6b41871599b5fce693ad088fb2e73660daee64d896d7"
+    },
+    {
+      "path": "assets/textures/moon_03_rough_2k.jpg",
+      "bytes": 446288,
+      "sha256": "d914772d919063d81d960af57c91ea329abcb548c7961f834e420571cc3188b1"
+    },
+    {
+      "path": "assets/textures/rock_face_diff_2k.jpg",
+      "bytes": 2971109,
+      "sha256": "b989c832327538a9e546cca359417acb9a657d041f300407e8398daaf743f5bc"
+    },
+    {
+      "path": "assets/textures/rock_face_disp_2k.jpg",
+      "bytes": 879369,
+      "sha256": "2b057d933924f800f0aa008b9d5a0011dbf2a91d7819fc412db12e02c6553814"
+    },
+    {
+      "path": "assets/textures/rock_face_nor_gl_2k.jpg",
+      "bytes": 4158538,
+      "sha256": "352b87db2502d54487b0ed8abdfb621fae2abf7d360a281b419f567346178cf0"
+    },
+    {
+      "path": "assets/textures/rock_face_rough_2k.jpg",
+      "bytes": 980027,
+      "sha256": "91517cdc191bf60fdb135929e12041e2ad50dd7343b33f25dae75d87ba61b226"
+    },
+    {
+      "path": "build_lunar_cave_v4_cpu.py",
+      "bytes": 19110,
+      "sha256": "624de5f4633b806659288dd45b283b66ac5e518084f8e5d4d71c853476c4fe02"
+    },
+    {
+      "path": "build_lunar_obstacle_scene_v7_cpu.py",
+      "bytes": 7489,
+      "sha256": "00d7afb660dd9308c5ef7c2ae54571ecf712bfa25d0e4d7d57176c84fe203f4a"
+    },
+    {
+      "path": "build_lunar_search_demo_v8_cpu.py",
+      "bytes": 11076,
+      "sha256": "4246722ad96e3f280abaa0785d68a88e63cc4819f07ae1ae8ac49000d3eff8f2"
+    },
+    {
+      "path": "build_lunar_surface_detail_v5_cpu.py",
+      "bytes": 19939,
+      "sha256": "e1cb8d5afad76f52bc3a4c3fdb44bb8f62233f6df55e2a8034ff6d44dfe6b625"
+    },
+    {
+      "path": "cave/__init__.py",
+      "bytes": 39,
+      "sha256": "82257a425a79ecf973b18b06e314ec44fd02688aa8d38a98aca2ba2d7bad97d5"
+    },
+    {
+      "path": "cave/geologic_noise_v4.py",
+      "bytes": 2770,
+      "sha256": "ec504d71eabf3bd46611f8981731baa909a2d102111f1830889a8fbccc7c3f37"
+    },
+    {
+      "path": "cave/geometry.py",
+      "bytes": 3171,
+      "sha256": "9b49a8c3f4dfd55271b43e0eda9bab0f77c1284c148f32894b9949f8f3543eb1"
+    },
+    {
+      "path": "cave/hybrid_planner.py",
+      "bytes": 17341,
+      "sha256": "b0830c338ed2151cb65c7df6e670fed6e13a3ca5fdf0793644e37190592dcb59"
+    },
+    {
+      "path": "cave/lunar_action_intent_v12.py",
+      "bytes": 554,
+      "sha256": "526e5e28ac7d8fdd132d5d04b305aa431258a0a3c63ce27248c1a26f73fbb99a"
+    },
+    {
+      "path": "cave/lunar_astronaut_v10.py",
+      "bytes": 20167,
+      "sha256": "5407aeab613e099a88040d4b8069e0ac7fd033bf29673e34f69616603f07c5c8"
+    },
+    {
+      "path": "cave/lunar_branch_v10.py",
+      "bytes": 14530,
+      "sha256": "667975cce6d2677370828f4e83624b81a8d83ba9121eba4192cd95cbfa6353ca"
+    },
+    {
+      "path": "cave/lunar_dataset_delivery_v14.py",
+      "bytes": 31210,
+      "sha256": "854af517892850196224240dc1df0687fb7d0b7ec532191609f0d587a3538d9e"
+    },
+    {
+      "path": "cave/lunar_fork_evidence_v12.py",
+      "bytes": 6677,
+      "sha256": "a312d0dcbec2293d63b674fa5052578cdc93049d57d6c831cab21ba750d9428a"
+    },
+    {
+      "path": "cave/lunar_fork_evidence_v13.py",
+      "bytes": 3997,
+      "sha256": "f0c56a9d4e5cb59a14c404c7a9d139ab5f6eb48f2e01ed5be53bd1a816a8694b"
+    },
+    {
+      "path": "cave/lunar_gravel_material_v5.py",
+      "bytes": 18580,
+      "sha256": "09a5a787f6902593420717020ad32750959ab9183ceee99565accc068bb47837"
+    },
+    {
+      "path": "cave/lunar_gravel_v5.py",
+      "bytes": 32769,
+      "sha256": "a98242f1779ab57bb9305ae4c8a0beef2ec019a5974228b91eca05cf0812ba75"
+    },
+    {
+      "path": "cave/lunar_ground_v7.py",
+      "bytes": 6779,
+      "sha256": "2a13328f26c8ed29a630db086166eb2ad98244c1766af227941997f77433fe1d"
+    },
+    {
+      "path": "cave/lunar_habitat_v10.py",
+      "bytes": 19825,
+      "sha256": "f4310c115e19031e19ef4751dfacf30bcfd7c118d235e6db1a03a9ca9d433f1d"
+    },
+    {
+      "path": "cave/lunar_human_flag_v8.py",
+      "bytes": 14095,
+      "sha256": "690ff1643d11dd409dcce204209746ac398b91d153c6fa2708183458f6a26354"
+    },
+    {
+      "path": "cave/lunar_junction_v11.py",
+      "bytes": 7058,
+      "sha256": "14721b0d63d368fdbb0d28cebbae5d3a97f6d9b5c9374df88f9154ad50103b5e"
+    },
+    {
+      "path": "cave/lunar_landmark_evidence_v13.py",
+      "bytes": 5351,
+      "sha256": "1588fef1c06fc967c124365b40144707540babf1db8519ee7f8df5a0ae0a0300"
+    },
+    {
+      "path": "cave/lunar_landmark_teacher_v14.py",
+      "bytes": 13176,
+      "sha256": "c53e094ec4a62987b7d3bf9f12c1f4e76b4221302789f4eca5f247c4d926c34c"
+    },
+    {
+      "path": "cave/lunar_morphology_v4.py",
+      "bytes": 13917,
+      "sha256": "1846f7b8f5b79d5a0d2e8b95ede1e3862539b7df687ab6a5cc540b18db59f9e9"
+    },
+    {
+      "path": "cave/lunar_obstacles_v7.py",
+      "bytes": 16745,
+      "sha256": "ff64c48daa440bfc192e5ef2775989e647f2ec585103e82a5519a1270cb88f3f"
+    },
+    {
+      "path": "cave/lunar_pit_v4.py",
+      "bytes": 16002,
+      "sha256": "a97f1f15b3d35dae620f2683dd5033a245c9bb97ecfc39da2d21efa9b5d1bf65"
+    },
+    {
+      "path": "cave/lunar_raw_physical_v16.py",
+      "bytes": 13789,
+      "sha256": "ddd2c6a8fac73291f482ed7720953872c69f32da7a0e9c28baec014b814254bb"
+    },
+    {
+      "path": "cave/lunar_search_placement_v8.py",
+      "bytes": 16064,
+      "sha256": "6681ba43126c0a57d32d673bb748b97299012f879735768b0fa167ab88d15d6c"
+    },
+    {
+      "path": "cave/lunar_semantic_visibility_v14.py",
+      "bytes": 14916,
+      "sha256": "fb2626a6f8b98a63b8664870d9d5efad51a9f8298e30c631f17d1148d27592c0"
+    },
+    {
+      "path": "cave/lunar_smooth_teacher_v12.py",
+      "bytes": 17679,
+      "sha256": "8aaea6d4045507cc259927ceced6e83d13ecde1d39a8f93abd81e4c1646843dd"
+    },
+    {
+      "path": "cave/lunar_smooth_teacher_v13.py",
+      "bytes": 24510,
+      "sha256": "27aab9bba81972b454cac5b46ebca8cfdccbcad04cec3421d7976d8a75c5a6ca"
+    },
+    {
+      "path": "cave/lunar_trajectory_v11.py",
+      "bytes": 23430,
+      "sha256": "c42d71d3a718f5bcdacd38afe7b6455b9d6330f7b9b8e7a9d2bd3f04a8d4d0d7"
+    },
+    {
+      "path": "cave/lunar_vehicle_base_v8.py",
+      "bytes": 12178,
+      "sha256": "011aecaa8c70b9dad03b5928b8144b02141c75c5d2cf3f0918176dc39abaf568"
+    },
+    {
+      "path": "cave/lunar_visual_v4.py",
+      "bytes": 23892,
+      "sha256": "c157e3ce232d618e4d9e2410b499996223dcc69331ff3d0376664e21fa9e6d22"
+    },
+    {
+      "path": "cave/network3d.py",
+      "bytes": 26405,
+      "sha256": "b4b2fd2fa14905814b9da8a58c823d22b3f8b21dc1fe6e4fe58e1b7d8079d389"
+    },
+    {
+      "path": "cave/props.py",
+      "bytes": 18913,
+      "sha256": "3dd0d5c489fbae853421adbc126599322d367295a7b75135bdc4fe53d8ba85c9"
+    },
+    {
+      "path": "cave/rover_route_v6.py",
+      "bytes": 7425,
+      "sha256": "543a99139489f9c64d1bfee20a1177e299a6f70dbb42d89ac619bf0c176e351e"
+    },
+    {
+      "path": "cave/scene.py",
+      "bytes": 10103,
+      "sha256": "b35de479a4dd410697eb143f6a16a3832cc4d66c804a57f59d2a2a8ab304e02f"
+    },
+    {
+      "path": "cave/sensors.py",
+      "bytes": 12161,
+      "sha256": "9223e81f7212be51f74118bf67f79cf33999257762c03be83cb45262a93844ec"
+    },
+    {
+      "path": "collect_lunar_trajectory_v14_isaac.py",
+      "bytes": 32925,
+      "sha256": "40ad4df884b8343cc55d7c1d4836e483165c92d43015c25059ace9a7f430734c"
+    },
+    {
+      "path": "configs/lunar_raw_batch_v16.json",
+      "bytes": 2591,
+      "sha256": "c5a13b7401de18f7a1202ec28fb6697cafa58b97ad55c909f7794ba0dde2f7bc"
+    },
+    {
+      "path": "configs/production_raw_config.json",
+      "bytes": 5232,
+      "sha256": "1f1565080e1363918702c7e523e4e103d88e8989318f023ca5e7b24d2999445a"
+    },
+    {
+      "path": "run_lunar_raw_batch_v16.py",
+      "bytes": 27824,
+      "sha256": "33f7a2ba634eec4ba484bc8a6fd0e57b679dc5fe45bd898bdd173c64ce266718"
+    },
+    {
+      "path": "selftest_lunar_raw_batch_v16_cpu.py",
+      "bytes": 9191,
+      "sha256": "270a4334fdee80f728af7828884e8df973bab4e75024273de453d807e1ddc367"
+    },
+    {
+      "path": "stage_lunar_assets_v14_cpu.py",
+      "bytes": 4644,
+      "sha256": "6cc23ccc7b4b022ebbbe296bfc77d23bfccab4e2de8a0d45456d34d2a198f72b"
+    },
+    {
+      "path": "validate_lunar_obstacle_map_v7.py",
+      "bytes": 32422,
+      "sha256": "7e8422f6d43372ef459778223f1634443a012bb99d3d9888f19ca20dd436822f"
+    },
+    {
+      "path": "validate_lunar_raw_v16_cpu.py",
+      "bytes": 20927,
+      "sha256": "316e724cee89186da37e2fd2f1a7d570dc18c287d952aa6de15e68955155ef98"
+    }
+  ],
+  "file_count": 125
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-11-10T15:39:31.754382+00:00",
+  "elapsed_seconds": 0.927,
+  "GPU_work": false,
+  "physics_evaluated": false,
+  "navigation_evaluated": false,
+  "passed": true,
+  "usd": "cave.usdc",
+  "obstacle_report": "obstacle_report.json"
+}

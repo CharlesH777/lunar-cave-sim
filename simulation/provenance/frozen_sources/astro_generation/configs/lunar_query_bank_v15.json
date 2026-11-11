@@ -1,0 +1,832 @@
+{
+  "schema_version": "lunar_query_template_bank/15.1",
+  "compiler_version": "lunar_grounded_query_compiler/1.0",
+  "lexical_seed": 0,
+  "query_protocol_sha256": "3f95379fc1e80411e6a219c583debf69db12d6ba53a4b2c0125c0d588133a6b8",
+  "phrases": {
+    "entry": [
+      {
+        "template_id": "entry.00",
+        "text": "按提示进入洞穴",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 1,
+          "family_id": "train.waypoint_role.statement",
+          "role": "route_core",
+          "span": [
+            0,
+            7
+          ],
+          "literal": "按提示进入洞穴"
+        }
+      },
+      {
+        "template_id": "entry.01",
+        "text": "进洞",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 2,
+          "family_id": "train.waypoint_role.conditional",
+          "role": "route_core",
+          "span": [
+            0,
+            2
+          ],
+          "literal": "进洞"
+        }
+      },
+      {
+        "template_id": "entry.02",
+        "text": "驶入洞穴内部",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 3,
+          "family_id": "train.nonterminal_no_stop.statement",
+          "role": "route_core",
+          "span": [
+            0,
+            6
+          ],
+          "literal": "驶入洞穴内部"
+        }
+      },
+      {
+        "template_id": "entry.03",
+        "text": "进入洞穴",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 1,
+          "family_id": "train.waypoint_role.statement",
+          "role": "route_core",
+          "span": [
+            3,
+            7
+          ],
+          "literal": "进入洞穴"
+        }
+      },
+      {
+        "template_id": "entry.04",
+        "text": "沿提示入洞",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 5,
+          "family_id": "train.near_goal_only_stop.statement",
+          "role": "route_core",
+          "span": [
+            0,
+            5
+          ],
+          "literal": "沿提示入洞"
+        }
+      },
+      {
+        "template_id": "entry.05",
+        "text": "按提示进洞",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 6,
+          "family_id": "train.near_goal_only_stop.conditional",
+          "role": "route_core",
+          "span": [
+            0,
+            5
+          ],
+          "literal": "按提示进洞"
+        }
+      },
+      {
+        "template_id": "entry.06",
+        "text": "进洞行驶",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 7,
+          "family_id": "train.visible_goal_approach.statement",
+          "role": "route_core",
+          "span": [
+            0,
+            4
+          ],
+          "literal": "进洞行驶"
+        }
+      },
+      {
+        "template_id": "entry.07",
+        "text": "驶入洞穴",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 3,
+          "family_id": "train.nonterminal_no_stop.statement",
+          "role": "route_core",
+          "span": [
+            0,
+            4
+          ],
+          "literal": "驶入洞穴"
+        }
+      }
+    ],
+    "fork": [
+      {
+        "template_id": "fork.00",
+        "text": "在第一个分叉向{side}转",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 1,
+          "family_id": "train.waypoint_role.statement",
+          "role": "route_core",
+          "span": [
+            8,
+            17
+          ],
+          "literal": "在第一个分叉向左转"
+        }
+      },
+      {
+        "template_id": "fork.01",
+        "text": "遇首个岔口往{side}拐",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 2,
+          "family_id": "train.waypoint_role.conditional",
+          "role": "route_core",
+          "span": [
+            3,
+            11
+          ],
+          "literal": "遇首个岔口往左拐"
+        }
+      },
+      {
+        "template_id": "fork.02",
+        "text": "到第一处分叉选{side}侧",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 3,
+          "family_id": "train.nonterminal_no_stop.statement",
+          "role": "route_core",
+          "span": [
+            7,
+            16
+          ],
+          "literal": "到第一处分叉选左侧"
+        }
+      },
+      {
+        "template_id": "fork.03",
+        "text": "首个分叉处{side}转",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 4,
+          "family_id": "train.nonterminal_no_stop.conditional",
+          "role": "route_core",
+          "span": [
+            5,
+            12
+          ],
+          "literal": "首个分叉处左转"
+        }
+      },
+      {
+        "template_id": "fork.04",
+        "text": "遇第一个岔路向{side}",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 5,
+          "family_id": "train.near_goal_only_stop.statement",
+          "role": "route_core",
+          "span": [
+            6,
+            14
+          ],
+          "literal": "遇第一个岔路向左"
+        }
+      },
+      {
+        "template_id": "fork.05",
+        "text": "在第一分叉转向{side}边",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 6,
+          "family_id": "train.near_goal_only_stop.conditional",
+          "role": "route_core",
+          "span": [
+            6,
+            15
+          ],
+          "literal": "在第一分叉转向左边"
+        }
+      },
+      {
+        "template_id": "fork.06",
+        "text": "首个分叉走{side}侧",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 7,
+          "family_id": "train.visible_goal_approach.statement",
+          "role": "route_core",
+          "span": [
+            5,
+            12
+          ],
+          "literal": "首个分叉走左侧"
+        }
+      },
+      {
+        "template_id": "fork.07",
+        "text": "到第一个岔口{side}转",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 8,
+          "family_id": "train.visible_goal_approach.conditional",
+          "role": "route_core",
+          "span": [
+            5,
+            13
+          ],
+          "literal": "到第一个岔口左转"
+        }
+      },
+      {
+        "template_id": "fork.08",
+        "text": "遇首处分叉向{side}转",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 9,
+          "family_id": "train.until_near_goal.statement",
+          "role": "route_core",
+          "span": [
+            8,
+            16
+          ],
+          "literal": "遇首处分叉向左转"
+        }
+      },
+      {
+        "template_id": "fork.09",
+        "text": "于第一分叉选{side}",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 10,
+          "family_id": "train.until_near_goal.conditional",
+          "role": "route_core",
+          "span": [
+            3,
+            10
+          ],
+          "literal": "于第一分叉选左"
+        }
+      },
+      {
+        "template_id": "fork.10",
+        "text": "首个岔路向{side}拐",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 11,
+          "family_id": "train.arrival_conjunction.statement",
+          "role": "route_core",
+          "span": [
+            7,
+            14
+          ],
+          "literal": "首个岔路向左拐"
+        }
+      },
+      {
+        "template_id": "fork.11",
+        "text": "在第一分叉处{side}转",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 12,
+          "family_id": "train.arrival_conjunction.conditional",
+          "role": "route_core",
+          "span": [
+            5,
+            13
+          ],
+          "literal": "在第一分叉处左转"
+        }
+      }
+    ],
+    "waypoint": [
+      {
+        "template_id": "waypoint.00",
+        "text": "看到{landmark}之后继续前进",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 1,
+          "family_id": "train.waypoint_role.statement",
+          "role": "route_core",
+          "span": [
+            18,
+            29
+          ],
+          "literal": "看到月球车之后继续前进"
+        }
+      },
+      {
+        "template_id": "waypoint.01",
+        "text": "路过{landmark}接着走",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 2,
+          "family_id": "train.waypoint_role.conditional",
+          "role": "route_core",
+          "span": [
+            12,
+            20
+          ],
+          "literal": "路过月球车接着走"
+        }
+      },
+      {
+        "template_id": "waypoint.02",
+        "text": "经过{landmark}后保持前行",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 3,
+          "family_id": "train.nonterminal_no_stop.statement",
+          "role": "route_core",
+          "span": [
+            17,
+            27
+          ],
+          "literal": "经过月球车后保持前行"
+        }
+      },
+      {
+        "template_id": "waypoint.03",
+        "text": "见到{landmark}仍向前开",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 4,
+          "family_id": "train.nonterminal_no_stop.conditional",
+          "role": "route_core",
+          "span": [
+            13,
+            22
+          ],
+          "literal": "见到月球车仍向前开"
+        }
+      },
+      {
+        "template_id": "waypoint.04",
+        "text": "看到{landmark}后继续行进",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 6,
+          "family_id": "train.near_goal_only_stop.conditional",
+          "role": "route_core",
+          "span": [
+            16,
+            26
+          ],
+          "literal": "看到月球车后继续行进"
+        }
+      },
+      {
+        "template_id": "waypoint.05",
+        "text": "途经{landmark}后往前开",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 7,
+          "family_id": "train.visible_goal_approach.statement",
+          "role": "route_core",
+          "span": [
+            13,
+            22
+          ],
+          "literal": "途经月球车后往前开"
+        }
+      },
+      {
+        "template_id": "waypoint.06",
+        "text": "经过{landmark}后保持移动",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 8,
+          "family_id": "train.visible_goal_approach.conditional",
+          "role": "route_core",
+          "span": [
+            14,
+            24
+          ],
+          "literal": "经过月球车后保持移动"
+        }
+      },
+      {
+        "template_id": "waypoint.07",
+        "text": "见{landmark}后继续前行",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 9,
+          "family_id": "train.until_near_goal.statement",
+          "role": "route_core",
+          "span": [
+            17,
+            26
+          ],
+          "literal": "见月球车后继续前行"
+        }
+      },
+      {
+        "template_id": "waypoint.08",
+        "text": "经过{landmark}后继续走",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 16,
+          "family_id": "train.route_gate.conditional",
+          "role": "route_core",
+          "span": [
+            14,
+            23
+          ],
+          "literal": "经过月球车后继续走"
+        }
+      }
+    ],
+    "endpoint": [
+      {
+        "template_id": "endpoint.00",
+        "text": "最后前往任务目标",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 1,
+          "family_id": "train.waypoint_role.statement",
+          "role": "route_core",
+          "span": [
+            30,
+            38
+          ],
+          "literal": "最后前往任务目标"
+        }
+      },
+      {
+        "template_id": "endpoint.01",
+        "text": "最终驶向终点",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 2,
+          "family_id": "train.waypoint_role.conditional",
+          "role": "route_core",
+          "span": [
+            21,
+            27
+          ],
+          "literal": "最终驶向终点"
+        }
+      },
+      {
+        "template_id": "endpoint.02",
+        "text": "去往任务目标",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 3,
+          "family_id": "train.nonterminal_no_stop.statement",
+          "role": "route_core",
+          "span": [
+            28,
+            34
+          ],
+          "literal": "去往任务目标"
+        }
+      },
+      {
+        "template_id": "endpoint.03",
+        "text": "最后抵达终点",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 4,
+          "family_id": "train.nonterminal_no_stop.conditional",
+          "role": "route_core",
+          "span": [
+            23,
+            29
+          ],
+          "literal": "最后抵达终点"
+        }
+      },
+      {
+        "template_id": "endpoint.04",
+        "text": "前往任务目标",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 5,
+          "family_id": "train.near_goal_only_stop.statement",
+          "role": "route_core",
+          "span": [
+            27,
+            33
+          ],
+          "literal": "前往任务目标"
+        }
+      },
+      {
+        "template_id": "endpoint.05",
+        "text": "最后驶向终点",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 6,
+          "family_id": "train.near_goal_only_stop.conditional",
+          "role": "route_core",
+          "span": [
+            27,
+            33
+          ],
+          "literal": "最后驶向终点"
+        }
+      },
+      {
+        "template_id": "endpoint.06",
+        "text": "最终前往任务目标",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 7,
+          "family_id": "train.visible_goal_approach.statement",
+          "role": "route_core",
+          "span": [
+            23,
+            31
+          ],
+          "literal": "最终前往任务目标"
+        }
+      },
+      {
+        "template_id": "endpoint.07",
+        "text": "去往终点",
+        "authorship": "provider_authored_movement_fragment",
+        "source": {
+          "query_index": 8,
+          "family_id": "train.visible_goal_approach.conditional",
+          "role": "route_core",
+          "span": [
+            25,
+            29
+          ],
+          "literal": "去往终点"
+        }
+      },
+      {
+        "template_id": "endpoint.08",
+        "text": "前往任务目标附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.09",
+        "text": "接着走向任务目标",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.10",
+        "text": "继续向任务目标前进",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.11",
+        "text": "随后前往终点",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.12",
+        "text": "继续沿路前往任务目标",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.13",
+        "text": "接近所指的任务目标",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.14",
+        "text": "再向任务目标所在处前进",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.15",
+        "text": "沿当前路线前往终点",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.16",
+        "text": "继续去任务目标附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.17",
+        "text": "接着前往终点附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.18",
+        "text": "再去任务目标附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.19",
+        "text": "继续前往任务目标所在位置",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.20",
+        "text": "朝任务目标继续行进",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.21",
+        "text": "再继续走向终点",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.22",
+        "text": "沿着路线接近任务目标",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.23",
+        "text": "随后去终点附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.24",
+        "text": "继续前进至任务目标附近",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.25",
+        "text": "再往任务目标所在的位置走",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.26",
+        "text": "继续朝终点行进",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      },
+      {
+        "template_id": "endpoint.27",
+        "text": "前往所指的任务目标",
+        "authorship": "protocol_safe_anonymous_motion_phrase",
+        "source": {
+          "author": "grounded compiler phrase bank",
+          "scope": "anonymous endpoint motion only; no new route event or STOP rule"
+        }
+      }
+    ]
+  },
+  "source_provider": {
+    "request_sha256": "50028105b570e87ea86e6ae8fd11f97f5f5ab4ef125a6ab03b9b54bb96ebff1e",
+    "requested_model": "qwen/qwen3.8-max",
+    "original_response_file_sha256": "268eaf8460989e68dc20871c882bdf6c57f5d3cfeed4e989bcd29833480fc761",
+    "public_content": "{\"queries\":[{\"family_id\":\"train.waypoint_role.statement\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"按提示进入洞穴，在第一个分叉向左转，看到月球车之后继续前进，最后前往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"waypoint_role\"],\"text\":\"月球车只是路标，不是任务终点；真正要靠近并停下的是洞穴深处的红旗。\"}]},{\"family_id\":\"train.waypoint_role.conditional\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"waypoint_role\"],\"text\":\"即使看到了月球车也只是经过路标；要靠近并停车的任务终点是洞穴深处的红旗。\"},{\"kind\":\"route_core\",\"text\":\"进洞后遇首个岔口往左拐，路过月球车接着走，最终驶向终点。\"}]},{\"family_id\":\"train.nonterminal_no_stop.statement\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"nonterminal_no_stop\"],\"text\":\"不能因为看到了月球车就停；本次要找洞穴深处的红旗，靠近红旗后再停下来。\"},{\"kind\":\"route_core\",\"text\":\"驶入洞穴内部，到第一处分叉选左侧，经过月球车后保持前行，去往任务目标。\"}]},{\"family_id\":\"train.nonterminal_no_stop.conditional\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"进入洞穴，首个分叉处左转，见到月球车仍向前开，最后抵达终点。\"},{\"kind\":\"logic\",\"operator_ids\":[\"nonterminal_no_stop\"],\"text\":\"如果看到月球车，不能把它当作停止理由；要找的是洞穴深处的红旗，靠近红旗以后再停。\"}]},{\"family_id\":\"train.near_goal_only_stop.statement\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"沿提示入洞，遇第一个岔路向左，过月球车后不停留继续走，前往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"near_goal_only_stop\"],\"text\":\"任务目标是洞穴深处的红旗；只有靠近红旗才允许停下。\"}]},{\"family_id\":\"train.near_goal_only_stop.conditional\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"near_goal_only_stop\"],\"text\":\"要找洞穴深处的红旗，未靠近红旗时不能停；靠近后才停下来。\"},{\"kind\":\"route_core\",\"text\":\"按提示进洞，在第一分叉转向左边，看到月球车后继续行进，最后驶向终点。\"}]},{\"family_id\":\"train.visible_goal_approach.statement\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"visible_goal_approach\"],\"text\":\"要找的是洞穴深处的红旗。看到红旗但尚未靠近时先继续接近，靠近后再停，不能刚看到就停。\"},{\"kind\":\"route_core\",\"text\":\"进洞行驶，首个分叉走左侧，途经月球车后往前开，最终前往任务目标。\"}]},{\"family_id\":\"train.visible_goal_approach.conditional\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"驶入洞穴，到第一个岔口左转，经过月球车后保持移动，去往终点。\"},{\"kind\":\"logic\",\"operator_ids\":[\"visible_goal_approach\"],\"text\":\"目标是洞穴深处的红旗；若看见红旗但还没靠近，就继续接近而非马上停，靠近后再停车。\"}]},{\"family_id\":\"train.until_near_goal.statement\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"按提示进入洞穴，遇首处分叉向左转，见月球车后继续前行，最后前往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"until_near_goal\"],\"text\":\"终点是洞穴深处的红旗附近；在靠近红旗之前持续前进，直到靠近后再停下。\"}]},{\"family_id\":\"train.until_near_goal.conditional\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"until_near_goal\"],\"text\":\"只要尚未靠近红旗就继续前进，直到靠近洞穴深处的红旗再停车；它才是任务目标。\"},{\"kind\":\"route_core\",\"text\":\"进洞后于第一分叉选左，路过月球车接着走，最终驶向终点。\"}]},{\"family_id\":\"train.arrival_conjunction.statement\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"arrival_conjunction\"],\"text\":\"把洞穴深处的红旗作为任务目标；已按提示进入洞穴与靠近红旗两个条件都满足后才停。\"},{\"kind\":\"route_core\",\"text\":\"驶入洞穴内部，首个岔路向左拐，经过月球车后不停留，前往任务目标。\"}]},{\"family_id\":\"train.arrival_conjunction.conditional\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"进入洞穴，在第一分叉处左转，见到月球车仍向前开，最后抵达终点。\"},{\"kind\":\"logic\",\"operator_ids\":[\"arrival_conjunction\"],\"text\":\"目标是洞穴深处的红旗；若已按提示进入洞穴且已靠近红旗，这两个条件同时成立才可以停下。\"}]},{\"family_id\":\"train.target_contrast.statement\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"沿提示入洞，遇第一个岔路向左，过月球车后继续行进，去往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"target_contrast\"],\"text\":\"本次找的是洞穴深处的红旗，不是月球车；靠近真正的任务目标并停下才结束。\"}]},{\"family_id\":\"train.target_contrast.conditional\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"target_contrast\"],\"text\":\"不要把月球车当成要找的目标；本次选择洞穴深处的红旗作为终点，靠近红旗才停下来。\"},{\"kind\":\"route_core\",\"text\":\"按提示进洞，首个分叉转向左边，看到月球车后保持前行，最后驶向终点。\"}]},{\"family_id\":\"train.route_gate.statement\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"route_gate\"],\"text\":\"第一个分叉应走左侧，右侧不是提示方向；真正终点是洞穴深处的红旗，靠近它才停。\"},{\"kind\":\"route_core\",\"text\":\"进洞行驶，到第一处分叉选左侧，途经月球车后往前开，最终前往任务目标。\"}]},{\"family_id\":\"train.route_gate.conditional\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"驶入洞穴，遇首个岔口往左拐，经过月球车后继续走，去往终点。\"},{\"kind\":\"logic\",\"operator_ids\":[\"route_gate\"],\"text\":\"若来到第一个分叉，就走左边而不是右边；要找的是洞穴深处的红旗，靠近红旗之后停止。\"}]},{\"family_id\":\"heldout.role_and_stop\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"按提示进入洞穴，在第一分叉向左转，看到月球车之后继续前进，最后前往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"waypoint_role\",\"near_goal_only_stop\"],\"text\":\"虽然月球车只是途经路标而非终点，但只有靠近洞穴深处的红旗才可以停下来；红旗才是本次要找的目标。\"}]},{\"family_id\":\"heldout.nonterminal_and_appearance\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"nonterminal_no_stop\",\"visible_goal_approach\"],\"text\":\"不能因看到月球车就停；要找的是洞穴深处的红旗，如果只是看到红旗但还未靠近，就继续接近，靠近后再停。\"},{\"kind\":\"route_core\",\"text\":\"进洞后遇首个岔口往左拐，路过月球车接着走，最终驶向终点。\"}]},{\"family_id\":\"heldout.until_and_preconditions\",\"segments\":[{\"kind\":\"route_core\",\"text\":\"驶入洞穴内部，到第一处分叉选左侧，经过月球车后保持前行，去往任务目标。\"},{\"kind\":\"logic\",\"operator_ids\":[\"until_near_goal\",\"arrival_conjunction\"],\"text\":\"任务目标是洞穴深处的红旗；继续前进，直到已按提示进入洞穴并靠近红旗这两个条件都满足，再停下来。\"}]},{\"family_id\":\"heldout.target_and_route_gate\",\"segments\":[{\"kind\":\"logic\",\"operator_ids\":[\"target_contrast\",\"route_gate\"],\"text\":\"要找的是洞穴深处的红旗而不是月球车；第一个分叉走左不走右，最后靠近真正的任务目标停下。\"},{\"kind\":\"route_core\",\"text\":\"进入洞穴，首个分叉处左转，见到月球车仍向前开，最后抵达终点。\"}]}]}",
+    "finish_reason": "stop",
+    "public_value_sha256": "22a412874426bb6a8161d76c09982b6bb717c50801ffa52f06cb7735c697c78e",
+    "source_route_contract": {
+      "schema_version": "lunar_route_language_contract/14.0",
+      "semantic_visibility_revision": "14.0",
+      "physical_trajectory_id": "seed_20261118_chinese_flag",
+      "goal": {
+        "id": "chinese_flag",
+        "name": "红旗"
+      },
+      "events": [
+        {
+          "type": "enter_cave",
+          "step_index": 275,
+          "timestamp_s": 55.0,
+          "source_observation_id": "seed_20261118_chinese_flag:000275",
+          "entry_support": {
+            "step_index": 273,
+            "source_observation_id": "seed_20261118_chinese_flag:000273",
+            "current_inside_verified": true
+          }
+        },
+        {
+          "type": "first_fork",
+          "ordinal": 1,
+          "side": "left",
+          "step_index": 750,
+          "timestamp_s": 150.0,
+          "source_observation_id": "seed_20261118_chinese_flag:000750",
+          "criterion": "exclusive_guide_arm_and_two_validated_openings_in_current_rgbd"
+        },
+        {
+          "type": "landmark_continue",
+          "id": "lunar_rover",
+          "name": "月球车",
+          "step_index": 1005,
+          "timestamp_s": 201.0,
+          "source_observation_id": "seed_20261118_chinese_flag:001005",
+          "criterion": "current salient eligible-grid observation with ongoing forward translation"
+        },
+        {
+          "type": "goal_stop",
+          "id": "chinese_flag",
+          "name": "红旗",
+          "step_index": 1314,
+          "timestamp_s": 262.8,
+          "source_observation_id": "seed_20261118_chinese_flag:001314",
+          "goal_salient_in_current_rgb224": true
+        }
+      ],
+      "intermediate_landmarks": [
+        {
+          "type": "landmark_continue",
+          "id": "lunar_rover",
+          "name": "月球车",
+          "step_index": 1005,
+          "timestamp_s": 201.0,
+          "source_observation_id": "seed_20261118_chinese_flag:001005",
+          "criterion": "current salient eligible-grid observation with ongoing forward translation"
+        }
+      ],
+      "first_salient_goal": {
+        "step_index": 1230,
+        "timestamp_s": 246.0,
+        "source_observation_id": "seed_20261118_chinese_flag:001230"
+      },
+      "deep_target_hint": true,
+      "observation_stride": 5,
+      "semantic_visibility_config_sha256": "f77a1c9ab7f5fcc3278dcf09506867c24cee2ea6c79c85cda8377e3dd7f5fd69",
+      "semantic_scope": "fixed route hints from actual salient current RGB-D at eligible frames; no coordinates",
+      "raw_detection_preserved": true,
+      "omitted_unrecognizable_landmarks": true
+    }
+  },
+  "logic_authorship": "protocol-defined truth templates returned verbatim and validated in the same provider response",
+  "actor_authorship": "provider-authored phrase templates plus explicit safe phrases; grounded deterministic slot instantiation, not fresh provider output"
+}

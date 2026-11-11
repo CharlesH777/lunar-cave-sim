@@ -1,0 +1,380 @@
+{
+  "schema_version": "lunar_rover_route/6.0",
+  "candidate_id": "pit_bottom_drive_01",
+  "units": "m",
+  "up_axis": "Z",
+  "cavern": {
+    "schema_version": "lunar_morphology_hypothesis/4.0",
+    "candidate_id": "representative_01",
+    "units": "m",
+    "up_axis": "Z",
+    "length_m": 80.0,
+    "rounded_end_extension_m": 5.0,
+    "nominal_left_width_m": 10.0,
+    "nominal_right_width_m": 12.6,
+    "nominal_height_m": 14.5,
+    "cross_section_exponent": 3.05,
+    "roof_depression_m": 4.7,
+    "wall_geometry_roughness_m": 0.68,
+    "geometric_noise_model": "aperiodic_fracture_v2",
+    "geometric_noise_scales_m": [
+      6.0,
+      2.0,
+      0.7
+    ],
+    "geometric_noise_amplitudes_m": [
+      0.8,
+      0.35,
+      0.12
+    ],
+    "legacy_wall_roughness_gain_applies_only_to": "configs without geometric_noise_model",
+    "random_seed": 20261110,
+    "recommended_scale_rover_xy_m": [
+      18.0,
+      -3.0
+    ],
+    "coordinates": "local floor near z=0; no surface or burial datum is assigned",
+    "shape_reference": {
+      "doi": "10.3847/1538-4357/adcf18",
+      "locator": "Figure 4(f), final formation hypothesis; Figure A6(b), EM forward-model geometry",
+      "use": "Rounded asymmetric void, localized roof depression, one-sided residual basalt, bottom accumulation",
+      "reported_estimates_m_approx": {
+        "maximum_width": 26,
+        "maximum_height": 16
+      },
+      "epistemic_status": "shape inspired by an interpretation, not digitized or measured 3D geometry"
+    },
+    "authored_assumptions": [
+      "80m longitudinal extent, direction and curved axis",
+      "all longitudinal width/height and floor changes",
+      "all roughness wavelengths, amplitudes and locations",
+      "the size and 3D position of the wall-attached residual shoulder",
+      "floor relief, angular debris mounds and their distribution",
+      "finite-domain end caps, not observed geological ends"
+    ],
+    "floor_deposits": [
+      {
+        "x": 22.0,
+        "u": -6.2,
+        "rx": 4.4,
+        "ry": 2.5,
+        "height": 1.7,
+        "angle": 0.3
+      },
+      {
+        "x": 31.0,
+        "u": 4.2,
+        "rx": 5.3,
+        "ry": 3.0,
+        "height": 2.1,
+        "angle": -0.45
+      },
+      {
+        "x": 42.0,
+        "u": -0.8,
+        "rx": 7.2,
+        "ry": 2.7,
+        "height": 1.9,
+        "angle": 0.15
+      },
+      {
+        "x": 53.0,
+        "u": -5.5,
+        "rx": 4.8,
+        "ry": 2.8,
+        "height": 1.8,
+        "angle": -0.2
+      },
+      {
+        "x": 65.0,
+        "u": 5.0,
+        "rx": 4.0,
+        "ry": 2.7,
+        "height": 2.0,
+        "angle": 0.65
+      }
+    ],
+    "scientific_status": "synthetic representative underground cavity, not a lunar reconstruction",
+    "no_observed_entrance": true,
+    "runtime_scope": "geometry only; no navigation, structural or vehicle dynamics certification",
+    "rover_route_floor": {
+      "schema_version": "rover_floor_corridor/6.0",
+      "route_id": "pit_bottom_to_cavern",
+      "units": "m",
+      "up_axis": "Z",
+      "start_scope": "pit_bottom; the natural shaft is not a driving route",
+      "drive_x_range_m": [
+        -15.0,
+        74.0
+      ],
+      "core_x_range_m": [
+        -16.0,
+        77.0
+      ],
+      "longitudinal_blend_m": 4.0,
+      "drivable_half_width_m": 1.2,
+      "blend_half_width_m": 3.0,
+      "centerline_y_offset_m": -2.0,
+      "ramp_x_range_m": [
+        -12.0,
+        28.0
+      ],
+      "profile_z_range_m": [
+        -1.5,
+        0.25
+      ],
+      "micro_relief_m": 0.002,
+      "micro_wavelength_m": 4.0,
+      "micro_seed": 20267139,
+      "carve_height_m": 2.0,
+      "distance_polyline_step_m": 0.25,
+      "max_pitch_deg": 5.0,
+      "max_roll_deg": 3.0,
+      "max_step_m": 0.03,
+      "max_gravel_protrusion_m": 0.02,
+      "provenance": "engineering-authored geometry for a gentle rover corridor; not a lunar observation",
+      "scope": "geometric floor/clearance constraints only; no wheel, suspension or friction certification"
+    }
+  },
+  "pit": {
+    "schema_version": "synthetic_lunar_pit/4.0",
+    "scientific_status": "Marius-scale synthetic entrance, not a surveyed reconstruction",
+    "units": "m",
+    "up_axis": "Z",
+    "center_xy_m": [
+      -22.0,
+      0.0
+    ],
+    "opening_radii_m": [
+      27.5,
+      24.5
+    ],
+    "regional_surface_z_m": 58.0,
+    "floor_base_z_m": -2.0,
+    "nominal_depth_m": 60.0,
+    "funnel_depth_m": 7.0,
+    "funnel_outer_scale": 0.42,
+    "wall_roughness_model": "aperiodic_fracture_v2",
+    "roughness_seed": 20261110,
+    "wall_fracture_scale": 1.0,
+    "surface_fracture_scale": 0.42,
+    "floor_fracture_scale": 0.38,
+    "outline_relief_m": 2.0,
+    "wall_bed_relief_m": 0.0,
+    "wall_bed_spacing_m": 4.8,
+    "local_ledge_patches": [
+      {
+        "theta_rad": -2.65,
+        "z_m": 12.5,
+        "arc_width_m": 7.0,
+        "height_extent_m": 2.0,
+        "amplitude_m": 0.12
+      },
+      {
+        "theta_rad": -1.21,
+        "z_m": 38.0,
+        "arc_width_m": 9.0,
+        "height_extent_m": 2.5,
+        "amplitude_m": -0.14
+      },
+      {
+        "theta_rad": -0.08,
+        "z_m": 26.5,
+        "arc_width_m": 6.5,
+        "height_extent_m": 1.7,
+        "amplitude_m": 0.16
+      },
+      {
+        "theta_rad": 1.44,
+        "z_m": 46.0,
+        "arc_width_m": 8.0,
+        "height_extent_m": 2.2,
+        "amplitude_m": -0.11
+      },
+      {
+        "theta_rad": 2.35,
+        "z_m": 30.5,
+        "arc_width_m": 6.0,
+        "height_extent_m": 1.8,
+        "amplitude_m": 0.13
+      }
+    ],
+    "upper_lip_undercut_m": 0.85,
+    "lower_undercut_m": 5.4,
+    "lower_undercut_start_depth_m": 27.0,
+    "lower_undercut_transition_m": 10.0,
+    "terrain_relief_m": 0.65,
+    "floor_relief_m": 0.48,
+    "recommended_bounds_m": [
+      [
+        -80.0,
+        -70.0,
+        -10.0
+      ],
+      [
+        105.0,
+        70.0,
+        78.0
+      ]
+    ],
+    "sources": [
+      {
+        "doi": "10.1029/2022JE007328",
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007328",
+        "locator": "Table 1; Sections 5.2 and 6",
+        "reported_reference": "Marius pit approximately 55 by 49 m and 60 m deep; funnel, steep walls, overhangs and floor debris",
+        "scope": "Nominal entrance scale and morphology only; no point cloud was ingested."
+      }
+    ],
+    "parameter_provenance": {
+      "opening_radii_m": "Nominal half dimensions from the reported 55 by 49 m reference; irregular outline is authored.",
+      "nominal_depth_m": "Reference scale; exact deepest point varies with the authored funnel and floor.",
+      "center_and_z_datum": "Arbitrary local coordinates chosen to connect a synthetic underground segment near x=0.",
+      "funnel_and_walls": "Observed morphology motivates a shallow funnel and locally overhung walls; positions and amplitudes are not fitted observations.",
+      "talus_and_relief": "Deterministic authored geometric roughness and mounds, not measured individual rocks.",
+      "wall_roughness_model": "Aperiodic hash-grid fracture geometry and sparse local ledge patches; no periodic all-around bed rings. Legacy configs without this flag replay the previous field.",
+      "connectivity": "The connection to the Zhou-inspired cave is a generation assumption, not one measured lunar site."
+    },
+    "field_scope": "Air sign/implicit margin; the exterior-air region reaches finite sampling-domain boundaries.",
+    "rover_route_floor": {
+      "schema_version": "rover_floor_corridor/6.0",
+      "route_id": "pit_bottom_to_cavern",
+      "units": "m",
+      "up_axis": "Z",
+      "start_scope": "pit_bottom; the natural shaft is not a driving route",
+      "drive_x_range_m": [
+        -15.0,
+        74.0
+      ],
+      "core_x_range_m": [
+        -16.0,
+        77.0
+      ],
+      "longitudinal_blend_m": 4.0,
+      "drivable_half_width_m": 1.2,
+      "blend_half_width_m": 3.0,
+      "centerline_y_offset_m": -2.0,
+      "ramp_x_range_m": [
+        -12.0,
+        28.0
+      ],
+      "profile_z_range_m": [
+        -1.5,
+        0.25
+      ],
+      "micro_relief_m": 0.002,
+      "micro_wavelength_m": 4.0,
+      "micro_seed": 20267139,
+      "carve_height_m": 2.0,
+      "distance_polyline_step_m": 0.25,
+      "max_pitch_deg": 5.0,
+      "max_roll_deg": 3.0,
+      "max_step_m": 0.03,
+      "max_gravel_protrusion_m": 0.02,
+      "provenance": "engineering-authored geometry for a gentle rover corridor; not a lunar observation",
+      "scope": "geometric floor/clearance constraints only; no wheel, suspension or friction certification"
+    }
+  },
+  "appearance_revision": 2,
+  "floor_texture_tile_m": 0.65,
+  "floor_normal_strength": 0.12,
+  "scientific_scope": "generic Marius-scale entry + Zhou-inspired cavity, not the same observed site",
+  "bounds_m": [
+    [
+      -80.0,
+      -70.0,
+      -10.0
+    ],
+    [
+      105.0,
+      70.0,
+      78.0
+    ]
+  ],
+  "cavern_evaluation_bounds_m": [
+    [
+      -10.0,
+      -25.0,
+      -10.0
+    ],
+    [
+      95.0,
+      25.0,
+      25.0
+    ]
+  ],
+  "random_seed": 20261110,
+  "authored_assumptions": [
+    "entrance-to-cavern connection and all relative coordinates",
+    "longitudinal extent, wall and floor relief, ledge locations and boulder positions",
+    "regional surface datum and all material/illumination appearance proxies",
+    "An authored low-gradient floor corridor for a small rover; this is an engineering affordance, not an observed lunar roadway."
+  ],
+  "runtime_scope": "pit-bottom route geometry screening; not wheel dynamics or learned navigation evaluation",
+  "rover_route_revision": 6,
+  "rover_route": {
+    "schema_version": "rover_floor_corridor/6.0",
+    "route_id": "pit_bottom_to_cavern",
+    "units": "m",
+    "up_axis": "Z",
+    "start_scope": "pit_bottom; the natural shaft is not a driving route",
+    "drive_x_range_m": [
+      -15.0,
+      74.0
+    ],
+    "core_x_range_m": [
+      -16.0,
+      77.0
+    ],
+    "longitudinal_blend_m": 4.0,
+    "drivable_half_width_m": 1.2,
+    "blend_half_width_m": 3.0,
+    "centerline_y_offset_m": -2.0,
+    "ramp_x_range_m": [
+      -12.0,
+      28.0
+    ],
+    "profile_z_range_m": [
+      -1.5,
+      0.25
+    ],
+    "micro_relief_m": 0.002,
+    "micro_wavelength_m": 4.0,
+    "micro_seed": 20267139,
+    "carve_height_m": 2.0,
+    "distance_polyline_step_m": 0.25,
+    "max_pitch_deg": 5.0,
+    "max_roll_deg": 3.0,
+    "max_step_m": 0.03,
+    "max_gravel_protrusion_m": 0.02,
+    "provenance": "engineering-authored geometry for a gentle rover corridor; not a lunar observation",
+    "scope": "geometric floor/clearance constraints only; no wheel, suspension or friction certification"
+  },
+  "vehicle_geometry": {
+    "wheel_radius_m": 0.18,
+    "wheelbase_m": 0.52,
+    "track_m": 0.66,
+    "overall_length_m": 0.95,
+    "overall_width_m": 0.85,
+    "belly_clearance_m": 0.15,
+    "scope": "dimensions of the locally authored visual rover; no suspension or tyre model"
+  },
+  "task_spawn": {
+    "location": "pit_bottom",
+    "xyz_m": [
+      -15.0,
+      -3.7155024164040102,
+      -1.5
+    ],
+    "z_reference": "ground reference, not camera or rover centre",
+    "surface_descent_included": false
+  },
+  "task_goal": {
+    "xyz_m": [
+      74.0,
+      -2.6542174014526125,
+      0.25
+    ],
+    "z_reference": "ground reference"
+  }
+}

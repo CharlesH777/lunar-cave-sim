@@ -1,0 +1,266 @@
+{
+  "passed": true,
+  "actual_renderer": true,
+  "renderer": "Isaac Sim 5.1 / RayTracedLighting",
+  "source": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118",
+  "protected_sha256": {
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/cave.usdc": "e29f63dfd8dbf4874db9e26c36009737b5a8cb5d8892633114b96d60f51d7175",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/scene_config.json": "fb5056a076b1ffd3c11b12edd607a90ca9e6ef37fa4f90e4ea24e2648c2bc28c",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/mesh.npz": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/boulders.json": "24103a81e6da6e88fe3f8b94d654bbda6302d71f3e52d7f6ddbc41284b96b1db",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/targets.json": "35df0692ab6095d3a3becd6120fef754905e19d6302db715415cf11c5c4bdf14",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/latest.json": "542915051885f56f1f9298cc43618bee3d4bc23702941b1a752b20a3c5b26b9e",
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/status.json": "34da52959a36cd58e2ba9a237648d4a1f8fd610e26b41523f4a3efd48e2b3d9f"
+  },
+  "source_files_unchanged": true,
+  "native_resolution": [
+    1920,
+    1080
+  ],
+  "source_rgb_upscaled": false,
+  "antialiasing": "FXAA, DLSS disabled and staticRatio 1 confirmed by setting readback",
+  "internal_rtx_resolution_measured": false,
+  "views": [
+    {
+      "name": "01_astronaut_detail",
+      "title": "ASTRONAUT / detailed suit and equipment",
+      "eye": [
+        60.65323987909038,
+        6.910058814521809,
+        0.005689871815856007
+      ],
+      "target": [
+        57.21715587720833,
+        5.677684442297483,
+        -0.4432813201065602
+      ],
+      "focal": 32.0,
+      "scope": "asset review",
+      "file": "01_astronaut_detail.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": 1.400118849164262,
+      "mean_rgb": 75.98447498713992,
+      "std_rgb": 78.8364020779937,
+      "bright_pixel_fraction": 0.07748939043209876,
+      "lighting": "fixed vehicle headlamp24000 + two8000 work lights, exposure6, dome45"
+    },
+    {
+      "name": "02_astronaut_backpack",
+      "title": "ASTRONAUT / life-support backpack and joints",
+      "eye": [
+        53.781071875326276,
+        4.445310070073157,
+        -0.0314413247223439
+      ],
+      "target": [
+        57.21715587720833,
+        5.677684442297483,
+        -0.4432813201065602
+      ],
+      "focal": 32.0,
+      "scope": "asset review",
+      "file": "02_astronaut_backpack.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": 1.5542689700982741,
+      "mean_rgb": 154.2690915959362,
+      "std_rgb": 80.5760377168575,
+      "bright_pixel_fraction": 0.06968701774691358,
+      "lighting": "fixed vehicle headlamp24000 + two8000 work lights, exposure6, dome45"
+    },
+    {
+      "name": "03_habitat_detail",
+      "title": "LUNAR HABITAT / airlock and external systems",
+      "eye": [
+        10.063863147729057,
+        -3.737220000644868,
+        0.6566960692554916
+      ],
+      "target": [
+        9.32926697834657,
+        2.215606604910204,
+        0.0084715707674059
+      ],
+      "focal": 32.0,
+      "scope": "asset review",
+      "file": "03_habitat_detail.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": 1.8149589307593739,
+      "mean_rgb": 175.6602589699074,
+      "std_rgb": 59.32414644529902,
+      "bright_pixel_fraction": 0.01744309413580247,
+      "lighting": "fixed vehicle headlamp24000 + two8000 work lights, exposure6, dome45"
+    },
+    {
+      "name": "04_main_fork_obstacles",
+      "title": "MAIN CAVE / fork and large obstacle groups",
+      "eye": [
+        25.978174593052017,
+        -0.02182540694798188,
+        -0.053807981290686424
+      ],
+      "target": [
+        37.52868290065436,
+        3.2317507541414203,
+        -0.053807981290686424
+      ],
+      "focal": 18.0,
+      "path_report": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/validation/obstacle_map_report.json",
+      "path_pose_index": 442,
+      "scope": "geometric-path review; no policy",
+      "file": "04_main_fork_obstacles.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": 1.4998661605820518,
+      "mean_rgb": 94.91920203189301,
+      "std_rgb": 96.06121399042311,
+      "bright_pixel_fraction": 0.004363425925925926,
+      "lighting": "fixed vehicle headlamp24000 + two8000 work lights, exposure6, dome45"
+    },
+    {
+      "name": "05_side_branch_obstacles",
+      "title": "SIDE BRANCH / usable offshoot and obstacles",
+      "eye": [
+        44.982694782833114,
+        16.982694782833118,
+        0.1196805644351111
+      ],
+      "target": [
+        51.91053297244795,
+        26.780911866492477,
+        0.1196805644351111
+      ],
+      "focal": 18.0,
+      "path_report": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/validation_branch/obstacle_map_report.json",
+      "path_pose_index": 747,
+      "scope": "geometric-path review; no policy",
+      "file": "05_side_branch_obstacles.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": 1.5001706190143462,
+      "mean_rgb": 106.99070457175925,
+      "std_rgb": 87.02601682304544,
+      "bright_pixel_fraction": 0.006005497685185185,
+      "lighting": "fixed vehicle headlamp24000 + two8000 work lights, exposure6, dome45"
+    },
+    {
+      "name": "06_orthographic_cutaway",
+      "title": "ORTHOGRAPHIC MAP / ceiling hidden for review",
+      "eye": [
+        16.0,
+        14.0,
+        120.0
+      ],
+      "target": [
+        16.0,
+        14.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "projection": "orthographic",
+      "horizontal_aperture_usd": 1660.0,
+      "scope": "source mesh sliced at Z3.5m; not a policy observation",
+      "file": "06_orthographic_cutaway.png",
+      "native_resolution": [
+        1920,
+        1080
+      ],
+      "renderer_settings": {
+        "/rtx-transient/post/aa/limitedOps": false,
+        "/rtx/post/aa/op": 2,
+        "/rtx/post/dlss/enabled": false,
+        "/rtx/post/scaling/staticRatio": 1.0,
+        "/rtx-transient/dlssg/enabled": false,
+        "/rtx/post/motionblur/enabled": false
+      },
+      "camera_air_margin_not_clearance": null,
+      "mean_rgb": 88.64649514531892,
+      "std_rgb": 38.64819742628366,
+      "bright_pixel_fraction": 5.931712962962963e-05,
+      "lighting": "overhead review illumination"
+    }
+  ],
+  "validated_path_reports": {
+    "main": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/validation/obstacle_map_report.json",
+    "branch": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v11/demo_01/layouts/seed_20261118/validation_branch/obstacle_map_report.json"
+  },
+  "vehicle_lights": {
+    "main_intensity": 24000.0,
+    "work_intensity_each": 8000.0,
+    "exposure": 6.0,
+    "dome": 45.0,
+    "target_independent": true
+  },
+  "cutaway": {
+    "ceiling_hidden_in_review_only": true,
+    "source_mesh_true_plane_slice": true,
+    "cut_z_m": 3.5,
+    "plane_slice_method": "exact triangle-edge intersections, no cap; no Shapely dependency",
+    "source_cave_subtree_hidden": true,
+    "replacement_floor_boulders": 70,
+    "upper_ledge_gravel_hidden_ids": 159,
+    "horizontal_orthographic_extent_m": 166.0,
+    "vertical_orthographic_extent_m": 93.375,
+    "not_policy_observation": true
+  },
+  "navigation_policy_evaluated": false,
+  "physics_evaluated": false,
+  "training_started": false,
+  "elapsed_seconds": 27.31350532599936
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "lunar_route_instruction_binding/14.0",
+  "physical_trajectory_id": "seed_20261118_astronaut",
+  "original_instruction": "找到宇航员并靠近。",
+  "canonical_instruction": "找到宇航员，它在洞穴深处。进入洞穴，在第一个分叉向右转，最后靠近宇航员并停下来。",
+  "raw_capture_manifest_sha256": "b8bf4d031363ab11d5024ed7b16447e494210e13b10c7a9d7f076c4de61065cb",
+  "route_contract_sha256": "924a75bec390408e27dae00bd401fe744c89a126a551de3c7e2a179a9af4e6a1",
+  "materializer_code_sha256": "c551049fb5d7e96a1dfb75ffcf2c2dfba3e189fa564169ae154d3e0a718997d9",
+  "semantic_visibility_config_sha256": "f77a1c9ab7f5fcc3278dcf09506867c24cee2ea6c79c85cda8377e3dd7f5fd69",
+  "semantic_enrichment_sha256": "b0f2a4c277995b4efa454967c7a83bcc7db5c5328e247f4372966039469b62be",
+  "semantic_module_sha256": "fb2626a6f8b98a63b8664870d9d5efad51a9f8298e30c631f17d1148d27592c0",
+  "observation_history_controls_and_poses_unchanged": true,
+  "raw_detection_fields_unchanged": true,
+  "changed_fields": [
+    "instruction",
+    "inputs.instruction",
+    "new semantic_* evidence",
+    "metadata derived provenance"
+  ]
+}

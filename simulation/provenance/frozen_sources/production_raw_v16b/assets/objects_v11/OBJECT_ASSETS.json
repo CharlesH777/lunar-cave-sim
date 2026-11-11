@@ -1,0 +1,331 @@
+{
+  "passed": true,
+  "objects": [
+    {
+      "id": "astronaut",
+      "file": "astronaut.usdc",
+      "sha256": "d0c3f62f2f7cce7d8e895942575bbfa139cde4ac08ba5bab1ac4e82010852046",
+      "bytes": 1297274,
+      "metadata": {
+        "prim_path": "/World/Object",
+        "class_name": "astronaut",
+        "label_zh": "宇航员",
+        "asset_revision": 10,
+        "local_ground_footprint_radius_m": 0.6590621904951944,
+        "height_m": 1.871999979019165,
+        "local_bounds_m": [
+          [
+            -0.4265000001862645,
+            -0.488317608833313,
+            -7.003545764161512e-10
+          ],
+          [
+            0.26792529225349426,
+            0.48926421999931335,
+            1.871999979019165
+          ]
+        ],
+        "collision_scope": "static garment torso/pelvis, limbs, soles, boots and PLSS convex shapes; fine equipment visual",
+        "static_collision": true,
+        "collider_count": 15,
+        "collider_paths": [
+          "/World/Object/PelvicGarment",
+          "/World/Object/TorsoGarment",
+          "/World/Object/UpperLeg0",
+          "/World/Object/LowerLeg0",
+          "/World/Object/BootSole0/Mesh",
+          "/World/Object/Overboot0",
+          "/World/Object/UpperSleeve0",
+          "/World/Object/ForeSleeve0",
+          "/World/Object/UpperLeg1",
+          "/World/Object/LowerLeg1",
+          "/World/Object/BootSole1/Mesh",
+          "/World/Object/Overboot1",
+          "/World/Object/UpperSleeve1",
+          "/World/Object/ForeSleeve1",
+          "/World/Object/PLSSMainEnclosure/Mesh"
+        ],
+        "articulation": false,
+        "external_assets_used": false,
+        "preferred_view_direction_local_xy": [
+          1.0,
+          -0.28
+        ],
+        "camera_target_height_m": 1.08,
+        "provenance": "original procedural EVA suit with tailored folded loft meshes; not an official or mission-certified suit",
+        "visual_features": [
+          "tailored folded pressure garment",
+          "woven vertex albedo",
+          "continuous adult proportions",
+          "curved inset gold visor",
+          "pressure seals and mechanical helmet fittings",
+          "PLSS radiator and umbilicals",
+          "individual glove fingers",
+          "boot soles and tread",
+          "reinforced seams and utility pocket"
+        ]
+      },
+      "meshes": 148,
+      "static_colliders": 15,
+      "textures": [],
+      "unit": "metres",
+      "up_axis": "Z",
+      "default_prim": "/World"
+    },
+    {
+      "id": "lunar_base",
+      "file": "lunar_base.usdc",
+      "sha256": "893647848499201d15964ec57b718666d702fa413e36976d10dea192c8e64fd8",
+      "bytes": 348530,
+      "metadata": {
+        "prim_path": "/World/Object",
+        "class_name": "lunar_base",
+        "label_zh": "小型月球基地",
+        "asset_revision": 10,
+        "local_ground_footprint_radius_m": 2.221474446034941,
+        "height_m": 2.946474993127662,
+        "local_bounds_m": [
+          [
+            -1.4925000001862645,
+            -1.539580037529215,
+            -1.490116086078075e-10
+          ],
+          [
+            2.169999997615814,
+            1.539580037529215,
+            2.946474993127662
+          ]
+        ],
+        "ground_contact_points_local_m": [
+          [
+            -0.93,
+            -0.68,
+            0.0
+          ],
+          [
+            -0.93,
+            0.68,
+            0.0
+          ],
+          [
+            0.84,
+            -0.68,
+            0.0
+          ],
+          [
+            0.84,
+            0.68,
+            0.0
+          ]
+        ],
+        "preferred_view_direction_local_xy": [
+          0.7961621941231025,
+          -0.6050832675335579
+        ],
+        "camera_target_height_m": 1.26,
+        "collision_scope": "static pressure hull, airlock, stair treads, structural feet and solar arrays; trim is visual",
+        "static_collision": true,
+        "collision_prim_count": 26,
+        "collision_prim_paths": [
+          "/World/Object/PressureHull",
+          "/World/Object/Airlock/Drum/Shape",
+          "/World/Object/Airlock/Hatch/Shape",
+          "/World/Object/Access/Step0/Mesh",
+          "/World/Object/Access/Step1/Mesh",
+          "/World/Object/Access/Step2/Mesh",
+          "/World/Object/Access/Step3/Mesh",
+          "/World/Object/Undercarriage/Foot0_0/Shape",
+          "/World/Object/Undercarriage/InnerLeg0_0/Shape",
+          "/World/Object/Undercarriage/OuterLeg0_0/Shape",
+          "/World/Object/Undercarriage/Foot0_1/Shape",
+          "/World/Object/Undercarriage/InnerLeg0_1/Shape",
+          "/World/Object/Undercarriage/OuterLeg0_1/Shape",
+          "/World/Object/Undercarriage/Foot1_0/Shape",
+          "/World/Object/Undercarriage/InnerLeg1_0/Shape",
+          "/World/Object/Undercarriage/OuterLeg1_0/Shape",
+          "/World/Object/Undercarriage/Foot1_1/Shape",
+          "/World/Object/Undercarriage/InnerLeg1_1/Shape",
+          "/World/Object/Undercarriage/OuterLeg1_1/Shape",
+          "/World/Object/Power/HingeArm0_0/Shape",
+          "/World/Object/Power/HingeArm0_1/Shape",
+          "/World/Object/Power/SolarWing0/StructuralFrame/Mesh",
+          "/World/Object/Power/HingeArm1_0/Shape",
+          "/World/Object/Power/HingeArm1_1/Shape",
+          "/World/Object/Power/SolarWing1/StructuralFrame/Mesh",
+          "/World/Object/Power/BatteryEnclosure/Mesh"
+        ],
+        "rigid_body": false,
+        "articulation": false,
+        "external_assets_used": false,
+        "provenance": "original compact engineering-inspired lunar habitat; not a certified or flight-specific design",
+        "professional_details": [
+          "panelized wrinkled insulation",
+          "faceted pressure shell and ring frames",
+          "latching airlock with pressure window",
+          "guarded non-slip steps",
+          "telescopic landing feet",
+          "individual solar cells and harnesses",
+          "roof radiator and service cassette",
+          "parabolic communications reflector"
+        ]
+      },
+      "meshes": 305,
+      "static_colliders": 26,
+      "textures": [],
+      "unit": "metres",
+      "up_axis": "Z",
+      "default_prim": "/World"
+    },
+    {
+      "id": "lunar_rover",
+      "file": "lunar_rover.usdc",
+      "sha256": "60d75afbae45c2f7b1bb5733edb188e539b3afa762f26c03c09076a07fe119f6",
+      "bytes": 81792,
+      "metadata": {
+        "prim_path": "/World/Object",
+        "label_zh": "小型探月车",
+        "class_name": "lunar_rover",
+        "local_ground_footprint_radius_m": 0.856891,
+        "height_m": 1.352373431350284,
+        "local_bounds_m": [
+          [
+            -0.625499999858439,
+            -0.5764999999701976,
+            0.009500000141561018
+          ],
+          [
+            0.625499999858439,
+            0.5764999999701976,
+            1.352373431350284
+          ]
+        ],
+        "ground_contact_points_local_m": [
+          [
+            -0.43,
+            -0.48,
+            0.0
+          ],
+          [
+            -0.43,
+            0.48,
+            0.0
+          ],
+          [
+            0.0,
+            -0.48,
+            0.0
+          ],
+          [
+            0.0,
+            0.48,
+            0.0
+          ],
+          [
+            0.43,
+            -0.48,
+            0.0
+          ],
+          [
+            0.43,
+            0.48,
+            0.0
+          ]
+        ],
+        "preferred_view_direction_local_xy": [
+          0.838443616300637,
+          -0.5449883505954141
+        ],
+        "camera_target_height_m": 0.66,
+        "ground_origin_z_m": 0.0,
+        "forward_axis": "+X",
+        "collision_prim_count": 15,
+        "collision_prim_paths": [
+          "/World/Object/Chassis/Mesh",
+          "/World/Object/LowerChassis/Mesh",
+          "/World/Object/Axle0/Shape",
+          "/World/Object/Wheel0_0/Shape",
+          "/World/Object/Wheel0_1/Shape",
+          "/World/Object/Axle1/Shape",
+          "/World/Object/Wheel1_0/Shape",
+          "/World/Object/Wheel1_1/Shape",
+          "/World/Object/Axle2/Shape",
+          "/World/Object/Wheel2_0/Shape",
+          "/World/Object/Wheel2_1/Shape",
+          "/World/Object/SolarDeck/Frame/Mesh",
+          "/World/Object/CameraMast/Shape",
+          "/World/Object/CameraHead/Mesh",
+          "/World/Object/FrontEquipment/Mesh"
+        ],
+        "collision_scope": "static body/wheels/panels/feet; small trim is visual geometry",
+        "rigid_body": false,
+        "authored_asset": true,
+        "downloaded_asset": false
+      },
+      "meshes": 131,
+      "static_colliders": 15,
+      "textures": [],
+      "unit": "metres",
+      "up_axis": "Z",
+      "default_prim": "/World"
+    },
+    {
+      "id": "chinese_flag",
+      "file": "chinese_flag.usdc",
+      "sha256": "0e87fde76d2adc6c0d2760648828677fd8f1fb0bf8a1b4fced46aac425bf54eb",
+      "bytes": 66139,
+      "metadata": {
+        "prim_path": "/World/Object",
+        "class_name": "chinese_flag",
+        "label_zh": "中国国旗",
+        "local_ground_footprint_radius_m": 0.9680521700845632,
+        "local_bounds_m": [
+          [
+            -0.20999999344348907,
+            -0.20999999344348907,
+            8.940696724635266e-10
+          ],
+          [
+            0.9450000035762787,
+            0.20999999344348907,
+            2.145999999821186
+          ]
+        ],
+        "height_m": 2.145999999821186,
+        "collision_scope": "static pole, weighted base, socket and rigid top support; fabric and stars are visual",
+        "static_collision": true,
+        "collider_count": 4,
+        "collider_paths": [
+          "/World/Object/WeightedBase/Shape",
+          "/World/Object/PoleSocket/Shape",
+          "/World/Object/Pole/Shape",
+          "/World/Object/RigidTopSupport/Shape"
+        ],
+        "articulation": false,
+        "external_assets_used": false,
+        "provenance": "locally authored procedural geometry for the cave search demo",
+        "flag_dimensions_m": [
+          0.9,
+          0.6
+        ],
+        "star_count": 5,
+        "rigid_top_support": true,
+        "cloth_simulation": false,
+        "wind_simulation": false,
+        "preferred_view_direction_local_xy": [
+          0.0,
+          -1.0
+        ],
+        "camera_target_height_m": 1.62
+      },
+      "meshes": 8,
+      "static_colliders": 4,
+      "textures": [],
+      "unit": "metres",
+      "up_axis": "Z",
+      "default_prim": "/World"
+    }
+  ],
+  "source": "original procedural project assets",
+  "placement": "local origin only; final cave positions and yaw are randomized per layout seed",
+  "scope": "static search objects; no astronaut/vehicle/habitat dynamics"
+}

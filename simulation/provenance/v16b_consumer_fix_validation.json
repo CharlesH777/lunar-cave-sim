@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "actual_flag_ready": "seed_20261118_chinese_flag",
+  "raw_manifest_sha256": "47fae5bb3efb533a012dde26d9a630dde19cca4f7555819479313d4560e4711d",
+  "capture_rng_seed": 20261110,
+  "source_layout_seed": 20261118,
+  "layout_seed": 20261118,
+  "frames": 1315,
+  "actual_complete_flag_accepted": true,
+  "incorrect_source_layout_seed_rejected": true,
+  "negative_injection": "metadata read value changed in memory to source_layout_seed999; raw bytes and hash proofs untouched",
+  "api_calls": 0,
+  "gpu_calls": 0,
+  "remote_calls": 0,
+  "raw_edits": false,
+  "active_code_edits": false
+}

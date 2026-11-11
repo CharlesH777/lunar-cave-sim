@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-11-11T04:30:50.336137+00:00",
+  "elapsed_seconds": 188.553,
+  "domain": "isaac_continuous",
+  "training_ready": false,
+  "executed_controls": 1130,
+  "captured_frames": 1130,
+  "passed": true,
+  "reason": "terminal_approach_visible_STOP",
+  "error": null
+}

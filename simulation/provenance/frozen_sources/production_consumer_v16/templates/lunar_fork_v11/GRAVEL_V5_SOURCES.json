@@ -1,0 +1,64 @@
+{
+  "asset": "gravel_floor_04",
+  "provider": "Poly Haven",
+  "source_url": "https://polyhaven.com/a/gravel_floor_04",
+  "api": "https://api.polyhaven.com/files/gravel_floor_04",
+  "author": "Charlotte Baglioni",
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "physical_tile_width_m": 2.5,
+  "files": [
+    {
+      "path": "assets/textures/gravel_floor_04_diff_4k.jpg",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_diff_4k.jpg",
+      "official_md5": "c697a4f710f72ecd7e3bd429a69809eb",
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+      "bytes": 15684418,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "original_photographic_map_unmodified": true
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_nor_gl_4k.jpg",
+      "official_md5": "fbe0db5ae7265d55d6da4014c0b57dfb",
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+      "bytes": 22752598,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "original_photographic_map_unmodified": true
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_rough_4k.jpg",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_rough_4k.jpg",
+      "official_md5": "b00747e711a212983c25df8cf9ac6ada",
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+      "bytes": 5203125,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "original_photographic_map_unmodified": true
+    },
+    {
+      "path": "assets/textures/gravel_floor_04_disp_4k.jpg",
+      "map": "disp",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_disp_4k.jpg",
+      "official_md5": "43d00c9268acddc8eeea255a3ec1e520",
+      "sha256": "4f8f485abeae32835d1607440c3250b1de09c54ece8db90d8238b6dcc2360dd1",
+      "bytes": 8621487,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "original_photographic_map_unmodified": true
+    }
+  ]
+}

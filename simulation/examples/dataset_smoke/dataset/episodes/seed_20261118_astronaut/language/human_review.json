@@ -1,0 +1,5 @@
+{
+  "instructions": "Review against source RGB and machine evidence; do not modify machine facts to fit generated text.",
+  "edits_file": "human_review_edits.jsonl (optional; record sample_id,before,after,reason,reviewer)",
+  "items": []
+}

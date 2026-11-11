@@ -1,0 +1,1 @@
+{"passed": true, "output": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v16/compiled_actual_astro/training_stride5", "sampled_physical_frames": 227, "reader_rows": 4767, "retained_cot_rows": 105, "observation_stride": 5, "native_action_dt_s": 0.2}

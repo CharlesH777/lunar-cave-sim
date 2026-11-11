@@ -1,0 +1,169 @@
+{
+  "requested_units": 100,
+  "layouts": [
+    {
+      "seed": 20261118,
+      "split": "train"
+    },
+    {
+      "seed": 20261119,
+      "split": "train"
+    },
+    {
+      "seed": 20261120,
+      "split": "train"
+    },
+    {
+      "seed": 20261121,
+      "split": "train"
+    },
+    {
+      "seed": 20261122,
+      "split": "train"
+    },
+    {
+      "seed": 20261123,
+      "split": "train"
+    },
+    {
+      "seed": 20261124,
+      "split": "train"
+    },
+    {
+      "seed": 20261125,
+      "split": "train"
+    },
+    {
+      "seed": 20261126,
+      "split": "train"
+    },
+    {
+      "seed": 20261127,
+      "split": "train"
+    },
+    {
+      "seed": 20261128,
+      "split": "train"
+    },
+    {
+      "seed": 20261129,
+      "split": "train"
+    },
+    {
+      "seed": 20261130,
+      "split": "train"
+    },
+    {
+      "seed": 20261131,
+      "split": "train"
+    },
+    {
+      "seed": 20261132,
+      "split": "train"
+    },
+    {
+      "seed": 20261133,
+      "split": "train"
+    },
+    {
+      "seed": 20261134,
+      "split": "train"
+    },
+    {
+      "seed": 20261135,
+      "split": "train"
+    },
+    {
+      "seed": 20261136,
+      "split": "train"
+    },
+    {
+      "seed": 20261137,
+      "split": "train"
+    },
+    {
+      "seed": 20261138,
+      "split": "val"
+    },
+    {
+      "seed": 20261139,
+      "split": "val"
+    },
+    {
+      "seed": 20261140,
+      "split": "val"
+    },
+    {
+      "seed": 20261141,
+      "split": "test"
+    },
+    {
+      "seed": 20261142,
+      "split": "test"
+    }
+  ],
+  "expected_layout_splits": {
+    "train": 20,
+    "val": 3,
+    "test": 2
+  },
+  "maximum_cpu_layout_attempts": 5,
+  "isaac_python": "/home/charles/miniconda3/envs/env_isaaclab/bin/python",
+  "publish_host": "lab-a100-20",
+  "remote_root": "/data/zhenghengcao/lunar_cave_query100_20261111_v14",
+  "ssh_options": [
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=20"
+  ],
+  "cpu_pythonpaths": [
+    "/home/charles/.local/share/ov/data/exts/v2/omni.usd.libs-4fde11c8f289f1f4"
+  ],
+  "cpu_library_paths": [
+    "/home/charles/.local/share/ov/data/exts/v2/omni.usd.libs-4fde11c8f289f1f4/bin"
+  ],
+  "minimum_staging_free_gib": 4,
+  "evict_below_free_gib": 6,
+  "evict_target_free_gib": 8,
+  "keep_review_units": 4,
+  "first_lane_min_host_gib": 8,
+  "first_lane_min_gpu_gib": 6,
+  "schema_version": "lunar_raw_batch/16.0",
+  "terrain_template": "/home/charles/WORK/08_operations/lunar_query100_20261111_v14/delivery_v14/templates/lunar_fork_v11",
+  "maximum_unannotated_units": 8,
+  "prune_consumed_raw": true,
+  "prebuilt_layouts": {
+    "20261118": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/layouts/seed_20261118",
+    "20261119": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/layouts/seed_20261119",
+    "20261120": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/layouts/seed_20261120"
+  },
+  "adopt_raw": {
+    "seed_20261118_astronaut": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_query100_20261111_v14/units/seed_20261118_astronaut/dataset/episodes/seed_20261118_astronaut/trajectory",
+    "seed_20261118_chinese_flag": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v14/pilot_close_pass/raw_episodes/seed_20261118_chinese_flag",
+    "seed_20261118_lunar_rover": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261118_lunar_rover",
+    "seed_20261119_astronaut": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261119_astronaut",
+    "seed_20261119_lunar_base": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261119_lunar_base",
+    "seed_20261119_lunar_rover": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261119_lunar_rover",
+    "seed_20261120_astronaut": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261120_astronaut",
+    "seed_20261120_chinese_flag": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261120_chinese_flag",
+    "seed_20261120_lunar_base": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261120_lunar_base",
+    "seed_20261120_lunar_rover": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v13/demo10/raw_episodes/seed_20261120_lunar_rover"
+  },
+  "excluded_partial_sources": [
+    "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_query100_20261111_v14/units/seed_20261118_lunar_rover/dataset/episodes/seed_20261118_lunar_rover/trajectory"
+  ],
+  "capture": {
+    "max_steps": 5000,
+    "motion_controller": "smooth_v13",
+    "landmark_pass": {
+      "enabled": true,
+      "landmark_id": "auto",
+      "policy": "prefer"
+    },
+    "experience": "/home/charles/ISAAC_SIM/IsaacLab/apps/isaaclab.python.headless.rendering.kit",
+    "ext_folders": [
+      "/home/charles/.local/share/ov/data/exts/v2/omni.usd.libs-4fde11c8f289f1f4"
+    ]
+  }
+}

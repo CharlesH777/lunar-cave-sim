@@ -1,0 +1,59 @@
+{
+  "source_validation_file": "/home/charles/WORK/08_operations/lunar_query100_20261111_v16/package_validation/VALIDATION.json",
+  "source_validation_sha256": "29938fd758b0fa6d0d0e982abd1b3da9f0843e0ce317157d35da8935637ab6d4",
+  "validation": {
+    "passed": true,
+    "relocated_root": "/home/charles/WORK/08_operations/lunar_query100_20261111_v16/pipeline_publication/source",
+    "checks": [
+      {
+        "name": "sha256_inventory",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.3283240795135498
+      },
+      {
+        "name": "dense_relocated",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 8.428742170333862
+      },
+      {
+        "name": "stride_relocated",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.7119579315185547
+      },
+      {
+        "name": "query_relocated",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.28098034858703613
+      },
+      {
+        "name": "usd_asset_closure",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 0.15001177787780762
+      },
+      {
+        "name": "final_sha256_inventory",
+        "passed": true,
+        "exit_code": 0,
+        "elapsed_seconds": 1.3330461978912354
+      }
+    ],
+    "credential_scan": {
+      "passed": true,
+      "files_scanned": 9826,
+      "known_credential_values_checked": 1,
+      "credential_value_hit_count": 0,
+      "unexpected_environment_file_count": 0,
+      "secret_values_logged": false,
+      "scope": "Exact known external PPIO credential values, complete binary/text tree; no live provider cache or key file included"
+    },
+    "new_HTTP_requests": 0,
+    "GPU_calls": 0,
+    "source_package_unmodified": true
+  },
+  "inheritance_rule": "Data/asset/index bytes equal the old SHA-verified seal. No changed consumer code is used by those completed sample validators."
+}

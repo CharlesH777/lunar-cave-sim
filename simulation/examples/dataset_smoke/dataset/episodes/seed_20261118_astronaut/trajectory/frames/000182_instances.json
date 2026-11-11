@@ -1,0 +1,19 @@
+{
+  "idToLabels": {
+    "0": "BACKGROUND",
+    "1": "UNLABELLED",
+    "4": "/World/SearchTargets/lunar_base"
+  },
+  "idToSemantics": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "4": {
+      "object_id": "lunar_base",
+      "class": "lunar_base"
+    }
+  }
+}

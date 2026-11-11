@@ -1,0 +1,12 @@
+{
+  "gravel": {
+    "count": 18000,
+    "prototype_count": 12,
+    "seed": 20261110,
+    "size_fractions": [
+      0.94,
+      0.05,
+      0.01
+    ]
+  }
+}

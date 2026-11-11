@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "seed": 20261118,
+  "target_count": 4,
+  "target_checks": [
+    {
+      "id": "astronaut",
+      "mesh_count": 148,
+      "collision_paths": [
+        "/World/SearchTargets/astronaut/PelvicGarment",
+        "/World/SearchTargets/astronaut/TorsoGarment",
+        "/World/SearchTargets/astronaut/UpperLeg0",
+        "/World/SearchTargets/astronaut/LowerLeg0",
+        "/World/SearchTargets/astronaut/BootSole0/Mesh",
+        "/World/SearchTargets/astronaut/Overboot0",
+        "/World/SearchTargets/astronaut/UpperSleeve0",
+        "/World/SearchTargets/astronaut/ForeSleeve0",
+        "/World/SearchTargets/astronaut/UpperLeg1",
+        "/World/SearchTargets/astronaut/LowerLeg1",
+        "/World/SearchTargets/astronaut/BootSole1/Mesh",
+        "/World/SearchTargets/astronaut/Overboot1",
+        "/World/SearchTargets/astronaut/UpperSleeve1",
+        "/World/SearchTargets/astronaut/ForeSleeve1",
+        "/World/SearchTargets/astronaut/PLSSMainEnclosure/Mesh"
+      ],
+      "static": true
+    },
+    {
+      "id": "lunar_rover",
+      "mesh_count": 131,
+      "collision_paths": [
+        "/World/SearchTargets/lunar_rover/Chassis/Mesh",
+        "/World/SearchTargets/lunar_rover/LowerChassis/Mesh",
+        "/World/SearchTargets/lunar_rover/Axle0/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel0_0/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel0_1/Shape",
+        "/World/SearchTargets/lunar_rover/Axle1/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel1_0/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel1_1/Shape",
+        "/World/SearchTargets/lunar_rover/Axle2/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel2_0/Shape",
+        "/World/SearchTargets/lunar_rover/Wheel2_1/Shape",
+        "/World/SearchTargets/lunar_rover/SolarDeck/Frame/Mesh",
+        "/World/SearchTargets/lunar_rover/CameraMast/Shape",
+        "/World/SearchTargets/lunar_rover/CameraHead/Mesh",
+        "/World/SearchTargets/lunar_rover/FrontEquipment/Mesh"
+      ],
+      "static": true
+    },
+    {
+      "id": "lunar_base",
+      "mesh_count": 305,
+      "collision_paths": [
+        "/World/SearchTargets/lunar_base/PressureHull",
+        "/World/SearchTargets/lunar_base/Airlock/Drum/Shape",
+        "/World/SearchTargets/lunar_base/Airlock/Hatch/Shape",
+        "/World/SearchTargets/lunar_base/Access/Step0/Mesh",
+        "/World/SearchTargets/lunar_base/Access/Step1/Mesh",
+        "/World/SearchTargets/lunar_base/Access/Step2/Mesh",
+        "/World/SearchTargets/lunar_base/Access/Step3/Mesh",
+        "/World/SearchTargets/lunar_base/Undercarriage/Foot0_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/InnerLeg0_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/OuterLeg0_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/Foot0_1/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/InnerLeg0_1/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/OuterLeg0_1/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/Foot1_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/InnerLeg1_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/OuterLeg1_0/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/Foot1_1/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/InnerLeg1_1/Shape",
+        "/World/SearchTargets/lunar_base/Undercarriage/OuterLeg1_1/Shape",
+        "/World/SearchTargets/lunar_base/Power/HingeArm0_0/Shape",
+        "/World/SearchTargets/lunar_base/Power/HingeArm0_1/Shape",
+        "/World/SearchTargets/lunar_base/Power/SolarWing0/StructuralFrame/Mesh",
+        "/World/SearchTargets/lunar_base/Power/HingeArm1_0/Shape",
+        "/World/SearchTargets/lunar_base/Power/HingeArm1_1/Shape",
+        "/World/SearchTargets/lunar_base/Power/SolarWing1/StructuralFrame/Mesh",
+        "/World/SearchTargets/lunar_base/Power/BatteryEnclosure/Mesh"
+      ],
+      "static": true
+    },
+    {
+      "id": "chinese_flag",
+      "mesh_count": 8,
+      "collision_paths": [
+        "/World/SearchTargets/chinese_flag/WeightedBase/Shape",
+        "/World/SearchTargets/chinese_flag/PoleSocket/Shape",
+        "/World/SearchTargets/chinese_flag/Pole/Shape",
+        "/World/SearchTargets/chinese_flag/RigidTopSupport/Shape"
+      ],
+      "static": true
+    }
+  ],
+  "source": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final",
+  "source_files_sha256": {
+    "cave.usdc": "ac3ed415fa1316428cdaf409999b163dfcf1d159ea746b0e0178a9c9b1ab2cee",
+    "scene_config.json": "1cdb099e64a1eb998c2115d26812b27c9e5d9f151fa84e4a05e5ab61b77390d2",
+    "mesh.npz": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93",
+    "boulders.json": "24103a81e6da6e88fe3f8b94d654bbda6302d71f3e52d7f6ddbc41284b96b1db",
+    "obstacle_report.json": "cbde77b9842d4c369a74bd52245dccffe31edbd67e87db43c8d1c5d52ef4fc5d",
+    "geometry_report.json": "059e4b22a227171a465fee0548b129a20650f4911c473a6eda7e91bc54c56adb"
+  },
+  "base_geometry_preservation": {
+    "passed": true,
+    "base_mesh_count": 16,
+    "preserved_collision_prim_count": 4,
+    "points_faces_normals_unchanged": true,
+    "base_transforms_units_and_gravity_unchanged": true
+  },
+  "original_gravel_unchanged": true,
+  "target_collision_enabled": true,
+  "texture_assets": [
+    {
+      "relative_path": "textures/dark_rock_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final/textures/dark_rock_nor_gl_2k.jpg",
+      "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+      "bytes": 3811444
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_diff_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final/textures/gravel_floor_04_diff_4k.jpg",
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+      "bytes": 15684418
+    },
+    {
+      "relative_path": "textures/moon_03_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final/textures/moon_03_nor_gl_2k.jpg",
+      "sha256": "9a8352e117867266996c6b41871599b5fce693ad088fb2e73660daee64d896d7",
+      "bytes": 5126957
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_rough_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final/textures/gravel_floor_04_rough_4k.jpg",
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+      "bytes": 5203125
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_nor_gl_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_final/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+      "bytes": 22752598
+    }
+  ],
+  "geometry_and_assets_self_authored": true,
+  "physics_evaluated": false,
+  "navigation_policy_evaluated": false
+}

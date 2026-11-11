@@ -1,0 +1,74 @@
+{
+  "schema_version": "lunar_dataset_pipeline/14.0",
+  "terrain_template": "templates/lunar_fork_v11",
+  "terrain_build": {
+    "enabled": false,
+    "command": [
+      "{python}",
+      "{root}/build_lunar_terrain_v11_cpu.py",
+      "--output",
+      "{output}"
+    ]
+  },
+  "layouts": [
+    {
+      "seed": 20261118,
+      "split": "train",
+      "targets": [
+        "chinese_flag",
+        "astronaut",
+        "lunar_rover"
+      ]
+    },
+    {
+      "seed": 20261119,
+      "split": "val",
+      "targets": [
+        "lunar_rover",
+        "astronaut",
+        "lunar_base"
+      ]
+    },
+    {
+      "seed": 20261120,
+      "split": "test",
+      "targets": [
+        "astronaut",
+        "lunar_rover",
+        "lunar_base",
+        "chinese_flag"
+      ]
+    }
+  ],
+  "max_steps": 5000,
+  "motion_controller": "smooth_v13",
+  "experience": null,
+  "ext_folders": [],
+  "annotation": {
+    "model": "qwen/qwen3.8-27b",
+    "review_model": "qwen/qwen3.8-max",
+    "max_llm_frames": 8,
+    "cot_style": "first_person",
+    "all_frames": false,
+    "budget_cny": 12.0,
+    "env_file": null,
+    "instruction_style": "route_grounded",
+    "query_count": 20,
+    "query_protocol": "configs/lunar_query_protocol_v15.json",
+    "require_semantic_visibility": "v14",
+    "semantic_config": "configs/lunar_semantic_visibility_v14.json",
+    "query_model": "qwen/qwen3.8-max",
+    "query_mode": "compiled",
+    "query_bank": "configs/lunar_query_bank_v15.json"
+  },
+  "landmark_pass": {
+    "enabled": true,
+    "landmark_id": "auto",
+    "policy": "prefer"
+  },
+  "training_view": {
+    "enabled": true,
+    "stride": 5,
+    "history_frames": 8
+  }
+}

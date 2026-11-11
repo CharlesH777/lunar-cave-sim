@@ -1,0 +1,14 @@
+{
+  "schema_version": "lunar_dataset_validation/11.0",
+  "passed": true,
+  "checks": 49522,
+  "errors": [],
+  "warnings": [
+    "Language sidecar not checked"
+  ],
+  "annotation_domain": "isaac_continuous",
+  "training_ready": false,
+  "current_129_adapter_implemented": false,
+  "current_129_text_loss_supported": false,
+  "scope": "offline real-observation/teacher integrity; no learned-policy or tyre-dynamics evaluation"
+}

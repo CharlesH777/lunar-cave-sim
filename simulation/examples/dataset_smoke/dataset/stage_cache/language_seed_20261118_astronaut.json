@@ -1,0 +1,44 @@
+{
+  "identity_sha256": "0be198e264581e0b39bd027668338e028ee69df4c3464c3ed08830941347e42f",
+  "identity": {
+    "trajectory_sha256": "bb47c771f881c6ae0e0987e0df45baf4ac5c67ab8cb82ff88dd25dbab443fc33",
+    "annotation_settings": {
+      "model": "qwen/qwen3.8-27b",
+      "review_model": "qwen/qwen3.8-max",
+      "max_llm_frames": 8,
+      "cot_style": "first_person",
+      "all_frames": false,
+      "budget_cny": 12.0,
+      "env_file": null,
+      "instruction_style": "route_grounded",
+      "query_count": 20,
+      "query_protocol": "configs/lunar_query_protocol_v15.json",
+      "require_semantic_visibility": "v14",
+      "semantic_config": "configs/lunar_semantic_visibility_v14.json",
+      "query_model": "qwen/qwen3.8-max",
+      "query_mode": "compiled",
+      "query_bank": "configs/lunar_query_bank_v15.json"
+    },
+    "skip_llm": false,
+    "all_frames": false,
+    "split": "train",
+    "code_sha256": "e424de1bd81a4a4d3c8a0cab719175f9fa1f98412494358eae9762b0e3bc0e6b",
+    "query_resource_sha256": "151f719949c7a104dc597388d1a6c8b5ec61272c3b0da6a14514c6fcfd9e01af",
+    "query_bank_sha256": "529e93ec3b432ae87d165fc06a687538e933f22947e77c4cc6e3db4147c0ba60"
+  },
+  "complete": true,
+  "state": "complete",
+  "exit_code": 0,
+  "stop_requested": false,
+  "artifact_sha256": {
+    "annotations.jsonl": "53abd7952afe6f54eaa41fc665dccdebbd0040609f805a225a2e026f0c9bc93d",
+    "human_review.json": "b84c0d9be81bdcb8d5e14d13a4ad853de44d69622071839805c7cd0aa0fc2e8b",
+    "protocol.json": "790cdc6c5ecd8f45a3692928b6050ca5a4bf695119eb930237261687ec254f4c",
+    "queries.json": "9c0d9639a175eb36944dca37ce425bc25705fbb3dfbf670ba55213187002ddd4",
+    "query_bank.json": "529e93ec3b432ae87d165fc06a687538e933f22947e77c4cc6e3db4147c0ba60",
+    "query_protocol.json": "151f719949c7a104dc597388d1a6c8b5ec61272c3b0da6a14514c6fcfd9e01af",
+    "rejected.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "report.json": "c82532b106fa5aeb5a0058f7161b19c6f21cc730e18b881ddc8ab6cafaeb3867",
+    "status.json": "d8f844920f8ec0f363c355cd5974fda1a191ad97ca9b110422559ab0dacd2350"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "passed": true,
+  "surface_detail_revision": 5,
+  "base_scene": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/base",
+  "base_source_sha256": {
+    "cave.usdc": "691f722a1d7da5786be7c2a6eeed72cefa41d60ac3920e4f367f2bedc0153eea",
+    "scene_config.json": "b96b7c8c30ce16ed82d2271ce9892c4ad01429303c9df81831bb1f7f49dc91bb",
+    "geometry_report.json": "ac9e2842dffbc8b0159cf619f1271a5da6e9402bd6735c19b9b62ab8601c8758",
+    "mesh.npz": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93"
+  },
+  "base_source_files_unchanged": true,
+  "base_macro_preservation": {
+    "passed": true,
+    "base_mesh_count": 3,
+    "preserved_collision_prim_count": 3,
+    "points_faces_normals_unchanged": true,
+    "base_transforms_units_and_gravity_unchanged": true
+  },
+  "original_asset_paths_resolved_before_edit": 2,
+  "materials": {
+    "passed": true,
+    "material_paths": [
+      "/World/Materials/Basalt",
+      "/World/Materials/Regolith"
+    ],
+    "meshes": [
+      {
+        "path": "/World/Cave/BasaltWalls",
+        "material_path": "/World/Materials/Basalt",
+        "vertices": 183951,
+        "world_xy_gravel_uv": true,
+        "weight_range": [
+          0.0,
+          1.0
+        ],
+        "scanned_diffuse_connected": true,
+        "varying_scale_bias_connected": true
+      },
+      {
+        "path": "/World/Cave/RegolithFloorAndSurface",
+        "material_path": "/World/Materials/Regolith",
+        "vertices": 281203,
+        "world_xy_gravel_uv": true,
+        "weight_range": [
+          0.0,
+          1.0
+        ],
+        "scanned_diffuse_connected": true,
+        "varying_scale_bias_connected": true
+      }
+    ],
+    "texture_sources": [
+      {
+        "asset_id": "gravel_floor_04",
+        "map": "diff",
+        "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_diff_4k.jpg",
+        "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_diff_4k.jpg",
+        "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+        "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_diff_4k.jpg",
+        "license": "CC0-1.0",
+        "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+        "bytes": 15684418,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "official_md5": "c697a4f710f72ecd7e3bd429a69809eb",
+        "provider": "Poly Haven",
+        "authors": [
+          {
+            "name": "Charlotte Baglioni",
+            "role": "author"
+          }
+        ],
+        "original_pixels_unchanged": true
+      },
+      {
+        "asset_id": "gravel_floor_04",
+        "map": "rough",
+        "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_rough_4k.jpg",
+        "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_rough_4k.jpg",
+        "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+        "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_rough_4k.jpg",
+        "license": "CC0-1.0",
+        "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+        "bytes": 5203125,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "official_md5": "b00747e711a212983c25df8cf9ac6ada",
+        "provider": "Poly Haven",
+        "authors": [
+          {
+            "name": "Charlotte Baglioni",
+            "role": "author"
+          }
+        ],
+        "original_pixels_unchanged": true
+      },
+      {
+        "asset_id": "gravel_floor_04",
+        "map": "nor_gl",
+        "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_nor_gl_4k.jpg",
+        "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_nor_gl_4k.jpg",
+        "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+        "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_nor_gl_4k.jpg",
+        "license": "CC0-1.0",
+        "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+        "bytes": 22752598,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "official_md5": "fbe0db5ae7265d55d6da4014c0b57dfb",
+        "provider": "Poly Haven",
+        "authors": [
+          {
+            "name": "Charlotte Baglioni",
+            "role": "author"
+          }
+        ],
+        "original_pixels_unchanged": true
+      },
+      {
+        "asset_id": "dark_rock",
+        "map": "nor_gl",
+        "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/dark_rock_nor_gl_2k.jpg",
+        "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/dark_rock_nor_gl_2k.jpg",
+        "source_uri": "https://polyhaven.com/a/dark_rock",
+        "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_nor_gl_2k.jpg",
+        "license": "CC0-1.0",
+        "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+        "bytes": 3811444,
+        "resolution": [
+          2048,
+          2048
+        ],
+        "official_md5": null,
+        "provider": "Poly Haven",
+        "authors": [
+          {
+            "name": "Amal Kumar",
+            "role": "author"
+          }
+        ],
+        "original_pixels_unchanged": true
+      }
+    ],
+    "gravel_stats": {
+      "source_srgb_to_linear_mean": [
+        0.27613820609924766,
+        0.18700446408838245,
+        0.12047249109580377
+      ],
+      "target_linear_mean": [
+        0.135,
+        0.135,
+        0.135
+      ],
+      "per_channel_gain": [
+        0.48888564109802246,
+        0.721907913684845,
+        1.1205878257751465
+      ],
+      "resolution": [
+        4096,
+        4096
+      ],
+      "texture_resolution": "4k",
+      "normalization": "shader scale only; original scan files unchanged"
+    },
+    "texture_source_resolution": "4k",
+    "gravel_tile_m": 2.5,
+    "normal_settings": {
+      "gravel_strength": 0.9,
+      "wall_strength": 0.3,
+      "wall_tile_m": 2.4,
+      "slope_weighted_strength": true,
+      "floor_roughness_range": [
+        0.9,
+        1.0
+      ]
+    },
+    "shared_vertex_continuity": {
+      "shared_vertices": 5155,
+      "passed": true,
+      "maximum_differences": {
+        "normals": 0.0,
+        "colors": 0.0,
+        "weight": 0.0,
+        "scale": 0.0,
+        "bias": 0.0,
+        "ground_st": 0.0
+      }
+    },
+    "diffuse_formula": "linearScanRGB * (floorWeight * gainRGB) + (1-floorWeight) * existingBaseColorRGB",
+    "authored_texture_paths": "absolute copied output textures; caller may rebase after export",
+    "validation_scope": "CPU PXR graph/primvar/source hash checks; caller performs final export and RTX visual acceptance",
+    "requires_rtx_varying_scale_bias_acceptance": true,
+    "rtx_fallback": "If RTX ignores varying UVTexture scale/bias, replace with an RTX-supported MaterialX mix network; do not silently use unweighted scan or hard material split.",
+    "original_stage_saved": false,
+    "GPU_work": false,
+    "simulation_started": false
+  },
+  "gravel": {
+    "passed": true,
+    "instance_count": 18000,
+    "prototype_count": 12,
+    "instancer_path": "/World/SurfaceDetail/Gravel",
+    "material_path": "/World/Materials/GravelFragmentsV5",
+    "seed": 20261110,
+    "prototype_triangle_counts": [
+      24,
+      24,
+      22,
+      22,
+      22,
+      24,
+      22,
+      22,
+      20,
+      20,
+      24,
+      24
+    ],
+    "estimated_instanced_triangles": 405106,
+    "size_diameter_m": {
+      "definition": "actual longest scaled prototype vertex-pair distance; orientation invariant",
+      "ranges": [
+        [
+          0.03,
+          0.12
+        ],
+        [
+          0.12,
+          0.3
+        ],
+        [
+          0.3,
+          0.55
+        ]
+      ],
+      "target_fractions": [
+        0.94,
+        0.05,
+        0.01
+      ],
+      "actual_class_counts": [
+        16920,
+        900,
+        180
+      ],
+      "quantiles": {
+        "0.0": 0.030029913800837978,
+        "0.1": 0.03950582209598199,
+        "0.25": 0.05388896504152477,
+        "0.5": 0.07818751510280268,
+        "0.75": 0.10191012427081175,
+        "0.9": 0.11624458095816637,
+        "0.99": 0.2997932915602027,
+        "1.0": 0.5494811979916318
+      }
+    },
+    "support": {
+      "source": "highest barycentric vertical hit on actual base mesh; 1m buckets and3x3 neighborhood",
+      "eligible_triangles": 97142,
+      "face_normal_z_min": 0.5001519026703675,
+      "highest_hit_z_m": [
+        -1.7510513090559214,
+        11.983349072273993
+      ],
+      "center_offset_along_normal_m": [
+        0.001954468133540577,
+        0.1001559465701655
+      ],
+      "embedding_fraction_range": [
+        0.6000082048384994,
+        0.7999733127499264
+      ],
+      "lowest_vertex_support_plane_offset_m": [
+        -0.05197945512209483,
+        -0.0007439699307752847
+      ],
+      "highest_vertex_support_plane_offset_m": [
+        0.005105737785877198,
+        0.23522620321922683
+      ],
+      "floating_by_support_plane": 0,
+      "fully_buried_by_support_plane": 0,
+      "maximum_authored_position_rounding_m": 4.047631959670276e-06,
+      "minimum_barycentric_weight": 2.218651368564416e-05
+    },
+    "placement": {
+      "group_counts": {
+        "pit": 7217,
+        "cavern": 7218,
+        "focus": 396,
+        "branch": 3169
+      },
+      "attempted_candidates": 24272,
+      "no_mesh_support_rejected": 1522,
+      "field_rejected": 0,
+      "field_probe_offset_m": 0.4,
+      "field_probe_minimum_air_margin": 0.05015702990523241,
+      "closeup_region_xy_m": [
+        [
+          11.0,
+          -3.5
+        ],
+        [
+          23.0,
+          3.5
+        ]
+      ],
+      "closeup_instances": 524,
+      "closeup_density_per_m2": 6.238095238095238,
+      "regular_grid": false
+    },
+    "source_mesh_sha256": "d898b78a7f24537dd9ac38ff72891d41b2a03ce2dbb40514f1291516dea82a93",
+    "source_config_sha256": "b96b7c8c30ce16ed82d2271ce9892c4ad01429303c9df81831bb1f7f49dc91bb",
+    "source_files_unchanged": true,
+    "no_collision": true,
+    "collision_scope": "render_detail_no_collision; original coarse terrain collision is owned by caller",
+    "GPU_work": false,
+    "simulation_started": false,
+    "limitations": [
+      "No particle dynamics, global overlap/packing or friction stability solution",
+      "One supporting triangle plane per fragment; neighbor-face curvature and full footprint penetration are approximate",
+      "Analytic air field checked above MC support; centimetre placement follows the actual mesh, not analytic floor",
+      "Locations, size mixture and shapes are authored appearance assumptions, not measured lunar gravel statistics"
+    ]
+  },
+  "usd_validation": {
+    "passed": true,
+    "stage_reopened": true,
+    "meshes": [
+      {
+        "path": "/World/Cave/BasaltWalls",
+        "points": 183951,
+        "faces": 363056,
+        "topology_valid": true,
+        "uv": {
+          "present": true,
+          "interpolation": "faceVarying",
+          "value_count": 1089168,
+          "expected_elements": 1089168,
+          "finite": true
+        },
+        "material": "/World/Materials/Basalt"
+      },
+      {
+        "path": "/World/Cave/RegolithFloorAndSurface",
+        "points": 281203,
+        "faces": 554956,
+        "topology_valid": true,
+        "uv": {
+          "present": true,
+          "interpolation": "faceVarying",
+          "value_count": 1664868,
+          "expected_elements": 1664868,
+          "finite": true
+        },
+        "material": "/World/Materials/Regolith"
+      },
+      {
+        "path": "/World/Cave/AngularCollapseBlocks",
+        "points": 5059,
+        "faces": 9718,
+        "topology_valid": true,
+        "uv": {
+          "present": true,
+          "interpolation": "faceVarying",
+          "value_count": 29154,
+          "expected_elements": 29154,
+          "finite": true
+        },
+        "material": "/World/Materials/Basalt"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_00",
+        "points": 14,
+        "faces": 24,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_01",
+        "points": 14,
+        "faces": 24,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_02",
+        "points": 13,
+        "faces": 22,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_03",
+        "points": 13,
+        "faces": 22,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_04",
+        "points": 13,
+        "faces": 22,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_05",
+        "points": 14,
+        "faces": 24,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_06",
+        "points": 13,
+        "faces": 22,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_07",
+        "points": 13,
+        "faces": 22,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_08",
+        "points": 12,
+        "faces": 20,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_09",
+        "points": 12,
+        "faces": 20,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_10",
+        "points": 14,
+        "faces": 24,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      },
+      {
+        "path": "/World/SurfaceDetail/Gravel/Prototypes/Fragment_11",
+        "points": 14,
+        "faces": 24,
+        "topology_valid": true,
+        "uv": {
+          "present": false
+        },
+        "material": "/World/Materials/GravelFragmentsV5"
+      }
+    ],
+    "instancers": [
+      {
+        "path": "/World/SurfaceDetail/Gravel",
+        "instance_count": 18000,
+        "prototype_count": 12,
+        "positions_indices_scales_orientations_equal": true,
+        "prototype_indices_valid": true,
+        "prototype_paths": [
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_00",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_01",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_02",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_03",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_04",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_05",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_06",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_07",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_08",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_09",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_10",
+          "/World/SurfaceDetail/Gravel/Prototypes/Fragment_11"
+        ]
+      }
+    ],
+    "material_count": 3,
+    "shader_count": 26,
+    "material_paths": [
+      "/World/Materials/Basalt",
+      "/World/Materials/Regolith",
+      "/World/Materials/GravelFragmentsV5"
+    ],
+    "image_assets": [
+      {
+        "relative_path": "textures/dark_rock_nor_gl_2k.jpg",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "readable": true
+      },
+      {
+        "relative_path": "textures/gravel_floor_04_diff_4k.jpg",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "readable": true
+      },
+      {
+        "relative_path": "textures/moon_03_nor_gl_2k.jpg",
+        "resolution": [
+          2048,
+          2048
+        ],
+        "readable": true
+      },
+      {
+        "relative_path": "textures/gravel_floor_04_rough_4k.jpg",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "readable": true
+      },
+      {
+        "relative_path": "textures/gravel_floor_04_nor_gl_4k.jpg",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "readable": true
+      }
+    ],
+    "all_assets_relative_and_local": true,
+    "gravel_collision_enabled": false,
+    "physics_evaluated": false,
+    "renders_executed": 0
+  },
+  "texture_assets": [
+    {
+      "relative_path": "textures/dark_rock_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/dark_rock_nor_gl_2k.jpg",
+      "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+      "bytes": 3811444
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_diff_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_diff_4k.jpg",
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+      "bytes": 15684418
+    },
+    {
+      "relative_path": "textures/moon_03_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/base/textures/moon_03_nor_gl_2k.jpg",
+      "sha256": "9a8352e117867266996c6b41871599b5fce693ad088fb2e73660daee64d896d7",
+      "bytes": 5126957
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_rough_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_rough_4k.jpg",
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+      "bytes": 5203125
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_nor_gl_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+      "bytes": 22752598
+    }
+  ],
+  "mesh_copy_method": "hardlink_readonly_use",
+  "macro_collision_unchanged": true,
+  "micro_gravel_render_only": true,
+  "micro_gravel_collision": false,
+  "physics_evaluated": false,
+  "navigation_evaluated": false,
+  "GPU_work": false,
+  "simulation_started": false,
+  "training_started": false,
+  "elapsed_seconds": 2.5184710950006775
+}

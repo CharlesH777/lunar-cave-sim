@@ -1,0 +1,681 @@
+{
+  "source_original_path": "/home/charles/WORK/08_operations/lunar_query100_20261111_v16/compiler_actual/source",
+  "files": [
+    {
+      "path": "annotate_lunar_step_cot_v9_ppio.py",
+      "bytes": 16036,
+      "sha256": "7dd6608a0915319fcc69ee1d7e56e52d7d7c9345288bc3ad5265a8fe4cda0565"
+    },
+    {
+      "path": "annotate_lunar_trajectory_v11_ppio.py",
+      "bytes": 47023,
+      "sha256": "f5c76d516d848c2e71a8cfac9d17aca3ce73486e76935695163a2dbce56f931d"
+    },
+    {
+      "path": "assemble_video.py",
+      "bytes": 2019,
+      "sha256": "517abcbe15517a961f156471dab346e3522de1dde057dcc5724ad496af85921f"
+    },
+    {
+      "path": "benchmark_smooth_navigation.py",
+      "bytes": 19033,
+      "sha256": "0bf15b95bdd259e04f386c01a33e54ea44efcad09e50b4a5acb5e0eb41c382e9"
+    },
+    {
+      "path": "build_lunar_cave_v4_cpu.py",
+      "bytes": 19110,
+      "sha256": "624de5f4633b806659288dd45b283b66ac5e518084f8e5d4d71c853476c4fe02"
+    },
+    {
+      "path": "build_lunar_morphology_v4_cpu.py",
+      "bytes": 2641,
+      "sha256": "5a7add068df8a34fb09b003c759c9cce626bf887ae662a1fd5b9a52519d9fba2"
+    },
+    {
+      "path": "build_lunar_obstacle_scene_v7_cpu.py",
+      "bytes": 7489,
+      "sha256": "00d7afb660dd9308c5ef7c2ae54571ecf712bfa25d0e4d7d57176c84fe203f4a"
+    },
+    {
+      "path": "build_lunar_query_bank_v15_cpu.py",
+      "bytes": 1239,
+      "sha256": "ea1b4f24a7677d2293469910356b884a57f443e50f0e90e6a055e9684cb3b175"
+    },
+    {
+      "path": "build_lunar_query_indexes_v14_cpu.py",
+      "bytes": 941,
+      "sha256": "1e0f32c0f0479d52c713fb5bc50f67a3c111d5fe0d19b6b081bff746b5985c38"
+    },
+    {
+      "path": "build_lunar_search_demo_v8_cpu.py",
+      "bytes": 11076,
+      "sha256": "4246722ad96e3f280abaa0785d68a88e63cc4819f07ae1ae8ac49000d3eff8f2"
+    },
+    {
+      "path": "build_lunar_surface_detail_v5_cpu.py",
+      "bytes": 19939,
+      "sha256": "e1cb8d5afad76f52bc3a4c3fdb44bb8f62233f6df55e2a8034ff6d44dfe6b625"
+    },
+    {
+      "path": "build_lunar_terrain_v11_cpu.py",
+      "bytes": 20050,
+      "sha256": "a9f49edaff8cff86d8840a58e8fd3879574f7a32d8e3ddd2a4dacc135bd068ec"
+    },
+    {
+      "path": "build_maps.py",
+      "bytes": 2675,
+      "sha256": "fee5a42c0c1c8640d29b2cb67d693388b8aee18e914c84a231f6881a9aeea54f"
+    },
+    {
+      "path": "build_network3d_cpu.py",
+      "bytes": 6376,
+      "sha256": "f3149f5bae4f362adf46c670f952f633b848e1059616ba13aa0245a8a9095639"
+    },
+    {
+      "path": "cave/__init__.py",
+      "bytes": 39,
+      "sha256": "82257a425a79ecf973b18b06e314ec44fd02688aa8d38a98aca2ba2d7bad97d5"
+    },
+    {
+      "path": "cave/geologic_noise_v4.py",
+      "bytes": 2770,
+      "sha256": "ec504d71eabf3bd46611f8981731baa909a2d102111f1830889a8fbccc7c3f37"
+    },
+    {
+      "path": "cave/geometry.py",
+      "bytes": 3171,
+      "sha256": "9b49a8c3f4dfd55271b43e0eda9bab0f77c1284c148f32894b9949f8f3543eb1"
+    },
+    {
+      "path": "cave/hybrid_planner.py",
+      "bytes": 17341,
+      "sha256": "b0830c338ed2151cb65c7df6e670fed6e13a3ca5fdf0793644e37190592dcb59"
+    },
+    {
+      "path": "cave/layouts.py",
+      "bytes": 4963,
+      "sha256": "2628425929fc895e86234bc7b01cb1ef8454ccaee6aa17a883a87abf254d2b91"
+    },
+    {
+      "path": "cave/lunar_action_intent_v12.py",
+      "bytes": 554,
+      "sha256": "526e5e28ac7d8fdd132d5d04b305aa431258a0a3c63ce27248c1a26f73fbb99a"
+    },
+    {
+      "path": "cave/lunar_annotation_retention_v16.py",
+      "bytes": 6602,
+      "sha256": "9ca63d76d035f504c9b037115692c6dce48f5a50e66f36c8c50d7e848a627889"
+    },
+    {
+      "path": "cave/lunar_astronaut_v10.py",
+      "bytes": 20167,
+      "sha256": "5407aeab613e099a88040d4b8069e0ac7fd033bf29673e34f69616603f07c5c8"
+    },
+    {
+      "path": "cave/lunar_batch_catalog_v14.py",
+      "bytes": 9868,
+      "sha256": "1c8648e66fbeb3303f9e7350a69d55e76f746a99ed901d783cf0411e71e3dfcb"
+    },
+    {
+      "path": "cave/lunar_branch_v10.py",
+      "bytes": 14530,
+      "sha256": "667975cce6d2677370828f4e83624b81a8d83ba9121eba4192cd95cbfa6353ca"
+    },
+    {
+      "path": "cave/lunar_dataset_delivery_v14.py",
+      "bytes": 31210,
+      "sha256": "854af517892850196224240dc1df0687fb7d0b7ec532191609f0d587a3538d9e"
+    },
+    {
+      "path": "cave/lunar_fork_evidence_v12.py",
+      "bytes": 6677,
+      "sha256": "a312d0dcbec2293d63b674fa5052578cdc93049d57d6c831cab21ba750d9428a"
+    },
+    {
+      "path": "cave/lunar_fork_evidence_v13.py",
+      "bytes": 3997,
+      "sha256": "f0c56a9d4e5cb59a14c404c7a9d139ab5f6eb48f2e01ed5be53bd1a816a8694b"
+    },
+    {
+      "path": "cave/lunar_geometry.py",
+      "bytes": 5651,
+      "sha256": "4a60613b47eebb4f61aa1d79df3a532a13ee43a7c90d0d9633f28134f11592d9"
+    },
+    {
+      "path": "cave/lunar_gravel_material_v5.py",
+      "bytes": 18580,
+      "sha256": "09a5a787f6902593420717020ad32750959ab9183ceee99565accc068bb47837"
+    },
+    {
+      "path": "cave/lunar_gravel_v5.py",
+      "bytes": 32769,
+      "sha256": "a98242f1779ab57bb9305ae4c8a0beef2ec019a5974228b91eca05cf0812ba75"
+    },
+    {
+      "path": "cave/lunar_ground_v7.py",
+      "bytes": 6779,
+      "sha256": "2a13328f26c8ed29a630db086166eb2ad98244c1766af227941997f77433fe1d"
+    },
+    {
+      "path": "cave/lunar_habitat_v10.py",
+      "bytes": 19825,
+      "sha256": "f4310c115e19031e19ef4751dfacf30bcfd7c118d235e6db1a03a9ca9d433f1d"
+    },
+    {
+      "path": "cave/lunar_human_flag_v8.py",
+      "bytes": 14095,
+      "sha256": "690ff1643d11dd409dcce204209746ac398b91d153c6fa2708183458f6a26354"
+    },
+    {
+      "path": "cave/lunar_junction_v11.py",
+      "bytes": 7058,
+      "sha256": "14721b0d63d368fdbb0d28cebbae5d3a97f6d9b5c9374df88f9154ad50103b5e"
+    },
+    {
+      "path": "cave/lunar_landmark_evidence_v13.py",
+      "bytes": 5351,
+      "sha256": "1588fef1c06fc967c124365b40144707540babf1db8519ee7f8df5a0ae0a0300"
+    },
+    {
+      "path": "cave/lunar_landmark_teacher_v14.py",
+      "bytes": 13176,
+      "sha256": "c53e094ec4a62987b7d3bf9f12c1f4e76b4221302789f4eca5f247c4d926c34c"
+    },
+    {
+      "path": "cave/lunar_morphology_v4.py",
+      "bytes": 13917,
+      "sha256": "1846f7b8f5b79d5a0d2e8b95ede1e3862539b7df687ab6a5cc540b18db59f9e9"
+    },
+    {
+      "path": "cave/lunar_obstacles_v7.py",
+      "bytes": 16745,
+      "sha256": "ff64c48daa440bfc192e5ef2775989e647f2ec585103e82a5519a1270cb88f3f"
+    },
+    {
+      "path": "cave/lunar_pit_v4.py",
+      "bytes": 16002,
+      "sha256": "a97f1f15b3d35dae620f2683dd5033a245c9bb97ecfc39da2d21efa9b5d1bf65"
+    },
+    {
+      "path": "cave/lunar_props.py",
+      "bytes": 8783,
+      "sha256": "2eb8bae47a339a6c266596a2a0b669dbaf02de3e72ace34e697200b7f57fe90a"
+    },
+    {
+      "path": "cave/lunar_query_compiler_v15.py",
+      "bytes": 13437,
+      "sha256": "6867f2b0c98de6d8ad2db8c96b6ccfab9a9d473802186aa336eee1a27283ce47"
+    },
+    {
+      "path": "cave/lunar_query_composition_v15.py",
+      "bytes": 27366,
+      "sha256": "c9a981f278eed6bc86a86bc9495005cc11222cf0af1158c47659c9b46381433e"
+    },
+    {
+      "path": "cave/lunar_query_families_v14.py",
+      "bytes": 9777,
+      "sha256": "729646cff166afe44cf5c280746e46adc203fa77bcdfb7660e7ea2433e64dea1"
+    },
+    {
+      "path": "cave/lunar_query_indexes_v14.py",
+      "bytes": 11240,
+      "sha256": "b489f41d38e3bd23df76737baffc3dd7d187b9f203cc68038cbb609dd282c5ee"
+    },
+    {
+      "path": "cave/lunar_raw_physical_v16.py",
+      "bytes": 13789,
+      "sha256": "ddd2c6a8fac73291f482ed7720953872c69f32da7a0e9c28baec014b814254bb"
+    },
+    {
+      "path": "cave/lunar_route_language_v13.py",
+      "bytes": 33945,
+      "sha256": "2d7b7906379a40f55b0d22156b8f395a7757ec3dfea5aacd4643d0228041e7fd"
+    },
+    {
+      "path": "cave/lunar_route_materializer_v14.py",
+      "bytes": 22069,
+      "sha256": "c551049fb5d7e96a1dfb75ffcf2c2dfba3e189fa564169ae154d3e0a718997d9"
+    },
+    {
+      "path": "cave/lunar_scene.py",
+      "bytes": 9386,
+      "sha256": "0d9f4a8b1fcf6464cd86e9ed60218bed2ce76f619e3f880adb8f2b7c5aa352b9"
+    },
+    {
+      "path": "cave/lunar_search_placement_v8.py",
+      "bytes": 16064,
+      "sha256": "6681ba43126c0a57d32d673bb748b97299012f879735768b0fa167ab88d15d6c"
+    },
+    {
+      "path": "cave/lunar_semantic_visibility_v14.py",
+      "bytes": 14916,
+      "sha256": "fb2626a6f8b98a63b8664870d9d5efad51a9f8298e30c631f17d1148d27592c0"
+    },
+    {
+      "path": "cave/lunar_smooth_teacher_v12.py",
+      "bytes": 17679,
+      "sha256": "8aaea6d4045507cc259927ceced6e83d13ecde1d39a8f93abd81e4c1646843dd"
+    },
+    {
+      "path": "cave/lunar_smooth_teacher_v13.py",
+      "bytes": 24510,
+      "sha256": "27aab9bba81972b454cac5b46ebca8cfdccbcad04cec3421d7976d8a75c5a6ca"
+    },
+    {
+      "path": "cave/lunar_training_stride_v14.py",
+      "bytes": 26723,
+      "sha256": "06bc534bde1c225d62e29235810bf6d1162f298f6116356ba3552cb3a1b03c6f"
+    },
+    {
+      "path": "cave/lunar_trajectory_v11.py",
+      "bytes": 23430,
+      "sha256": "c42d71d3a718f5bcdacd38afe7b6455b9d6330f7b9b8e7a9d2bd3f04a8d4d0d7"
+    },
+    {
+      "path": "cave/lunar_vehicle_base_v8.py",
+      "bytes": 12178,
+      "sha256": "011aecaa8c70b9dad03b5928b8144b02141c75c5d2cf3f0918176dc39abaf568"
+    },
+    {
+      "path": "cave/lunar_visual_v4.py",
+      "bytes": 23892,
+      "sha256": "c157e3ce232d618e4d9e2410b499996223dcc69331ff3d0376664e21fa9e6d22"
+    },
+    {
+      "path": "cave/navigation.py",
+      "bytes": 16746,
+      "sha256": "7cd42f0f559e26deac612aba258c0deae8bcf2704e35c57a5f526736d0a73bbc"
+    },
+    {
+      "path": "cave/network3d.py",
+      "bytes": 26405,
+      "sha256": "b4b2fd2fa14905814b9da8a58c823d22b3f8b21dc1fe6e4fe58e1b7d8079d389"
+    },
+    {
+      "path": "cave/network3d_render_utils.py",
+      "bytes": 8616,
+      "sha256": "883a4c3d109313e61d5a4cb4b8bc9e420b53af170a783b45b690825056a011f1"
+    },
+    {
+      "path": "cave/network3d_scene.py",
+      "bytes": 12175,
+      "sha256": "1f96f0429bd94e4fccf07706dee6aef61c8dfc266902fc78643456b7f95cd04c"
+    },
+    {
+      "path": "cave/path_tracking.py",
+      "bytes": 12605,
+      "sha256": "399737090bb78dac35f690934492f07a636066ee55a517bcc3816aef279b8644"
+    },
+    {
+      "path": "cave/ppio_client_v11.py",
+      "bytes": 12362,
+      "sha256": "45efaa30ef46f773184d914ced4b763b171dba815baaae8b669950cd7f32ea7d"
+    },
+    {
+      "path": "cave/props.py",
+      "bytes": 18913,
+      "sha256": "3dd0d5c489fbae853421adbc126599322d367295a7b75135bdc4fe53d8ba85c9"
+    },
+    {
+      "path": "cave/rover_route_v6.py",
+      "bytes": 7425,
+      "sha256": "543a99139489f9c64d1bfee20a1177e299a6f70dbb42d89ac619bf0c176e351e"
+    },
+    {
+      "path": "cave/scene.py",
+      "bytes": 10103,
+      "sha256": "b35de479a4dd410697eb143f6a16a3832cc4d66c804a57f59d2a2a8ab304e02f"
+    },
+    {
+      "path": "cave/sensors.py",
+      "bytes": 12161,
+      "sha256": "9223e81f7212be51f74118bf67f79cf33999257762c03be83cb45262a93844ec"
+    },
+    {
+      "path": "cave/signage.py",
+      "bytes": 15898,
+      "sha256": "177128fde0ce9aa96548176f5c952a2095fab2c71b2b712152778de9781f3035"
+    },
+    {
+      "path": "collect_lunar_step_cot_v9_isaac.py",
+      "bytes": 18360,
+      "sha256": "aa7842b4d67c6098024fbd3982810ce5eac8d8d7d04e7ff060089383b555a797"
+    },
+    {
+      "path": "collect_lunar_trajectory_v11_isaac.py",
+      "bytes": 30127,
+      "sha256": "42c790d71b5353bfd598e4f5ec2a675c454c366e4ecf455435188bca88ad0e01"
+    },
+    {
+      "path": "collect_lunar_trajectory_v14_isaac.py",
+      "bytes": 32925,
+      "sha256": "40ad4df884b8343cc55d7c1d4836e483165c92d43015c25059ace9a7f430734c"
+    },
+    {
+      "path": "configs/lunar_annotation_queue_v16.json",
+      "bytes": 804,
+      "sha256": "1e042acaf5e51742549f40947bdd2dda527e9bd05360e597e44494ebceee2941"
+    },
+    {
+      "path": "configs/lunar_branch_v10/scene.json",
+      "bytes": 18977,
+      "sha256": "6d0d69e681e257d3373a66b3d6c87b8ffd647ea064d529521ab3a03dd4d992bb"
+    },
+    {
+      "path": "configs/lunar_branch_v10/surface.json",
+      "bytes": 156,
+      "sha256": "48d8ecb67a8fe879dc57037e720917d9109b2c1f223ff1aea1a7f953c2c59e64"
+    },
+    {
+      "path": "configs/lunar_branch_v10_equal/scene.json",
+      "bytes": 19291,
+      "sha256": "6efffce72c5f11265b6de403f910daaedb96325668706d8baf085d47d3b8cc6e"
+    },
+    {
+      "path": "configs/lunar_branch_v10_equal/surface.json",
+      "bytes": 156,
+      "sha256": "48d8ecb67a8fe879dc57037e720917d9109b2c1f223ff1aea1a7f953c2c59e64"
+    },
+    {
+      "path": "configs/lunar_dataset_batch_v14.json",
+      "bytes": 2416,
+      "sha256": "a31cb6a8d0f35c8c5dd8f03f3705c80071d52e6de5771f71b5897fec06d27cb0"
+    },
+    {
+      "path": "configs/lunar_dataset_pipeline_v11.json",
+      "bytes": 715,
+      "sha256": "751ff18f7bf0213f17674bb76d215d422d40439e3624002e2059d2326a4585b4"
+    },
+    {
+      "path": "configs/lunar_dataset_pipeline_v12.json",
+      "bytes": 890,
+      "sha256": "4aa844c0ea20aeed3c5864227708074cc8f2631ea742974fcf146e5c7028b2f4"
+    },
+    {
+      "path": "configs/lunar_dataset_pipeline_v13.json",
+      "bytes": 1143,
+      "sha256": "e4b6c3e7a5bdd1a02bc6365f7a21f4939c7f8bc636de8c6d5de83d589903c759"
+    },
+    {
+      "path": "configs/lunar_dataset_pipeline_v14.json",
+      "bytes": 1565,
+      "sha256": "822225eb24977460e0368fad3535f836e1784e26398c1badc63a9a2abe17a1b0"
+    },
+    {
+      "path": "configs/lunar_obstacle_v7/scene.json",
+      "bytes": 10811,
+      "sha256": "5e0f7f818c924a877a2e5eeb3d28278022ced217189cc22450118d2dc912a4a9"
+    },
+    {
+      "path": "configs/lunar_obstacle_v7/surface.json",
+      "bytes": 90,
+      "sha256": "17c011adff583380831afd4cce7758fbdcb0e958049e3d7f0b89e68b92e1bc13"
+    },
+    {
+      "path": "configs/lunar_obstacle_v7/surface_sparse_large.json",
+      "bytes": 132,
+      "sha256": "f57e7245e3c270ea5e5f21c755dd64f5f5b7bc3587211599d36af11346e3131b"
+    },
+    {
+      "path": "configs/lunar_query_bank_v15.json",
+      "bytes": 33752,
+      "sha256": "529e93ec3b432ae87d165fc06a687538e933f22947e77c4cc6e3db4147c0ba60"
+    },
+    {
+      "path": "configs/lunar_query_protocol_v14.json",
+      "bytes": 6213,
+      "sha256": "e5a1200850f7aefac6fc581fdfa69ae679d5711751d7076b01d0fd1306776b28"
+    },
+    {
+      "path": "configs/lunar_query_protocol_v15.json",
+      "bytes": 7248,
+      "sha256": "151f719949c7a104dc597388d1a6c8b5ec61272c3b0da6a14514c6fcfd9e01af"
+    },
+    {
+      "path": "configs/lunar_raw_batch_v16.json",
+      "bytes": 2591,
+      "sha256": "c5a13b7401de18f7a1202ec28fb6697cafa58b97ad55c909f7794ba0dde2f7bc"
+    },
+    {
+      "path": "configs/lunar_semantic_visibility_v14.json",
+      "bytes": 1051,
+      "sha256": "863b564b9126061791089df348c59dd4d987c99828fb2369804c857322496f90"
+    },
+    {
+      "path": "configs/paper_network_v1/01_trunk.json",
+      "bytes": 7067,
+      "sha256": "752b79ec9674585f64897406989e4decb3ffd9325f56709609b1ee76b271c661"
+    },
+    {
+      "path": "configs/paper_network_v1/02_rejoining.json",
+      "bytes": 9244,
+      "sha256": "4e80b44ea5cccadc3dfbc4c59949ce013858ca101e66b574dc0a4e3f4b46d5b9"
+    },
+    {
+      "path": "configs/paper_network_v1/03_multilevel.json",
+      "bytes": 10876,
+      "sha256": "7aee82e9660441289c92a3a1a831584e9b768f3d53e1c369da410b07d6a85876"
+    },
+    {
+      "path": "configs/paper_network_v3/01_trunk.json",
+      "bytes": 7217,
+      "sha256": "a7dcc34ead6cb5c752214568c923435e81f934cd16acabe5e4ce8f12c5efbdab"
+    },
+    {
+      "path": "configs/paper_network_v3/02_rejoining.json",
+      "bytes": 9394,
+      "sha256": "025471470478b3a6e7a7bd10baa61646387bc1980cc0b2557e812283c7336251"
+    },
+    {
+      "path": "configs/paper_network_v3/03_multilevel.json",
+      "bytes": 11026,
+      "sha256": "a45990229c2e56d9684fb36d1c476fadbaeee7b1ad8bd5974f785f188c59fe36"
+    },
+    {
+      "path": "configs/rover_route_v6/scene.json",
+      "bytes": 11312,
+      "sha256": "b082009ce22b54d67b145da1109842385395adddd876b7ab1b122eb041699b5a"
+    },
+    {
+      "path": "configs/rover_route_v6/surface.json",
+      "bytes": 90,
+      "sha256": "17c011adff583380831afd4cce7758fbdcb0e958049e3d7f0b89e68b92e1bc13"
+    },
+    {
+      "path": "export_lunar_objects_v11_cpu.py",
+      "bytes": 3783,
+      "sha256": "c477a136135f45f344406c9223759d3947026655311854dfa219b8a20a35612d"
+    },
+    {
+      "path": "export_lunar_training_stride_v14_cpu.py",
+      "bytes": 1638,
+      "sha256": "80a9db195c653ce2d559a92b40d552cb3a39305676bb30a04c96b565a78f8594"
+    },
+    {
+      "path": "fetch_assets.py",
+      "bytes": 2707,
+      "sha256": "1887a0cdc6c8fd17ffb633b22a51bba1f75ed92308a9e2130c9a722c9ee8166b"
+    },
+    {
+      "path": "lunar_dataset_pipeline_v11.py",
+      "bytes": 21218,
+      "sha256": "7dbc6b64411a9edb80cec355a98848cf533dcb6ab50ba50f683f0c6a868e6cb4"
+    },
+    {
+      "path": "lunar_dataset_pipeline_v14.py",
+      "bytes": 20264,
+      "sha256": "dcfed4bb49ff2155f6f2488e9c8c444209b4fb5722aaac5b7c15069e85fcb609"
+    },
+    {
+      "path": "make_lunar_branch_demo_v10_config.py",
+      "bytes": 2466,
+      "sha256": "86af1f9a0aadee29e33079547907bce36333c52253c4ee289fa60e17c6ec9b97"
+    },
+    {
+      "path": "make_lunar_fork_v11_configs.py",
+      "bytes": 4093,
+      "sha256": "82a1d80b669dcb2bf74fd71fb83f17d0d4d8fb96c9af615288fd15716e8661c7"
+    },
+    {
+      "path": "make_lunar_obstacle_v7_configs.py",
+      "bytes": 1988,
+      "sha256": "b3917d9a80e4ec4622274d6e67bf6af3b8b9861e08839d1ce5b915dc5a8e7a58"
+    },
+    {
+      "path": "make_paper_network_configs.py",
+      "bytes": 7392,
+      "sha256": "0d934d2f80942307915cf0429e8cb40f10c9d59337261e96a9341647b13f203f"
+    },
+    {
+      "path": "make_rover_route_v6_configs.py",
+      "bytes": 2133,
+      "sha256": "15b39f94864fc0993905cf0383d2e065476093ac12b1c7f0de7a9423dc2b25ed"
+    },
+    {
+      "path": "package_lunar_pipeline_v11_cpu.py",
+      "bytes": 7631,
+      "sha256": "73afaa927898ed953e4e52801323d83a49961e02465adc54d039db058360d3f5"
+    },
+    {
+      "path": "plot_lunar_branch_map_v10_cpu.py",
+      "bytes": 12742,
+      "sha256": "46b05e32f6b110d37762d0586b07399d526a677ca4476a1d4958db81d8837771"
+    },
+    {
+      "path": "recover_lunar_dataset_v11.py",
+      "bytes": 9370,
+      "sha256": "9df0a177c719c30231e804b96708faae2247ecf38bcfb52f6953eb6cf47e831c"
+    },
+    {
+      "path": "relocate_lunar_obstacles_v10_cpu.py",
+      "bytes": 6313,
+      "sha256": "5190206519a32ba63507fafc006dbbf13e27358bbec538326f051dea06eb47d8"
+    },
+    {
+      "path": "render_lunar_branch_v10_isaac.py",
+      "bytes": 25330,
+      "sha256": "07577a06258db4330e2f4e8bcb38659357b01e78fc3407336470de6a77c38e74"
+    },
+    {
+      "path": "render_lunar_cave_v4_isaac.py",
+      "bytes": 18303,
+      "sha256": "409d427bccac8319c2c6ae77aada9e6e5c67998d80ad15414ffc944e36fae741"
+    },
+    {
+      "path": "render_lunar_dataset_review_v14_cpu.py",
+      "bytes": 6072,
+      "sha256": "1d8cf21ed9b1688faa9f3fc8748dd63128d3f7aa77956cb184359cea8edcba70"
+    },
+    {
+      "path": "render_map_overview.py",
+      "bytes": 2260,
+      "sha256": "84af372f19c49ace1c5fd89e81009af9bb99cc688364d2cc795ae4da3cdfcbad"
+    },
+    {
+      "path": "render_network3d_isaac.py",
+      "bytes": 13862,
+      "sha256": "a4b9a7f27891618a01ee86f11984f90f16b6b3761451d090e991ad27833a40c7"
+    },
+    {
+      "path": "render_network3d_overview.py",
+      "bytes": 6648,
+      "sha256": "c02929276ace8903d60e2a9c18a10dea4a4b2397d589b8e2760433e2c80fab79"
+    },
+    {
+      "path": "revise_lunar_task_v7_cpu.py",
+      "bytes": 2725,
+      "sha256": "ebdaa913bb06eced6dda546f5dbad4d085356a1103e0a86cd60768d73c137a6a"
+    },
+    {
+      "path": "run_demo.py",
+      "bytes": 17011,
+      "sha256": "6932b06bec5bf49e2fe1463365a1fae86d60d932195b21b7bebb55204f2ea373"
+    },
+    {
+      "path": "run_lunar_annotation_queue_v16.py",
+      "bytes": 34157,
+      "sha256": "add43f24e6d124dc3c5aad25e1fdf56324564a048e4af2b978c79d384d6a62be"
+    },
+    {
+      "path": "run_lunar_dataset_batch_v14.py",
+      "bytes": 29950,
+      "sha256": "eafb3b5b54f08a49b1e7270cf70462d5cebb54fc061c89260f84d58f74ca6828"
+    },
+    {
+      "path": "run_lunar_raw_batch_v16.py",
+      "bytes": 27824,
+      "sha256": "33f7a2ba634eec4ba484bc8a6fd0e57b679dc5fe45bd898bdd173c64ce266718"
+    },
+    {
+      "path": "selftest_lunar_annotation_queue_v16_cpu.py",
+      "bytes": 19639,
+      "sha256": "68bae45a26e089ab383d5320b426872c10541c783c4998832ae0dda7dc9007a1"
+    },
+    {
+      "path": "selftest_lunar_dataset_batch_v14_cpu.py",
+      "bytes": 11937,
+      "sha256": "d5e15af2f6a034adcb018615eba9a96d6302cd07cacd9f866fd435a802a5f823"
+    },
+    {
+      "path": "selftest_lunar_dataset_delivery_v14_cpu.py",
+      "bytes": 12869,
+      "sha256": "c8aefdc182f151c126d3c0ad18183b769ca0d6bdf2bd76babfa493bc0d830d3c"
+    },
+    {
+      "path": "selftest_lunar_delivery_preseed_v16_cpu.py",
+      "bytes": 4971,
+      "sha256": "26ecd449c52ec76718f5e3fe2d8b0c5f7c7b0acdcb2e7c2cbdf39fc42a9fb0da"
+    },
+    {
+      "path": "selftest_lunar_raw_batch_v16_cpu.py",
+      "bytes": 9191,
+      "sha256": "270a4334fdee80f728af7828884e8df973bab4e75024273de453d807e1ddc367"
+    },
+    {
+      "path": "selftest_lunar_semantic_visibility_v14_cpu.py",
+      "bytes": 8515,
+      "sha256": "0f73e3771042d5f0a6dde82755f574ef34bebf63c1b0d90c3a1b2e6b6f76ce97"
+    },
+    {
+      "path": "selftest_lunar_training_stride_v14_cpu.py",
+      "bytes": 9811,
+      "sha256": "4f9402ce8a7a2ec133d2ce6b0aa89526173d38d6b418b1b88eb0a211282a6a19"
+    },
+    {
+      "path": "stage_lunar_assets_v14_cpu.py",
+      "bytes": 4644,
+      "sha256": "6cc23ccc7b4b022ebbbe296bfc77d23bfccab4e2de8a0d45456d34d2a198f72b"
+    },
+    {
+      "path": "upload_lunar_dataset_v14_cpu.py",
+      "bytes": 3952,
+      "sha256": "455585f56bcd24d1f9d1e8134849c66c1da83e72b4ccd4154d299aa3c9184cdc"
+    },
+    {
+      "path": "validate_lunar_dataset_v11.py",
+      "bytes": 31529,
+      "sha256": "3a23a76dbdf0c1a873f0587bbd82613528d7933461c13f4588029a2f5cd7722c"
+    },
+    {
+      "path": "validate_lunar_obstacle_map_v7.py",
+      "bytes": 32422,
+      "sha256": "7e8422f6d43372ef459778223f1634443a012bb99d3d9888f19ca20dd436822f"
+    },
+    {
+      "path": "validate_lunar_raw_v16_cpu.py",
+      "bytes": 20927,
+      "sha256": "316e724cee89186da37e2fd2f1a7d570dc18c287d952aa6de15e68955155ef98"
+    },
+    {
+      "path": "validate_outputs.py",
+      "bytes": 12195,
+      "sha256": "2eabe85dad5513468d2289ca93b5a3b8ed110987bd79210bc42431ef49a01026"
+    },
+    {
+      "path": "validate_rover_route_v6.py",
+      "bytes": 20130,
+      "sha256": "d1d940eee2bc83d421b4a0cddb26ff3a6274849ceee8d2e0b912d4149b7da95d"
+    }
+  ],
+  "file_count": 135
+}

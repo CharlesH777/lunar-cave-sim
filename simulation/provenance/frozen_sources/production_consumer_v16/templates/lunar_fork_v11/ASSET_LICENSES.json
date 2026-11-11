@@ -1,0 +1,493 @@
+{
+  "texture_assets": [
+    {
+      "relative_path": "textures/dark_rock_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/dark_rock_nor_gl_2k.jpg",
+      "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+      "bytes": 3811444
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_diff_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_diff_4k.jpg",
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+      "bytes": 15684418
+    },
+    {
+      "relative_path": "textures/moon_03_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/base/textures/moon_03_nor_gl_2k.jpg",
+      "sha256": "9a8352e117867266996c6b41871599b5fce693ad088fb2e73660daee64d896d7",
+      "bytes": 5126957
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_rough_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_rough_4k.jpg",
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+      "bytes": 5203125
+    },
+    {
+      "relative_path": "textures/gravel_floor_04_nor_gl_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+      "bytes": 22752598
+    }
+  ],
+  "material_texture_sources": [
+    {
+      "asset_id": "gravel_floor_04",
+      "map": "diff",
+      "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_diff_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_diff_4k.jpg",
+      "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+      "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+      "bytes": 15684418,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "official_md5": "c697a4f710f72ecd7e3bd429a69809eb",
+      "provider": "Poly Haven",
+      "authors": [
+        {
+          "name": "Charlotte Baglioni",
+          "role": "author"
+        }
+      ],
+      "original_pixels_unchanged": true
+    },
+    {
+      "asset_id": "gravel_floor_04",
+      "map": "rough",
+      "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_rough_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_rough_4k.jpg",
+      "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+      "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_rough_4k.jpg",
+      "license": "CC0-1.0",
+      "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+      "bytes": 5203125,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "official_md5": "b00747e711a212983c25df8cf9ac6ada",
+      "provider": "Poly Haven",
+      "authors": [
+        {
+          "name": "Charlotte Baglioni",
+          "role": "author"
+        }
+      ],
+      "original_pixels_unchanged": true
+    },
+    {
+      "asset_id": "gravel_floor_04",
+      "map": "nor_gl",
+      "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/gravel_floor_04_nor_gl_4k.jpg",
+      "source_uri": "https://polyhaven.com/a/gravel_floor_04",
+      "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_nor_gl_4k.jpg",
+      "license": "CC0-1.0",
+      "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+      "bytes": 22752598,
+      "resolution": [
+        4096,
+        4096
+      ],
+      "official_md5": "fbe0db5ae7265d55d6da4014c0b57dfb",
+      "provider": "Poly Haven",
+      "authors": [
+        {
+          "name": "Charlotte Baglioni",
+          "role": "author"
+        }
+      ],
+      "original_pixels_unchanged": true
+    },
+    {
+      "asset_id": "dark_rock",
+      "map": "nor_gl",
+      "local_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_fork_v11/terrain_build/surface/textures/dark_rock_nor_gl_2k.jpg",
+      "source_path": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/assets/textures/dark_rock_nor_gl_2k.jpg",
+      "source_uri": "https://polyhaven.com/a/dark_rock",
+      "download_uri": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_nor_gl_2k.jpg",
+      "license": "CC0-1.0",
+      "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+      "bytes": 3811444,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "official_md5": null,
+      "provider": "Poly Haven",
+      "authors": [
+        {
+          "name": "Amal Kumar",
+          "role": "author"
+        }
+      ],
+      "original_pixels_unchanged": true
+    }
+  ],
+  "provider_sources": [
+    {
+      "id": "rock_face",
+      "title": "Rock Face",
+      "authors": [
+        {
+          "name": "Dario Barresi",
+          "role": "processing"
+        },
+        {
+          "name": "Greg Zaal",
+          "role": "photography"
+        }
+      ],
+      "tile_width_m": 2.4,
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/rock_face",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "photographic": true,
+      "files": [
+        {
+          "path": "textures/rock_face_diff_2k.jpg",
+          "map": "base_color_srgb",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face/rock_face_diff_2k.jpg",
+          "sha256": "b989c832327538a9e546cca359417acb9a657d041f300407e8398daaf743f5bc",
+          "bytes": 2971109,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/rock_face_nor_gl_2k.jpg",
+          "map": "normal_opengl_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face/rock_face_nor_gl_2k.jpg",
+          "sha256": "352b87db2502d54487b0ed8abdfb621fae2abf7d360a281b419f567346178cf0",
+          "bytes": 4158538,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/rock_face_rough_2k.jpg",
+          "map": "roughness_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face/rock_face_rough_2k.jpg",
+          "sha256": "91517cdc191bf60fdb135929e12041e2ad50dd7343b33f25dae75d87ba61b226",
+          "bytes": 980027,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        },
+        {
+          "path": "textures/rock_face_disp_2k.jpg",
+          "map": "height_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face/rock_face_disp_2k.jpg",
+          "sha256": "2b057d933924f800f0aa008b9d5a0011dbf2a91d7819fc412db12e02c6553814",
+          "bytes": 879369,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        }
+      ]
+    },
+    {
+      "id": "gravel_floor_04",
+      "title": "Gravel Floor 04",
+      "authors": [
+        {
+          "name": "Charlotte Baglioni",
+          "role": "author"
+        }
+      ],
+      "tile_width_m": 2.5,
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/gravel_floor_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "photographic": true,
+      "files": [
+        {
+          "path": "textures/gravel_floor_04_diff_2k.jpg",
+          "map": "base_color_srgb",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_floor_04/gravel_floor_04_diff_2k.jpg",
+          "sha256": "f067bfbe24fd17cf29712c7a0ef579b1152eb404a37096d75872d2f1b278a7dd",
+          "bytes": 3971898,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/gravel_floor_04_nor_gl_2k.jpg",
+          "map": "normal_opengl_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_floor_04/gravel_floor_04_nor_gl_2k.jpg",
+          "sha256": "597c4805f743e2ebe8e75f394f30777017d5945c7c5d7716bc6ba4bddec6153e",
+          "bytes": 5737956,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/gravel_floor_04_rough_2k.jpg",
+          "map": "roughness_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_floor_04/gravel_floor_04_rough_2k.jpg",
+          "sha256": "8d2451ebd7b2823f0aa171cb22450795f27f4419c4a3413f90cb8b850e2d55c3",
+          "bytes": 1214552,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        },
+        {
+          "path": "textures/gravel_floor_04_disp_2k.jpg",
+          "map": "height_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/gravel_floor_04/gravel_floor_04_disp_2k.jpg",
+          "sha256": "69b7ab88896b1a4fa10fa35ee97cb0a3be390c6ccac566a37e8001d00bcb5241",
+          "bytes": 2734322,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        }
+      ]
+    },
+    {
+      "id": "dark_rock",
+      "title": "Dark Rock",
+      "authors": [
+        {
+          "name": "Amal Kumar",
+          "role": "author"
+        }
+      ],
+      "tile_height_m": 2.4,
+      "scene_role": "Grey fractured lunar lava-tube wall visual proxy",
+      "material_note": "Terrestrial dark layered rock scan, not claimed to be verified lunar basalt.",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/dark_rock",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "photographic": true,
+      "files": [
+        {
+          "path": "textures/dark_rock_diff_2k.jpg",
+          "map": "base_color_srgb",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_diff_2k.jpg",
+          "sha256": "0f01bfec36ec4546e23576a10c52ef073f9eb815826c5fce2a1cdb08cd8188b8",
+          "bytes": 2159653,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/dark_rock_nor_gl_2k.jpg",
+          "map": "normal_opengl_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_nor_gl_2k.jpg",
+          "sha256": "abb3c5f1f932693537333a6d467c3e79bb810afa84416d0deaa10ead9fb4f628",
+          "bytes": 3811444,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/dark_rock_rough_2k.jpg",
+          "map": "roughness_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_rough_2k.jpg",
+          "sha256": "de4dc9e276ea769f0eb58faae8c3bc04b512ad62ca49301a0287efe35d26b058",
+          "bytes": 2312590,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        },
+        {
+          "path": "textures/dark_rock_disp_2k.jpg",
+          "map": "height_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_rock/dark_rock_disp_2k.jpg",
+          "sha256": "b72e529899ee15361d5b3ca14a75d6bbfecb7164388a4bf76a70809bbd978b77",
+          "bytes": 693929,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        }
+      ]
+    },
+    {
+      "id": "moon_03",
+      "title": "Moon 03",
+      "authors": [
+        {
+          "name": "Greg Zaal",
+          "role": "photography"
+        },
+        {
+          "name": "Jenelle van Heerden",
+          "role": "all"
+        },
+        {
+          "name": "Rico Cilliers",
+          "role": "photography"
+        }
+      ],
+      "tile_width_m": 3.2,
+      "scene_role": "Lunar regolith floor",
+      "material_note": "Photographed at Spaceport Rostock laboratory; lunar surface analogue, not a scan taken on the Moon.",
+      "capture_location_url": "https://www.pts.space/",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/moon_03",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "license_canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "photographic": true,
+      "files": [
+        {
+          "path": "textures/moon_03_diff_2k.jpg",
+          "map": "base_color_srgb",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_03/moon_03_diff_2k.jpg",
+          "sha256": "de5b131109f3092d0449da9f883dd12b24b1e650bc03c117bee1e1846eb57079",
+          "bytes": 1036694,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/moon_03_nor_gl_2k.jpg",
+          "map": "normal_opengl_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_03/moon_03_nor_gl_2k.jpg",
+          "sha256": "9a8352e117867266996c6b41871599b5fce693ad088fb2e73660daee64d896d7",
+          "bytes": 5126957,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "RGB"
+        },
+        {
+          "path": "textures/moon_03_rough_2k.jpg",
+          "map": "roughness_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_03/moon_03_rough_2k.jpg",
+          "sha256": "d914772d919063d81d960af57c91ea329abcb548c7961f834e420571cc3188b1",
+          "bytes": 446288,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        },
+        {
+          "path": "textures/moon_03_disp_2k.jpg",
+          "map": "height_linear",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/moon_03/moon_03_disp_2k.jpg",
+          "sha256": "e9f4459a0fe24e6edb21a2a6cde9a8c3e56d490a6b00f017a9cf6d5f363ada4c",
+          "bytes": 921889,
+          "resolution": [
+            2048,
+            2048
+          ],
+          "mode": "L"
+        }
+      ]
+    }
+  ],
+  "provider": "Poly Haven",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "provider_license_url": "https://polyhaven.com/license",
+  "procedural_fragments": "locally generated display geometry; no downloaded third-party rock mesh",
+  "appearance_scope": "terrestrial scanned surface proxies, not measured lunar albedo or BRDF",
+  "surface_detail_download_sources": {
+    "asset": "gravel_floor_04",
+    "provider": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/gravel_floor_04",
+    "api": "https://api.polyhaven.com/files/gravel_floor_04",
+    "author": "Charlotte Baglioni",
+    "license": "CC0-1.0",
+    "license_url": "https://polyhaven.com/license",
+    "physical_tile_width_m": 2.5,
+    "files": [
+      {
+        "path": "assets/textures/gravel_floor_04_diff_4k.jpg",
+        "map": "diff",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_diff_4k.jpg",
+        "official_md5": "c697a4f710f72ecd7e3bd429a69809eb",
+        "sha256": "c99380c183345b5d40e91731e3181d7b5195cd38c69d5e7b8d3b40575cd45e9f",
+        "bytes": 15684418,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "original_photographic_map_unmodified": true
+      },
+      {
+        "path": "assets/textures/gravel_floor_04_nor_gl_4k.jpg",
+        "map": "nor_gl",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_nor_gl_4k.jpg",
+        "official_md5": "fbe0db5ae7265d55d6da4014c0b57dfb",
+        "sha256": "f1af05eeadec4db7e6943dfeace94acf178f24000f6d4ad4c93cc7b9b5d40cba",
+        "bytes": 22752598,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "original_photographic_map_unmodified": true
+      },
+      {
+        "path": "assets/textures/gravel_floor_04_rough_4k.jpg",
+        "map": "rough",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_rough_4k.jpg",
+        "official_md5": "b00747e711a212983c25df8cf9ac6ada",
+        "sha256": "3e9de9cb3eeccec25aa9009bcbdb1f3c0ce7f9f162a2bb0f7cc98788b1fd075b",
+        "bytes": 5203125,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "original_photographic_map_unmodified": true
+      },
+      {
+        "path": "assets/textures/gravel_floor_04_disp_4k.jpg",
+        "map": "disp",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/gravel_floor_04/gravel_floor_04_disp_4k.jpg",
+        "official_md5": "43d00c9268acddc8eeea255a3ec1e520",
+        "sha256": "4f8f485abeae32835d1607440c3250b1de09c54ece8db90d8238b6dcc2360dd1",
+        "bytes": 8621487,
+        "resolution": [
+          4096,
+          4096
+        ],
+        "original_photographic_map_unmodified": true
+      }
+    ]
+  }
+}

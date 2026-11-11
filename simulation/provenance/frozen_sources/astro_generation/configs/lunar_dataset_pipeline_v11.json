@@ -1,0 +1,25 @@
+{
+  "schema_version": "lunar_dataset_pipeline/11.0",
+  "terrain_template": "templates/lunar_fork_v11",
+  "terrain_build": {
+    "enabled": false,
+    "command": ["{python}", "{root}/build_lunar_terrain_v11_cpu.py", "--output", "{output}"]
+  },
+  "layouts": [
+    {"seed": 20261118, "split": "train"},
+    {"seed": 20261119, "split": "val"},
+    {"seed": 20261120, "split": "test"}
+  ],
+  "targets": ["astronaut", "lunar_rover", "lunar_base", "chinese_flag"],
+  "max_steps": 5000,
+  "experience": null,
+  "ext_folders": [],
+  "annotation": {
+    "model": "qwen/qwen3.8-27b",
+    "review_model": "qwen/qwen3.8-max",
+    "max_llm_frames": 16,
+    "all_frames": false,
+    "budget_cny": 2.0,
+    "env_file": null
+  }
+}

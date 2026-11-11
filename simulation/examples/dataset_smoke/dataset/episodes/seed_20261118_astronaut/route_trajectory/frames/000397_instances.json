@@ -1,0 +1,34 @@
+{
+  "idToLabels": {
+    "0": "BACKGROUND",
+    "1": "UNLABELLED",
+    "5": "/World/SearchTargets/chinese_flag",
+    "4": "/World/SearchTargets/lunar_base",
+    "3": "/World/SearchTargets/lunar_rover",
+    "2": "/World/SearchTargets/astronaut"
+  },
+  "idToSemantics": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "5": {
+      "object_id": "chinese_flag",
+      "class": "chinese_flag"
+    },
+    "4": {
+      "object_id": "lunar_base",
+      "class": "lunar_base"
+    },
+    "3": {
+      "object_id": "lunar_rover",
+      "class": "lunar_rover"
+    },
+    "2": {
+      "object_id": "astronaut",
+      "class": "astronaut"
+    }
+  }
+}

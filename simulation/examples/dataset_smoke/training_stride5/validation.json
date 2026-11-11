@@ -1,0 +1,10 @@
+{
+  "schema_version": "lunar_training_stride_validation/14.0",
+  "passed": true,
+  "checks": 172119,
+  "errors": [],
+  "observation_stride": 5,
+  "native_action_dt_s": 0.2,
+  "training_ready": false,
+  "scope": "native RGB-D/action/history/text alignment of an observation-stride view"
+}

@@ -1,0 +1,20 @@
+{
+  "request_sha256": "fd3ccce7ee3a663cf4fe71646b68acd8ee565aa9fb2a6737fc589d62eb36e5aa",
+  "requested_model": "qwen/qwen3.8-27b",
+  "model": "qwen/qwen3.8-27b",
+  "request_id": "c968db08839cf0a25687cc8e681dfb6c",
+  "content": "[\n  {\n    \"progress\": \"洞内搜索\",\n    \"observation\": \"我看到了第一个分叉\",\n    \"decision_reason\": \"提示让我走右边\",\n    \"action_intent\": \"move_forward\"\n  }\n]",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 53,
+    "total_tokens": 583
+  },
+  "usage_missing": false,
+  "estimated_cny": 0.002226,
+  "price_cny_per_million": {
+    "input": 3.0,
+    "output": 12.0
+  },
+  "created_utc": "2026-11-11T05:11:03.721430+00:00"
+}

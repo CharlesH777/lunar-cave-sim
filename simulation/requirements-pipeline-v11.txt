@@ -1,0 +1,10 @@
+# CPU authoring/annotation packages. Isaac Sim 5.1 is installed separately in
+# its Python 3.11 environment; do not replace the SDK's own numpy/pxr blindly.
+numpy
+scipy
+scikit-image
+trimesh
+Pillow
+matplotlib
+# CPU-only USD authoring can use usd-core in a separate Python 3.11 environment.
+# Kit rendering uses the SDK's pxr, not this independent wheel.

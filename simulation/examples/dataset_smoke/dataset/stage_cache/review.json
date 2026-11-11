@@ -1,0 +1,18 @@
+{
+  "identity_sha256": "dd108b43aa100f792441a68d57ecc3b1046c64197359107893a7e9990c5ea11b",
+  "identity": {
+    "dense_manifest_sha256": "c030596a1c266979cba48fa2c1e9c637bd626141f4d33c7324b067f4798c0487",
+    "review_settings": {},
+    "code_sha256": "e424de1bd81a4a4d3c8a0cab719175f9fa1f98412494358eae9762b0e3bc0e6b"
+  },
+  "complete": true,
+  "state": "complete",
+  "exit_code": 0,
+  "stop_requested": false,
+  "artifact_sha256": {
+    "README.md": "54ca99ea95ee5f09c41753b077de18c5619fb3277df00b7ba60ed8ed14b876c3",
+    "bindings.json": "51f28a56a44851fafbd523cc8b812504b1276d6f14dbfb891608484ef49fdcf4",
+    "seed_20261118_astronaut/preview_5x.mp4": "23afb462920d90a8f93871e7ad128ab65d6704d134d5a3e9127c44d5b1744515",
+    "seed_20261118_astronaut/prompt_cot.jpg": "da8564e2ec82ab2dac20d67b514bd56f4ed0313a649ba20e413b3f760ad53eb4"
+  }
+}

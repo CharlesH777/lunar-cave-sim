@@ -1,0 +1,122 @@
+{
+  "schema_version": "lunar_public_language_audit/16.0",
+  "actual_episode_id": "seed_20261118_astronaut",
+  "source_unit": "/home/charles/WORK/01_projects/isaac_cave_vla_demo/outputs/lunar_dataset_v16/compiled_actual_astro",
+  "query_mode": "compiled",
+  "fresh_query_HTTP_requests": 0,
+  "provider_generated_queries": false,
+  "query_authorship": "Provider-authored movement fragments plus explicitly credited protocol grammar; deterministic instantiation from actual route events.",
+  "query_bank_sha256": "e7808636840500eb914b86f1d2375214dbab121959e300a1b46bc8cb66f7a33d",
+  "image_CoT_model": "qwen/qwen3.8-27b",
+  "accepted_image_requests": [
+    {
+      "item_id": "seed_20261118_astronaut:000260",
+      "request_sha256": "b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002139,
+      "public_files": {
+        "request": {
+          "path": "provenance/language/b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2.request.json",
+          "source_file_sha256": "5a2c36cc7b675db506cf7b46794fd9935ccabbf36ff0a1c1993878863e4db25a",
+          "export_sha256": "5a2c36cc7b675db506cf7b46794fd9935ccabbf36ff0a1c1993878863e4db25a"
+        },
+        "response": {
+          "path": "provenance/language/b3af1b7e042e9c1678fbd74bc3f1ff68dcc08454e78388f6150fee4d9005ada2.response.json",
+          "source_file_sha256": "ac014fc9868310cf9dcadf8eb4b7fbec3eeef5ee1e5d82a73d677a1673454019",
+          "export_sha256": "ac014fc9868310cf9dcadf8eb4b7fbec3eeef5ee1e5d82a73d677a1673454019"
+        }
+      }
+    },
+    {
+      "item_id": "seed_20261118_astronaut:000275",
+      "request_sha256": "250151905c42b6c88e5b3b6c43c8eb961d87faa7bec9c68d91d2fa770c38cf12",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002046,
+      "public_files": {
+        "request": {
+          "path": "provenance/language/250151905c42b6c88e5b3b6c43c8eb961d87faa7bec9c68d91d2fa770c38cf12.request.json",
+          "source_file_sha256": "de1bf5839b15bec4f425c6a2f74e8b90443a69359167ef7db58e8c1c355cf845",
+          "export_sha256": "de1bf5839b15bec4f425c6a2f74e8b90443a69359167ef7db58e8c1c355cf845"
+        },
+        "response": {
+          "path": "provenance/language/250151905c42b6c88e5b3b6c43c8eb961d87faa7bec9c68d91d2fa770c38cf12.response.json",
+          "source_file_sha256": "d83179e98621e67bc0e159a8477ca50464256f18374704a0fcf264fb79a27b0b",
+          "export_sha256": "d83179e98621e67bc0e159a8477ca50464256f18374704a0fcf264fb79a27b0b"
+        }
+      }
+    },
+    {
+      "item_id": "seed_20261118_astronaut:000750",
+      "request_sha256": "fd3ccce7ee3a663cf4fe71646b68acd8ee565aa9fb2a6737fc589d62eb36e5aa",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002226,
+      "public_files": {
+        "request": {
+          "path": "provenance/language/fd3ccce7ee3a663cf4fe71646b68acd8ee565aa9fb2a6737fc589d62eb36e5aa.request.json",
+          "source_file_sha256": "317698580bb372750194bc9a513da18348ff92a655c2c7fee618572e5f894cb7",
+          "export_sha256": "317698580bb372750194bc9a513da18348ff92a655c2c7fee618572e5f894cb7"
+        },
+        "response": {
+          "path": "provenance/language/fd3ccce7ee3a663cf4fe71646b68acd8ee565aa9fb2a6737fc589d62eb36e5aa.response.json",
+          "source_file_sha256": "55c237852408d3e244fc2dee68f67c82ee4e8dbd8262180ab5d073e20b116a1d",
+          "export_sha256": "55c237852408d3e244fc2dee68f67c82ee4e8dbd8262180ab5d073e20b116a1d"
+        }
+      }
+    },
+    {
+      "item_id": "seed_20261118_astronaut:001025",
+      "request_sha256": "1466eae616955db304e0746f1c62308c381023c4efb2f185093d7d4eab60c368",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002193,
+      "public_files": {
+        "request": {
+          "path": "provenance/language/1466eae616955db304e0746f1c62308c381023c4efb2f185093d7d4eab60c368.request.json",
+          "source_file_sha256": "87d6f1b49c181d914d9d3668cd96cdae608afa2789de15135607828245e0f3a8",
+          "export_sha256": "87d6f1b49c181d914d9d3668cd96cdae608afa2789de15135607828245e0f3a8"
+        },
+        "response": {
+          "path": "provenance/language/1466eae616955db304e0746f1c62308c381023c4efb2f185093d7d4eab60c368.response.json",
+          "source_file_sha256": "a51a9ee1d09fe2089958d952c4c7ef6626f34d7f5a450ad495758860442f23de",
+          "export_sha256": "a51a9ee1d09fe2089958d952c4c7ef6626f34d7f5a450ad495758860442f23de"
+        }
+      }
+    },
+    {
+      "item_id": "seed_20261118_astronaut:001129",
+      "request_sha256": "dd9f925d1c0e43f0acd1de5a33b5d755c445d80c537dcd8a84e85f451f69ff5b",
+      "model": "qwen/qwen3.8-27b",
+      "cached": false,
+      "estimated_cny": 0.002142,
+      "public_files": {
+        "request": {
+          "path": "provenance/language/dd9f925d1c0e43f0acd1de5a33b5d755c445d80c537dcd8a84e85f451f69ff5b.request.json",
+          "source_file_sha256": "5e8d921fdd4bfd8512eb527b99be290962ffa30e57daf1878dbaa65c29cd04ac",
+          "export_sha256": "5e8d921fdd4bfd8512eb527b99be290962ffa30e57daf1878dbaa65c29cd04ac"
+        },
+        "response": {
+          "path": "provenance/language/dd9f925d1c0e43f0acd1de5a33b5d755c445d80c537dcd8a84e85f451f69ff5b.response.json",
+          "source_file_sha256": "373ed9c8700c00d468dfdc2b1e18a0a61dee1ed22db2ed4e45ca5ad1e8ca05a7",
+          "export_sha256": "373ed9c8700c00d468dfdc2b1e18a0a61dee1ed22db2ed4e45ca5ad1e8ca05a7"
+        }
+      }
+    }
+  ],
+  "accepted_CoT_count": 5,
+  "rejected_attempt_count": 0,
+  "new_image_HTTP_requests": 5,
+  "new_estimated_CNY": 0.010746,
+  "shared_accounting_observed_at_episode_completion": {
+    "prompt_tokens": 42985,
+    "completion_tokens": 11376,
+    "estimated_cny": 0.41210999999999987,
+    "requests": 74,
+    "unresolved_requests": 0,
+    "unresolved_reserved_cny": 0.0,
+    "committed_cny": 0.41210999999999987
+  },
+  "no_credentials_headers_reasoning_or_image_base64": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "lunar_training_inputs/14.0",
+  "default_training_index": "query_partitions/query_train_index.jsonl",
+  "known_route_query_evaluation_index": "query_partitions/query_eval_index.jsonl",
+  "physical_validation_index": "query_partitions/physical_val_index.jsonl",
+  "physical_test_index": "query_partitions/physical_test_index.jsonl",
+  "observation_stride": 5,
+  "native_action_dt_s": 0.2,
+  "query_families_held_out_from_training": true,
+  "training_started": false
+}

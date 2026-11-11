@@ -1,0 +1,55 @@
+{
+  "schema_version": "lunar_cave_github_import/1.0",
+  "imported_at_utc": "2026-11-11T23:29:05.703251+00:00",
+  "source_server": "2027",
+  "source_root": "/data/charles/lunar_cave_dataset_pipeline_20261111_v14/pipeline_v16/source",
+  "package_revision": "V16b",
+  "package_files_including_manifest": 9969,
+  "package_total_bytes_including_manifest": 1866410576,
+  "package_manifest_sha256": "4edb4bcc2485a54e246a85b42a95ac53ff9a1cd99e52b49756b36bcba42e1058",
+  "package_bytes_changed": false,
+  "transfer_metadata_relocated": {
+    ".delivery_manifest.json": "provenance/server2027/delivery_manifest.json",
+    ".delivery_receipt.json": "provenance/server2027/delivery_receipt.json"
+  },
+  "git_lfs_patterns": [
+    "*.usdc",
+    "*.npz",
+    "*.npy",
+    "*.png",
+    "*.jpg",
+    "*.jpeg",
+    "*.mp4",
+    "*.jsonl"
+  ],
+  "source_package_integrity": {
+    "passed": true,
+    "files_checked": 9968,
+    "errors": [],
+    "extra_files": []
+  },
+  "credential_scan": {
+    "text_files_checked": 2981,
+    "known_token_private_key_and_credential_url_findings": 0
+  },
+  "runtime_render_retested": false,
+  "training_or_provider_api_executed": false,
+  "cpu_revalidation": {
+    "python": "3.14.7",
+    "numpy": "2.4.2",
+    "platform": "macOS",
+    "raw_producer_unittests": 10,
+    "annotation_consumer_unittests": 17,
+    "stride_regression_passed": true,
+    "semantic_regression_passed": true,
+    "real_stride_checks": 172119,
+    "real_stride_passed": true,
+    "real_query_partition_checks": 13638,
+    "real_query_partitions_passed": true,
+    "dense_checks": 54051,
+    "dense_passed": false,
+    "dense_error_count": 28,
+    "dense_report": "validation/dense-validation-macos.json",
+    "designated_isaac_python_3_11_runtime_tested": false
+  }
+}
